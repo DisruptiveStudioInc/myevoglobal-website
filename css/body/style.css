@@ -638,7 +638,7 @@ img.polvo {
 }
 
 .box_product .btn.c-sec:hover{
-  background: red;
+  background: var(--color-sec-h);
 }
 
 @media screen and (max-width: 1920px) {
