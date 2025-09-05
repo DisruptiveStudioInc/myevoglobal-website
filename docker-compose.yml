@@ -1,0 +1,19 @@
+services:
+  myevoglobal-website:
+    image: trafex/php-nginx
+    container_name: myevoglobal-website
+    restart: unless-stopped
+    volumes:
+    - $PWD:/var/www/html
+    ports:
+    - "5101:8080"
+    networks:
+    - myevoglobal-network
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "5"
+
+networks:
+  myevoglobal-network:
