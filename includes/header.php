@@ -161,7 +161,7 @@
                                             foreach ($item_sub[1] as $subsub) {
                                                 echo "<li>
                                                         <span class='img'><img src='./images/body/products/{$subsub[0]}.webp' alt='{$subsub[2]}'></span>
-                                                        <a href='?p=product&id={$subsub[0]}'>{$subsub[1]}<span>{$subsub[2]}</span></a>
+                                                        <a href='?p=product&id={$subsub[0]}&ref={$user_replica}'>{$subsub[1]}<span>{$subsub[2]}</span></a>
                                                       </li>";
                                             }
                                             echo "</ul>";
@@ -218,7 +218,9 @@
                         </div>
                         <div class="btns m-0 g-10 med-d-none">
                             <a href='<?php echo $Login; ?>' target="_blank" class="btn c-ter br-30"><?php echo $Menu_log; ?></a>
+                            <?php if($user_replica) : ?>
                             <a href='<?php echo $Register; ?>' target="_blank" class="btn c-acc br-30"><?php echo $Menu_reg; ?></a>
+                            <?php endif; ?>
                         </div>
                         <div class="hamburguer">
                             <span></span>
