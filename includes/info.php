@@ -43,7 +43,9 @@ $link_04 = "black";
 // Links de login/register
 // ---------------------------
 
-$Register = "https://usa.myevoglobal.com/register/?ref=$user_replica";
+$ref = isset($user_replica) ? "?ref=$user_replica" : '';
+
+$Register = "https://usa.myevoglobal.com/register/$ref";
 $Login    = "https://usa.myevoglobal.com/my-account/";
 
 // ---------------------------
@@ -56,11 +58,11 @@ $link_web_in = "https://int.myevoglobal.com";
 $link_web_co = "https://col.myevoglobal.com";
 $link_web_eu = "https://eur.myevoglobal.com";
 
-$Shop_us = "$link_web_us/?ref=$user_replica";
-$Shop_mx = "$link_web_mx/?ref=$user_replica";
-$Shop_in = "$link_web_in/?ref=$user_replica";
-$Shop_co = "$link_web_co/?ref=$user_replica";
-$Shop_eu = "$link_web_eu/?ref=$user_replica";
+$Shop_us = "$link_web_us/$ref";
+$Shop_mx = "$link_web_mx/$ref";
+$Shop_in = "$link_web_in/$ref";
+$Shop_co = "$link_web_co/$ref";
+$Shop_eu = "$link_web_eu/$ref";
 
 // ---------------------------
 // Links de los productos
@@ -133,11 +135,6 @@ $links = [
         'text'  => 'Europe'
     ]
 ];
-
-// ---------------------------
-// Armar bloque HTML dinámico
-// ---------------------------
-$ref = isset($user_replica) ? "?ref=$user_replica" : '';
 
     //-------------------------//
     // VIDEO VIMEO

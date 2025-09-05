@@ -161,7 +161,7 @@
                                             foreach ($item_sub[1] as $subsub) {
                                                 echo "<li>
                                                         <span class='img'><img src='./images/body/products/{$subsub[0]}.webp' alt='{$subsub[2]}'></span>
-                                                        <a href='?p=product&id={$subsub[0]}&ref={$user_replica}'>{$subsub[1]}<span>{$subsub[2]}</span></a>
+                                                        <a href='?p=product&id={$subsub[0]}$ref'>{$subsub[1]}<span>{$subsub[2]}</span></a>
                                                       </li>";
                                             }
                                             echo "</ul>";
