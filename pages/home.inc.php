@@ -142,9 +142,7 @@
 	<div class="mw-1280 t-c h-100 med-h-0 jc-center fd-col">
 		<h2 class="h1"><?php echo $Slogan_title; ?></h2>
 		<p class="h3">“<?php echo $Slogan_text; ?>”</p>
-		<?php if($user_replica) : ?>
 		<a href="<?php echo $Register; ?>" class="btn big c-acc br-50 mt-40 small-mt-20"><?php echo $Btn_live; ?></a>
-		<?php endif; ?>
 	</div>
 </section>
 
@@ -466,9 +464,7 @@ foreach ($Modal as $item){
 
 	<div class="mw-1280 t-c big">
 		<h2 class="h1"><?php echo $Traits_title; ?></h2>
-		<?php if($user_replica) : ?>
 		<a href="<?php echo $Register; ?>" class="btn big c-acc br-50 mt-40 small-mt-20"><?php echo $Btn_part; ?></a>
-		<?php endif; ?>
 	</div>
 </section>
 
