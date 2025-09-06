@@ -183,7 +183,14 @@ $Sub_reg = array(
 
 $idiomas = [
     'eng' => 'Eng',
-    'esp' => 'Esp'
+    'esp' => 'Esp',
+    'fra' => 'Fra',
+    'jpn' => 'Jpn',
+    'por' => 'Por',
+    'chi' => 'Chi',
+    'ita' => 'Ita',
+    'cor' => 'Cor',
+    'rus' => 'Rus'
 ];
 
 $Condicion_lan = isset($idiomas[$idioma]) ? $idiomas[$idioma] : 'Desconocido';

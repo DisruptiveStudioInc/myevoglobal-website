@@ -426,6 +426,8 @@ ul.sub li a span {
 .btn-lan.por::before { background-image: url('./../../images/flags/por.svg'); }
 .lan a.ita::before,
 .btn-lan.ita::before { background-image: url('./../../images/flags/ita.svg'); }
+.lan a.rus::before,
+.btn-lan.rus::before { background-image: url('./../../images/flags/rus.svg'); }
 
 /* ============================================== */
 /* NUEVO: Sub-submenú anidado */
