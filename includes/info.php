@@ -44,25 +44,29 @@ $link_04 = "black";
 // ---------------------------
 
 $ref = isset($user_replica) ? "?ref=$user_replica" : '';
-
 $Register = "https://usa.myevoglobal.com/register/$ref";
-$Login    = "https://usa.myevoglobal.com/my-account/";
 
 // ---------------------------
 // Links del menu (tienda)
 // ---------------------------
 
-$link_web_us = "https://usa.myevoglobal.com";
-$link_web_mx = "https://mex.myevoglobal.com";
-$link_web_in = "https://int.myevoglobal.com";
-$link_web_co = "https://col.myevoglobal.com";
-$link_web_eu = "https://eur.myevoglobal.com";
+$link_web_us   = "https://usa.myevoglobal.com";
+$link_web_mx   = "https://mex.myevoglobal.com";
+$link_web_co   = "https://col.myevoglobal.com";
+$link_web_eu   = "https://eur.myevoglobal.com";
+$link_web_in   = "https://int.myevoglobal.com";
 
-$Shop_us = "$link_web_us/$ref";
-$Shop_mx = "$link_web_mx/$ref";
-$Shop_in = "$link_web_in/$ref";
-$Shop_co = "$link_web_co/$ref";
-$Shop_eu = "$link_web_eu/$ref";
+$link_login_us = "https://us.myevoglobal.com/my-account/";
+$link_login_mx = "https://mex.myevoglobal.com/my-account/";
+$link_login_co = "https://col.myevoglobal.com/my-account/";
+$link_login_eu = "https://eur.myevoglobal.com/my-account/";
+$link_login_in = "https://int.myevoglobal.com/my-account/";
+
+$link_Shop_us  = "$link_web_us/$ref";
+$link_Shop_mx  = "$link_web_mx/$ref";
+$link_Shop_in  = "$link_web_in/$ref";
+$link_Shop_co  = "$link_web_co/$ref";
+$link_Shop_eu  = "$link_web_eu/$ref";
 
 // ---------------------------
 // Links de los productos
@@ -170,11 +174,11 @@ $Sub = array(
 );
 
 $Sub_reg = array(
-    array($Shop_us,'USA','eng'),
-    array($Shop_mx,'MEX','esp'),
-    array($Shop_co,'COL','col'),
-    array($Shop_eu,'EUR','eur'),
-    array($Shop_in,'INT','int')
+    array($link_Shop_us,'eng','USA'),
+    array($link_Shop_mx,'esp','MEX'),
+    array($link_Shop_co,'col','COL'),
+    array($link_Shop_eu,'eur','EUR'),
+    array($link_Shop_in,'int','INT')
 );
 
     //-------------------------//
@@ -194,6 +198,18 @@ $idiomas = [
 ];
 
 $Condicion_lan = isset($idiomas[$idioma]) ? $idiomas[$idioma] : 'Desconocido';
+
+    //-------------------------//
+    // SUB LOGIN
+    //-------------------------//
+
+$Sub_login = array(
+    array($link_login_us,'eng','USA'),
+    array($link_login_mx,'esp','MEX'),
+    array($link_login_co,'col','COL'),
+    array($link_login_eu,'eur','EUR'),
+    array($link_login_in,'int','INT')
+);
 
     //-------------------------//
     // CONTACT

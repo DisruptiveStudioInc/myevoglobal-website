@@ -178,7 +178,7 @@
                                     
                                     echo "<ul class='sub no-chevron'>";
                                     foreach ($Sub_reg as $item_sub) {
-                                        echo "<li><a href='{$item_sub[0]}' class='shop {$item_sub[2]}' target='_blank'>{$item_sub[1]}</a></li>";
+                                        echo "<li><a href='{$item_sub[0]}' class='shop {$item_sub[1]}' target='_blank'>{$item_sub[2]}</a></li>";
                                     }
                                     echo "</ul>";
                                     echo "</li>";
@@ -191,12 +191,7 @@
                             ?>
 
                             <div class="d-none med-d-block mt-20">
-                                <div class="mb-10">
-                                    <a href="<?php echo $Login; ?>" target="_blank" class="btn c-ter br-30 small-w-100"><?php echo $Menu_log; ?></a>
-                                </div>
-                                <div>
-                                    <a href="<?php echo $Register ?>" target="_blank" class="btn c-acc br-30 small-w-100"><?php echo $Menu_reg; ?></a>
-                                </div>
+                                <a href="<?php echo $Register ?>" target="_blank" class="btn c-acc br-30 small-w-100"><?php echo $Menu_reg; ?></a>
                             </div>
                         </ul>
                     </div>
@@ -206,16 +201,28 @@
                             <div class="btn-lan <?= htmlspecialchars($idioma); ?>"><?= $Condicion_lan; ?></div>
                             <div class="lan">
                                 <?php
-                                $idiomas = ['esp', 'eng', 'chi', 'jpn','por','ita','cor','fra','rus'];
-                                foreach ($idiomas as $idioma_opcion) {
-                                    $activeClass = ($_SESSION["language"] === $idioma_opcion) ? 'selected' : '';
-                                    echo "<a class='$idioma_opcion $activeClass' href='?language=$idioma_opcion$Actual_Page_Lan$Client_Page_Id'>" . ucfirst($idioma_opcion) . "</a>";
+                                foreach ($idiomas as $codigo => $nombre) {
+                                    $activeClass = ($_SESSION["language"] === $codigo) ? 'selected' : '';
+                                    echo "<a class='$codigo $activeClass' href='?language=$codigo$Actual_Page_Lan$Client_Page_Id'>$nombre</a>";
+                                }
+                                ?>
+                            </div>
+                        </div>
+
+                        <div class="rel">
+                            <div class="btn-lan btn-login btn c-ter br-30"><?php echo $Menu_log; ?></div>
+                            <div class="lan">
+                                <?php
+                                foreach ($Sub_login as $idioma_opcion) {
+                                    $href  = $idioma_opcion[0];
+                                    $class = $idioma_opcion[1];
+                                    $text  = $idioma_opcion[2];
+                                    echo "<a class='$class' href='$href' target='_blank' >$text</a>";
                                 }
                                 ?>
                             </div>
                         </div>
                         <div class="btns m-0 g-10 med-d-none">
-                            <a href='<?php echo $Login; ?>' target="_blank" class="btn c-ter br-30"><?php echo $Menu_log; ?></a>
                             <a href='<?php echo $Register; ?>' target="_blank" class="btn c-acc br-30"><?php echo $Menu_reg; ?></a>
                         </div>
                         <div class="hamburguer">
