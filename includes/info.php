@@ -62,6 +62,12 @@ $link_login_co = "https://col.myevoglobal.com/my-account/";
 $link_login_eu = "https://eur.myevoglobal.com/my-account/";
 $link_login_in = "https://int.myevoglobal.com/my-account/";
 
+$link_register_us = "https://us.myevoglobal.com/register/";
+$link_register_mx = "https://mex.myevoglobal.com/register/";
+$link_register_co = "https://col.myevoglobal.com/register/";
+$link_register_eu = "https://eur.myevoglobal.com/register/";
+$link_register_in = "https://int.myevoglobal.com/register/";
+
 $link_Shop_us  = "$link_web_us/$ref";
 $link_Shop_mx  = "$link_web_mx/$ref";
 $link_Shop_in  = "$link_web_in/$ref";
@@ -154,10 +160,10 @@ $Menu = array(
     array('#home','active',$Menu_01),
     array('#evo','',$Menu_02),
     array('#products','',$Menu_03),
-    array('','',$Menu_04),
+    array('','',$Menu_04)
     /*array('','','Evo Travel'),
     array('','','Evo Link'),*/
-    array('','', $Menu_05)
+ 
 );
 
     //-------------------------//
@@ -173,7 +179,7 @@ $Sub = array(
     ))
 );
 
-$Sub_reg = array(
+$Sub_shop = array(
     array($link_Shop_us,'eng','USA'),
     array($link_Shop_mx,'esp','MEX'),
     array($link_Shop_co,'col','COL'),
@@ -210,6 +216,19 @@ $Sub_login = array(
     array($link_login_eu,'eur','EUR'),
     array($link_login_in,'int','INT')
 );
+
+    //-------------------------//
+    // SUB REGISTER
+    //-------------------------//
+
+$Sub_register = array(
+    array($link_register_us,'eng','USA'),
+    array($link_register_mx,'esp','MEX'),
+    array($link_register_co,'col','COL'),
+    array($link_register_eu,'eur','EUR'),
+    array($link_register_in,'int','INT')
+);
+
 
     //-------------------------//
     // CONTACT

@@ -164,51 +164,76 @@ document.addEventListener("DOMContentLoaded", () => {
         allMenus.forEach(menu => menu.classList.remove("active"));
         allButtons.forEach(btn => btn.classList.remove("open"));
         document.querySelectorAll(".sub li.open").forEach(li => li.classList.remove("open"));
+        document.querySelectorAll(".sub-evo.open").forEach(li => li.classList.remove("open")); // añadir acordeón
     }
 
     document.addEventListener("click", (e) => {
         const clickedBtn = e.target.closest(buttonsSelector);
         const clickedMenu = clickedBtn?.nextElementSibling;
 
+        const isMobile = window.matchMedia("(max-width:1080px)").matches;
+
+        // ======================
+        // Click en botón (abrir menú)
+        // ======================
         if (clickedBtn && clickedMenu) {
             e.preventDefault();
-
             const isOpen = clickedBtn.classList.contains("open");
 
-            closeAll();
+            if (!isMobile) {
+                closeAll();
+            }
 
             if (!isOpen) {
                 clickedMenu.classList.add("active");
                 clickedBtn.classList.add("open");
+
+                // ✅ Nuevo: añadir clase open al li.sub-evo
+                const parentLi = clickedBtn.closest(".sub-evo");
+                if (parentLi) parentLi.classList.add("open");
+            } else {
+                clickedMenu.classList.remove("active");
+                clickedBtn.classList.remove("open");
+
+                const parentLi = clickedBtn.closest(".sub-evo");
+                if (parentLi) parentLi.classList.remove("open");
             }
             return;
         }
 
+        // ======================
+        // Sub-sub menú
+        // ======================
         const subSubTrigger = e.target.closest(".sub > li");
         const isRealLink = e.target.closest(".sub-sub a");
 
         if (subSubTrigger && subSubTrigger.querySelector(".sub-sub") && !isRealLink) {
             e.preventDefault();
 
-            subSubTrigger.parentElement.querySelectorAll("li.open").forEach(li => {
-                if (li !== subSubTrigger) li.classList.remove("open");
-            });
+            if (!isMobile) {
+                subSubTrigger.parentElement.querySelectorAll("li.open").forEach(li => {
+                    if (li !== subSubTrigger) li.classList.remove("open");
+                });
+            }
 
             subSubTrigger.classList.toggle("open");
             return;
         }
 
+        // ======================
+        // Click fuera de menus → cerrar todo
+        // ======================
         if (!e.target.closest(menusSelector)) {
             closeAll();
         }
     });
 
+    // Escape → cerrar todo
     document.addEventListener("keydown", (e) => {
-        if (e.key === "Escape") {
-            closeAll();
-        }
+        if (e.key === "Escape") closeAll();
     });
 });
+
 
 
 /* ============================================== */

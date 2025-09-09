@@ -172,27 +172,51 @@
                                     echo "</li>";
 
                                 // Submenú simple (Menu 7)
-                                } elseif ($counter == 5) {
-                                    echo "<li class='rel'>";
-                                    echo "<a href='#' class='btn-sub'>{$item[2]}</a>";
-                                    
-                                    echo "<ul class='sub no-chevron'>";
-                                    foreach ($Sub_reg as $item_sub) {
-                                        echo "<li><a href='{$item_sub[0]}' class='shop {$item_sub[1]}' target='_blank'>{$item_sub[2]}</a></li>";
-                                    }
-                                    echo "</ul>";
-                                    echo "</li>";
-
-                                // Items normales
                                 } else {
                                     echo "<li><a href='{$item[0]}' class='{$item[1]}'>{$item[2]}</a></li>";
                                 }
                             }
                             ?>
 
-                            <div class="d-none med-d-block mt-20">
-                                <a href="<?php echo $Register ?>" target="_blank" class="btn c-acc br-30 small-w-100"><?php echo $Menu_reg; ?></a>
-                            </div>
+                            <li class="sub-evo rel">
+                                <div class="btn-lan btn-shop btn c-ter br-30"><?php echo $Menu_05; ?></div>
+                                <div class="lan">
+                                    <?php
+                                    foreach ($Sub_shop as $idioma_opcion) {
+                                        $href  = $idioma_opcion[0];
+                                        $class = $idioma_opcion[1];
+                                        $text  = $idioma_opcion[2];
+                                        echo "<a class='$class' href='$href' target='_blank' >$text</a>";
+                                    }
+                                    ?>
+                                </div>
+                            </li>
+                            <li class="sub-evo rel d-none med-d-block">
+                                <div class="btn-lan btn-login btn c-ter br-30"><?php echo $Menu_log; ?></div>
+                                <div class="lan">
+                                    <?php
+                                    foreach ($Sub_login as $idioma_opcion) {
+                                        $href  = $idioma_opcion[0];
+                                        $class = $idioma_opcion[1];
+                                        $text  = $idioma_opcion[2];
+                                        echo "<a class='$class' href='$href' target='_blank' >$text</a>";
+                                    }
+                                    ?>
+                                </div>
+                            </li>
+                            <li class="sub-evo rel d-none med-d-block">
+                                <div class="btn-lan btn-login btn c-ter br-30"><?php echo $Menu_reg; ?></div>
+                                <div class="lan">
+                                    <?php
+                                        foreach ($Sub_register as $idioma_opcion) {
+                                            $href  = $idioma_opcion[0];
+                                            $class = $idioma_opcion[1];
+                                            $text  = $idioma_opcion[2];
+                                            echo "<a class='$class' href='$href' target='_blank' >$text</a>";
+                                        }
+                                    ?>
+                                </div>
+                            </li>
                         </ul>
                     </div>
 
@@ -209,21 +233,33 @@
                             </div>
                         </div>
 
-                        <div class="rel">
-                            <div class="btn-lan btn-login btn c-ter br-30"><?php echo $Menu_log; ?></div>
-                            <div class="lan">
-                                <?php
-                                foreach ($Sub_login as $idioma_opcion) {
-                                    $href  = $idioma_opcion[0];
-                                    $class = $idioma_opcion[1];
-                                    $text  = $idioma_opcion[2];
-                                    echo "<a class='$class' href='$href' target='_blank' >$text</a>";
-                                }
-                                ?>
+                        <div class="ai-center med-d-none">
+                            <div class="rel">
+                                <div class="btn-lan btn-login btn c-ter br-30"><?php echo $Menu_log; ?></div>
+                                <div class="lan">
+                                    <?php
+                                    foreach ($Sub_login as $idioma_opcion) {
+                                        $href  = $idioma_opcion[0];
+                                        $class = $idioma_opcion[1];
+                                        $text  = $idioma_opcion[2];
+                                        echo "<a class='$class' href='$href' target='_blank' >$text</a>";
+                                    }
+                                    ?>
+                                </div>
                             </div>
-                        </div>
-                        <div class="btns m-0 g-10 med-d-none">
-                            <a href='<?php echo $Register; ?>' target="_blank" class="btn c-acc br-30"><?php echo $Menu_reg; ?></a>
+                            <div class="rel">
+                                <div class="btn-lan btn-login btn c-ter br-30"><?php echo $Menu_reg; ?></div>
+                                <div class="lan">
+                                    <?php
+                                        foreach ($Sub_register as $idioma_opcion) {
+                                            $href  = $idioma_opcion[0];
+                                            $class = $idioma_opcion[1];
+                                            $text  = $idioma_opcion[2];
+                                            echo "<a class='$class' href='$href' target='_blank' >$text</a>";
+                                        }
+                                    ?>
+                                </div>
+                            </div>
                         </div>
                         <div class="hamburguer">
                             <span></span>
