@@ -56,13 +56,13 @@ $link_web_co   = "https://col.myevoglobal.com";
 $link_web_eu   = "https://eur.myevoglobal.com";
 $link_web_in   = "https://int.myevoglobal.com";
 
-$link_login_us = "https://us.myevoglobal.com/my-account/";
+$link_login_us = "https://usa.myevoglobal.com/my-account/";
 $link_login_mx = "https://mex.myevoglobal.com/my-account/";
 $link_login_co = "https://col.myevoglobal.com/my-account/";
 $link_login_eu = "https://eur.myevoglobal.com/my-account/";
 $link_login_in = "https://int.myevoglobal.com/my-account/";
 
-$link_register_us = "https://us.myevoglobal.com/register/";
+$link_register_us = "https://usa.myevoglobal.com/register/";
 $link_register_mx = "https://mex.myevoglobal.com/register/";
 $link_register_co = "https://col.myevoglobal.com/register/";
 $link_register_eu = "https://eur.myevoglobal.com/register/";
