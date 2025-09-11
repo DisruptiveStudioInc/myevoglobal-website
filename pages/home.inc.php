@@ -263,14 +263,14 @@ foreach ($Modal as $item){
 	    array('4','Cecy Flores',''),
 	    array('5','Charbel Hernández',''),
 	    array('6','Eduardo Rodríguez',''),
-	    array('7','Erika Sepulveda',''),
+	    array('7','Erika Sepúlveda',''),
 	    array('8','Essam Mohamed',''),
 	    array('9','Facu Romero',''),
 	    array('10','Fede Cottone',''),
 	    array('11','Fernando Barocio',''),
 	    array('12','Fran Paz',''),
-	    array('13','Jazmin Garcia',''),
-	    array('14','Jesus Barajas',''),
+	    array('13','Jazmín García',''),
+	    array('14','Jesús Barajas',''),
 	    array('15','Kevin Díaz','')
 	);
 	?>
@@ -295,20 +295,21 @@ foreach ($Modal as $item){
 	    array('16','Kevin Zambrano',''),
 	    array('17','Laura Cioccia',''),
 	    array('18','Lucy Ugalde',''),
-	    array('19','Luimer Gonzalez',''),
-	    array('20','Luis Velasquez',''),
+	    array('19','Luimer González',''),
+	    array('20','Luis Velásquez',''),
 	    array('21','Lytzi Rodríguez',''),
-	    array('22','Maria Jose Serrano',''),
+	    array('22','María José Serrano',''),
 	    array('23','Mario González',''),
 	    array('24','Michell Hdz',''),
-	    array('25','Miguel Gonzalez',''),
+	    array('25','Miguel González',''),
 	    array('26','Miroslava Mancilla',''),
-	    array('27','Sebastian Moreno',''),
-	    array('28','Sebastian Sossa',''),
+	    array('27','Sebastián Moreno',''),
+	    array('28','Sebastián Sossa',''),
 	    array('29','Tania Moya',''),
 	    array('30','Yasser Mohamed','')
 	);
 	?>
+
 
 	<ul class="people alreves">
 		<?php
