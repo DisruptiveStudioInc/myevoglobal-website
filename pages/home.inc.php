@@ -255,48 +255,58 @@ foreach ($Modal as $item){
 		</div>
 
 	<?php
+	// Primer bloque de 15 nombres
 	$Logos = array(
-		array('1','Gricelda Sánchez','Mi vida estaba estancada hasta que encontré EVO; hoy disfruto $3,000 al mes.'),
-	    array('2','Isaac Motola','EVO transformó mi forma de pensar; hoy genero $9,000 al mes y sigo creciendo.'),
-	    array('3','Laura Cioccia','EVO fue el punto de quiebre; hoy disfruto estabilidad y $3,000 mensuales.'),
-	    array('4','Tania Moya','Con EVO pasé de conformarme a generar $9,000 al mes con propósito y enfoque.'),
-	    array('5','Carlos Santoyo','EVO me enseñó a pensar distinto; hoy, con $3,000 al mes, vivo mi mejor versión.'),
-	    array('6','Ulises Guzmán','EVO me dio estructura y comunidad; hoy genero $3,000 al mes con confianza.'),
-	    array('7','Eduardo Rodríguez','Antes vivía con preocupación financiera; hoy genero $50,000 al mes y lidero con impacto.'),
-	    array('8','Lytzi Rodríguez','Gracias a EVO, hoy genero $9,000 al mes y disfruto la libertad de vivir mi presente.'),
-	    array('9','Kevin Zambrano','EVO me enseñó a liderar mis finanzas; hoy genero $15,000 al mes construyendo un futuro alineado con mis valores.'),
-	    array('10','Ashgan Mohamed','EVO me ayudó a reconectar con mi propósito; hoy genero $9,000 al mes haciendo lo que amo.')
+	    array('1','Ali Valenzuela',''),
+	    array('2','Ari Herrera',''),
+	    array('3','Ashgan Mohamed',''),
+	    array('4','Cecy Flores',''),
+	    array('5','Charbel Hernández',''),
+	    array('6','Eduardo Rodríguez',''),
+	    array('7','Erika Sepulveda',''),
+	    array('8','Essam Mohamed',''),
+	    array('9','Facu Romero',''),
+	    array('10','Fede Cottone',''),
+	    array('11','Fernando Barocio',''),
+	    array('12','Fran Paz',''),
+	    array('13','Jazmin Garcia',''),
+	    array('14','Jesus Barajas',''),
+	    array('15','Kevin Díaz','')
 	);
 	?>
 
 	<ul class="people">
-		<?php
-		foreach ($Logos as $item){
-			echo "
-			<li class='item item{$item[0]}'>
-				<img src='./images/body/evolvers/{$item[0]}.webp' alt='{$item[1]}'>
-				
-					<h5>{$item[1]}</h5>
-					<p>{$item[2]}</p>
-			
-			</li>
-			";
-		}
-		?>
+	    <?php
+	    foreach ($Logos as $item){
+	        echo "
+	        <li class='item item{$item[0]}'>
+	            <img src='./images/body/evolvers/{$item[0]}.webp' alt='{$item[1]}'>
+	            <h5>{$item[1]}</h5>
+	            <p>{$item[2]}</p>
+	        </li>
+	        ";
+	    }
+	    ?>
 	</ul>
 
 	<?php
+	// Segundo bloque de 15 nombres
 	$Logos_izquierda = array(
-		array('11','Lucy Ugalde','Con EVO encontré claridad y confianza. Hoy disfruto $9,000 mensuales con seguridad.'),
-	    array('12','Mario González','De la monotonía pasé a liderar. Gracias a EVO, hoy genero $100,000 mensuales.'),
-	    array('13','Tania Ramos','Superé mis miedos financieros. Con EVO genero $5,000 mensuales y vivo en libertad.'),
-	    array('14','Luis Cañada','Antes trabajar era obligación. Hoy, gracias a EVO, gano $5,000 mensuales con propósito.'),
-	    array('15','Bianca Simāo','EVO me mostró que cada día es rentable. Hoy mis $15,000 mensuales lo confirman.'),
-	    array('16','Rafael Miranda','Antes estaba disperso. Con EVO me enfoqué y genero $9,000 mensuales con claridad.'),
-	    array('17','Nuno Sousa','EVO transformó mi mentalidad. Hoy lidero con certeza y gano $50,000 mensuales.'),
-	    array('18','Fernando Barocio','Gracias a EVO superé temores. Hoy genero $50,000 mensuales con confianza.'),
-	    array('19','Kevin Díaz','EVO encendió mi pasión. Hoy gano $9,000 mensuales y sigo evolucionando.'),
-	    array('20','Ali Valenzuela','Gracias a EVO Hoy genero $15,000 mensuales y cada obstáculo se volvió un escalón.')
+	    array('16','Kevin Zambrano',''),
+	    array('17','Laura Cioccia',''),
+	    array('18','Lucy Ugalde',''),
+	    array('19','Luimer Gonzalez',''),
+	    array('20','Luis Velasquez',''),
+	    array('21','Lytzi Rodríguez',''),
+	    array('22','Maria Jose Serrano',''),
+	    array('23','Mario González',''),
+	    array('24','Michell Hdz',''),
+	    array('25','Miguel Gonzalez',''),
+	    array('26','Miroslava Mancilla',''),
+	    array('27','Sebastian Moreno',''),
+	    array('28','Sebastian Sossa',''),
+	    array('29','Tania Moya',''),
+	    array('30','Yasser Mohamed','')
 	);
 	?>
 

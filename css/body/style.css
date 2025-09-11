@@ -1643,7 +1643,7 @@ ul.textos li span img {
 }
 
 :root{
-  --cantidad:10;
+  --cantidad:15;
   --altura:300px;
   --ancho:200px;
 }
@@ -1771,17 +1771,27 @@ ul.textos li span img {
 .item8 {  animation-delay: calc(64s / var(--cantidad) * (var(--cantidad) - 8) * -1);  }
 .item9 {  animation-delay: calc(64s / var(--cantidad) * (var(--cantidad) - 9) * -1);  }
 .item10 {  animation-delay: calc(64s / var(--cantidad) * (var(--cantidad) - 10) * -1);  }
+.item11 {  animation-delay: calc(64s / var(--cantidad) * (var(--cantidad) - 11) * -1);  }
+.item12 {  animation-delay: calc(64s / var(--cantidad) * (var(--cantidad) - 12) * -1);  }
+.item13 {  animation-delay: calc(64s / var(--cantidad) * (var(--cantidad) - 13) * -1);  }
+.item14 {  animation-delay: calc(64s / var(--cantidad) * (var(--cantidad) - 14) * -1);  }
+.item15 {  animation-delay: calc(64s / var(--cantidad) * (var(--cantidad) - 15) * -1);  }
 
-.item11 {  animation-delay: calc(64s / var(--cantidad) * (var(--cantidad) - 1) * -1);  }
-.item12 {  animation-delay: calc(64s / var(--cantidad) * (var(--cantidad) - 2) * -1);  }
-.item13 {  animation-delay: calc(64s / var(--cantidad) * (var(--cantidad) - 3) * -1);  }
-.item14 {  animation-delay: calc(64s / var(--cantidad) * (var(--cantidad) - 4) * -1);  }
-.item15 {  animation-delay: calc(64s / var(--cantidad) * (var(--cantidad) - 5) * -1);  }
-.item16 {  animation-delay: calc(64s / var(--cantidad) * (var(--cantidad) - 6) * -1);  }
-.item17 {  animation-delay: calc(64s / var(--cantidad) * (var(--cantidad) - 7) * -1);  }
-.item18 {  animation-delay: calc(64s / var(--cantidad) * (var(--cantidad) - 8) * -1);  }
-.item19 {  animation-delay: calc(64s / var(--cantidad) * (var(--cantidad) - 9) * -1);  }
-.item20 {  animation-delay: calc(64s / var(--cantidad) * (var(--cantidad) - 10) * -1);  }
+.item16 {  animation-delay: calc(64s / var(--cantidad) * (var(--cantidad) - 1) * -1);  }
+.item17 {  animation-delay: calc(64s / var(--cantidad) * (var(--cantidad) - 2) * -1);  }
+.item18 {  animation-delay: calc(64s / var(--cantidad) * (var(--cantidad) - 3) * -1);  }
+.item19 {  animation-delay: calc(64s / var(--cantidad) * (var(--cantidad) - 4) * -1);  }
+.item20 {  animation-delay: calc(64s / var(--cantidad) * (var(--cantidad) - 5) * -1);  }
+.item21 {  animation-delay: calc(64s / var(--cantidad) * (var(--cantidad) - 6) * -1);  }
+.item22 {  animation-delay: calc(64s / var(--cantidad) * (var(--cantidad) - 7) * -1);  }
+.item23 {  animation-delay: calc(64s / var(--cantidad) * (var(--cantidad) - 8) * -1);  }
+.item24 {  animation-delay: calc(64s / var(--cantidad) * (var(--cantidad) - 9) * -1);  }
+.item25 {  animation-delay: calc(64s / var(--cantidad) * (var(--cantidad) - 10) * -1);  }
+.item26 {  animation-delay: calc(64s / var(--cantidad) * (var(--cantidad) - 11) * -1);  }
+.item27 {  animation-delay: calc(64s / var(--cantidad) * (var(--cantidad) - 12) * -1);  }
+.item28 {  animation-delay: calc(64s / var(--cantidad) * (var(--cantidad) - 13) * -1);  }
+.item29 {  animation-delay: calc(64s / var(--cantidad) * (var(--cantidad) - 14) * -1);  }
+.item30 {  animation-delay: calc(64s / var(--cantidad) * (var(--cantidad) - 15) * -1);  }
 
 /* ============================================== */
 /* EVOLVERS */
