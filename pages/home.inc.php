@@ -256,28 +256,27 @@ foreach ($Modal as $item){
 
 	<?php
 	// Primer bloque de 15 nombres
-	$Logos = array(
+	$Gente = array(
 	    array('1','Ali Valenzuela',''),
 	    array('2','Ari Herrera',''),
 	    array('3','Ashgan Mohamed',''),
 	    array('4','Cecy Flores',''),
 	    array('5','Charbel Hernández',''),
 	    array('6','Eduardo Rodríguez',''),
-	    array('7','Erika Sepúlveda',''),
-	    array('8','Essam Mohamed',''),
-	    array('9','Facu Romero',''),
-	    array('10','Fede Cottone',''),
-	    array('11','Fernando Barocio',''),
-	    array('12','Fran Paz',''),
-	    array('13','Jazmín García',''),
-	    array('14','Jesús Barajas',''),
-	    array('15','Kevin Díaz','')
+	    array('7','Essam Mohamed',''),
+	    array('8','Facu Romero',''),
+	    array('9','Fede Cottone',''),
+	    array('10','Fernando Barocio',''),
+	    array('11','Fran Paz',''),
+	    array('12','Jazmín García',''),
+	    array('13','Jesús Barajas',''),
+	    array('14','Kevin Díaz','')
 	);
 	?>
 
 	<ul class="people">
 	    <?php
-	    foreach ($Logos as $item){
+	    foreach ($Gente as $item){
 	        echo "
 	        <li class='item item{$item[0]}'>
 	            <img src='./images/body/evolvers/{$item[0]}.webp' alt='{$item[1]}'>
@@ -291,29 +290,29 @@ foreach ($Modal as $item){
 
 	<?php
 	// Segundo bloque de 15 nombres
-	$Logos_izquierda = array(
-	    array('16','Kevin Zambrano',''),
-	    array('17','Laura Cioccia',''),
-	    array('18','Lucy Ugalde',''),
-	    array('19','Luimer González',''),
-	    array('20','Luis Velásquez',''),
-	    array('21','Lytzi Rodríguez',''),
-	    array('22','María José Serrano',''),
-	    array('23','Mario González',''),
-	    array('24','Michell Hdz',''),
-	    array('25','Miguel González',''),
-	    array('26','Miroslava Mancilla',''),
-	    array('27','Sebastián Moreno',''),
-	    array('28','Sebastián Sossa',''),
-	    array('29','Tania Moya',''),
-	    array('30','Yasser Mohamed','')
+	$Gente_izquierda = array(
+	    array('15','Kevin Zambrano',''),
+	    array('16','Laura Cioccia',''),
+	    array('17','Lucy Ugalde',''),
+	    array('18','Luimer González',''),
+	    array('19','Luis Velásquez',''),
+	    array('20','Lytzi Rodríguez',''),
+	    array('21','María José Serrano',''),
+	    array('22','Mario González',''),
+	    array('23','Michell Hdz',''),
+	    array('24','Miguel González',''),
+	    array('25','Miroslava Mancilla',''),
+	    array('26','Sebastián Moreno',''),
+	    array('27','Sebastián Sossa',''),
+	    array('28','Tania Moya',''),
+	    array('29','Yasser Mohamed','')
 	);
 	?>
 
 
 	<ul class="people alreves">
 		<?php
-		foreach ($Logos_izquierda as $item){
+		foreach ($Gente_izquierda as $item){
 			echo "
 			<li class='item item{$item[0]}'>
 				<img src='./images/body/evolvers/{$item[0]}.webp' alt='{$item[1]}'>
