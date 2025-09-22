@@ -1644,7 +1644,7 @@ ul.textos li span img {
 
 :root{
   --cantidad-derecha:14;
-  --cantidad-izquierda:15;
+  --cantidad-izquierda:14;
   --altura:300px;
   --ancho:200px;
 }
@@ -1791,7 +1791,6 @@ ul.textos li span img {
 .item26 {  animation-delay: calc(64s / var(--cantidad-izquierda) * (var(--cantidad-izquierda) - 12) * -1);  }
 .item27 {  animation-delay: calc(64s / var(--cantidad-izquierda) * (var(--cantidad-izquierda) - 13) * -1);  }
 .item28 {  animation-delay: calc(64s / var(--cantidad-izquierda) * (var(--cantidad-izquierda) - 14) * -1);  }
-.item29 {  animation-delay: calc(64s / var(--cantidad-izquierda) * (var(--cantidad-izquierda) - 15) * -1);  }
 
 /* ============================================== */
 /* EVOLVERS */

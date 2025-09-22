@@ -264,7 +264,7 @@ foreach ($Modal as $item){
 	    array('5','Charbel Hernández',''),
 	    array('6','Eduardo Rodríguez',''),
 	    array('7','Essam Mohamed',''),
-	    array('8','Facu Romero',''),
+	    array('8','Facu Romera',''),
 	    array('9','Fede Cottone',''),
 	    array('10','Fernando Barocio',''),
 	    array('11','Fran Paz',''),
@@ -303,9 +303,8 @@ foreach ($Modal as $item){
 	    array('24','Miguel González',''),
 	    array('25','Miroslava Mancilla',''),
 	    array('26','Sebastián Moreno',''),
-	    array('27','Sebastián Sossa',''),
-	    array('28','Tania Moya',''),
-	    array('29','Yasser Mohamed','')
+	    array('27','Tania Moya',''),
+	    array('28','Yasser Mohamed','')
 	);
 	?>
 
