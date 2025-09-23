@@ -3,7 +3,7 @@
 /* ============================================== */
 :root {
   --width-sub: 160px;
-  --width-sub-sub: 200px;
+  --width-sub-sub: 250px;
 }
 
 /* ============================================== */
@@ -399,6 +399,7 @@
 .lan a.por::before, .btn-lan.por::before { background-image: url('./../../images/flags/por.svg'); }
 .lan a.ita::before, .btn-lan.ita::before { background-image: url('./../../images/flags/ita.svg'); }
 .lan a.rus::before, .btn-lan.rus::before { background-image: url('./../../images/flags/rus.svg'); }
+.lan a.ale::before, .btn-lan.ale::before { background-image: url('./../../images/flags/ale.svg'); }
 .lan a.col::before { background-image: url('./../../images/flags/col.svg'); }
 .lan a.eur::before { background-image: url('./../../images/flags/eur.svg'); }
 .lan a.int::before { background-image: url('./../../images/flags/int.svg'); }

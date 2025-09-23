@@ -200,7 +200,8 @@ $idiomas = [
     'chi' => 'Chi',
     'ita' => 'Ita',
     'cor' => 'Cor',
-    'rus' => 'Rus'
+    'rus' => 'Rus',
+    'ale' => 'Ger'
 ];
 
 $Condicion_lan = isset($idiomas[$idioma]) ? $idiomas[$idioma] : 'Desconocido';
