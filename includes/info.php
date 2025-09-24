@@ -192,6 +192,7 @@ $Sub_shop = array(
     //-------------------------//
 
 $idiomas = [
+    'ale' => 'Ger',
     'eng' => 'Eng',
     'esp' => 'Esp',
     'fra' => 'Fra',
@@ -200,8 +201,7 @@ $idiomas = [
     'chi' => 'Chi',
     'ita' => 'Ita',
     'cor' => 'Cor',
-    'rus' => 'Rus',
-    'ale' => 'Ger'
+    'rus' => 'Rus'
 ];
 
 $Condicion_lan = isset($idiomas[$idioma]) ? $idiomas[$idioma] : 'Desconocido';
