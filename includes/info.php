@@ -53,26 +53,38 @@ $Register = "https://usa.myevoglobal.com/register/$ref";
 $link_web_us   = "https://usa.myevoglobal.com";
 $link_web_mx   = "https://mex.myevoglobal.com";
 $link_web_co   = "https://col.myevoglobal.com";
+$link_web_sp   = "https://esp.myevoglobal.com";
+$link_web_al   = "https://ger.myevoglobal.com";
+$link_web_no   = "https://nor.myevoglobal.com";
+$link_web_ar   = "https://arg.myevoglobal.com";
+$link_web_ve   = "https://ven.myevoglobal.com";
 $link_web_eu   = "https://eur.myevoglobal.com";
 $link_web_in   = "https://int.myevoglobal.com";
 
 $link_login_us = "https://usa.myevoglobal.com/my-account/";
 $link_login_mx = "https://mex.myevoglobal.com/my-account/";
 $link_login_co = "https://col.myevoglobal.com/my-account/";
+$link_login_al = "https://ger.myevoglobal.com/my-account/";
 $link_login_eu = "https://eur.myevoglobal.com/my-account/";
 $link_login_in = "https://int.myevoglobal.com/my-account/";
 
 $link_register_us = "https://usa.myevoglobal.com/register/";
 $link_register_mx = "https://mex.myevoglobal.com/register/";
 $link_register_co = "https://col.myevoglobal.com/register/";
+$link_register_al = "https://ger.myevoglobal.com/register/";
 $link_register_eu = "https://eur.myevoglobal.com/register/";
 $link_register_in = "https://int.myevoglobal.com/register/";
 
 $link_Shop_us  = "$link_web_us/$ref";
 $link_Shop_mx  = "$link_web_mx/$ref";
-$link_Shop_in  = "$link_web_in/$ref";
 $link_Shop_co  = "$link_web_co/$ref";
+$link_Shop_sp  = "$link_web_sp/$ref";
+$link_Shop_al  = "$link_web_al/$ref";
+$link_Shop_no  = "$link_web_no/$ref";
+$link_Shop_ar  = "$link_web_ar/$ref";
+$link_Shop_ve  = "$link_web_ve/$ref";
 $link_Shop_eu  = "$link_web_eu/$ref";
+$link_Shop_in  = "$link_web_in/$ref";
 
 // ---------------------------
 // Links de los productos
@@ -81,32 +93,62 @@ $links_product = [
     [
         'url'   => $link_web_us . "/product/",
         'class' => 'eng',
-        'label' => 'Buy in USA',
-        'text'  => 'United States'
+        'label' => $Buy . $Idioma_us,
+        'text'  => $Idioma_us
     ],
     [
         'url'   => $link_web_mx . "/product/",
         'class' => 'esp',
-        'label' => 'Buy in Mexico',
-        'text'  => 'México'
-    ],
-    [
-        'url'   => $link_web_in . "/product/",
-        'class' => 'int',
-        'label' => 'Buy International',
-        'text'  => 'International'
+        'label' => $Buy . $Idioma_mx,
+        'text'  => $Idioma_mx
     ],
     [
         'url'   => $link_web_co . "/product/",
         'class' => 'col',
-        'label' => 'Buy Colombia',
-        'text'  => 'Colombia'
+        'label' => $Buy . $Idioma_co,
+        'text'  => $Idioma_co
     ],
+    /*[
+        'url'   => $link_web_sp . "/product/",
+        'class' => 'spa',
+        'label' => $Buy . $Idioma_sp,
+        'text'  => $Idioma_sp
+    ],*/
+    [
+        'url'   => $link_web_al . "/product/",
+        'class' => 'ale',
+        'label' => $Buy . $Idioma_al,
+        'text'  => $Idioma_al
+    ],
+    /*[
+        'url'   => $link_web_no . "/product/",
+        'class' => 'nor',
+        'label' => $Buy . $Idioma_no,
+        'text'  => $Idioma_no
+    ],
+    [
+        'url'   => $link_web_ar . "/product/",
+        'class' => 'arg',
+        'label' => $Buy . $Idioma_ar,
+        'text'  => $Idioma_ar
+    ],
+    [
+        'url'   => $link_web_ve . "/product/",
+        'class' => 'col',
+        'label' => $Buy . $Idioma_ve,
+        'text'  => $Idioma_ve
+    ],*/
     [
         'url'   => $link_web_eu . "/product/",
         'class' => 'eur',
-        'label' => 'Buy Europe',
-        'text'  => 'Europe'
+        'label' => $Buy . $Idioma_eu,
+        'text'  => $Idioma_eu
+    ],
+    [
+        'url'   => $link_web_in . "/product/",
+        'class' => 'int',
+        'label' => $Buy . $Idioma_in,
+        'text'  => $Idioma_in
     ]
 ];
 
@@ -117,32 +159,62 @@ $links = [
     [
         'url'   => $link_web_us . "/product-category/evolver-plans/",
         'class' => 'eng',
-        'label' => 'Buy in USA',
-        'text'  => 'United States'
+        'label' => $Buy . $Idioma_us,
+        'text'  => $Idioma_us
     ],
     [
         'url'   => $link_web_mx . "/product-category/evolver-plans/",
         'class' => 'esp',
-        'label' => 'Buy in Mexico',
-        'text'  => 'México'
-    ],
-    [
-        'url'   => $link_web_in . "/product-category/evolver-plans/",
-        'class' => 'int',
-        'label' => 'Buy International',
-        'text'  => 'International'
+        'label' => $Buy . $Idioma_mx,
+        'text'  => $Idioma_mx
     ],
     [
         'url'   => $link_web_co . "/product-category/evolver-plans/",
         'class' => 'col',
-        'label' => 'Buy Colombia',
-        'text'  => 'Colombia'
+        'label' => $Buy . $Idioma_co,
+        'text'  => $Idioma_co
     ],
+    /*[
+        'url'   => $link_web_sp . "/product-category/evolver-plans/",
+        'class' => 'spa',
+        'label' => $Buy . $Idioma_sp,
+        'text'  => $Idioma_sp
+    ],*/
+    [
+        'url'   => $link_web_al . "/product-category/evolver-plans/",
+        'class' => 'ale',
+        'label' => $Buy . $Idioma_al,
+        'text'  => $Idioma_al
+    ],
+    /*[
+        'url'   => $link_web_no . "/product-category/evolver-plans/",
+        'class' => 'nor',
+        'label' => $Buy . $Idioma_no,
+        'text'  => $Idioma_no
+    ],
+    [
+        'url'   => $link_web_ar . "/product-category/evolver-plans/",
+        'class' => 'arg',
+        'label' => $Buy . $Idioma_ar,
+        'text'  => $Idioma_ar
+    ],
+    [
+        'url'   => $link_web_ve . "/product-category/evolver-plans/",
+        'class' => 'ven',
+        'label' => $Buy . $Idioma_ve,
+        'text'  => $Idioma_ve
+    ],*/
     [
         'url'   => $link_web_eu . "/product-category/evolver-plans/",
         'class' => 'eur',
-        'label' => 'Buy Europe',
-        'text'  => 'Europe'
+        'label' => $Buy . $Idioma_eu,
+        'text'  => $Idioma_eu
+    ],
+    [
+        'url'   => $link_web_in . "/product-category/evolver-plans/",
+        'class' => 'int',
+        'label' => $Buy . $Idioma_in,
+        'text'  => $Idioma_in
     ]
 ];
 
@@ -183,6 +255,11 @@ $Sub_shop = array(
     array($link_Shop_us,'eng','USA'),
     array($link_Shop_mx,'esp','MEX'),
     array($link_Shop_co,'col','COL'),
+    /*array($link_Shop_sp,'spa','ESP'),*/
+    array($link_Shop_al,'ale','GER'),
+    /*array($link_Shop_no,'nor','NOR'),
+    array($link_Shop_ar,'arg','ARG'),
+    array($link_Shop_ve,'ven','VEN'),*/
     array($link_Shop_eu,'eur','EUR'),
     array($link_Shop_in,'int','INT')
 );
@@ -214,6 +291,7 @@ $Sub_login = array(
     array($link_login_us,'eng','USA'),
     array($link_login_mx,'esp','MEX'),
     array($link_login_co,'col','COL'),
+    array($link_login_al,'ale','GER'),
     array($link_login_eu,'eur','EUR'),
     array($link_login_in,'int','INT')
 );
@@ -226,6 +304,7 @@ $Sub_register = array(
     array($link_register_us,'eng','USA'),
     array($link_register_mx,'esp','MEX'),
     array($link_register_co,'col','COL'),
+    array($link_register_al,'ale','GER'),
     array($link_register_eu,'eur','EUR'),
     array($link_register_in,'int','INT')
 );

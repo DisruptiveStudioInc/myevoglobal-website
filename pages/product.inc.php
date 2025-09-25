@@ -159,7 +159,7 @@ $Started_list     = $Started_list_map[$id]     ?? [];
 $Started_links    = $Started_link_map[$id]     ?? [];
 $Started_subpage  = $Started_subpage_map[$id]  ?? "";
 
-$Condicion =($id == $link_01 || $id == $link_02)? 'tc-100':'';
+$Condicion     =($id == $link_01 || $id == $link_02)? 'tc-100':'';
 
 $Condicion_link =
     (($id == $link_02) ? "evo-gold" :
@@ -179,11 +179,22 @@ $Condicion_link =
 
                 <div class="btns g-10 small-jc-center">
                     <?php
+                    // Filtrar el idioma alemán solo para evo-gold y evo-silver
+                    $mostrar_idiomas = $links_product;
+
+                    if ($id === "gold" || $id === "silver") {
+                        // Quitar el idioma alemán
+                        $mostrar_idiomas = array_filter($links_product, function($link) {
+                            return $link['class'] !== 'ale';
+                        });
+                    }
+
+                    // Construir los botones
                     $wrap_product = "<div class='wrap-get subpage'>
                       <div class='btn-get'>{$Btn_buy}</div>
                       <div class='get'>";
 
-                    foreach ($links_product as $link) {
+                    foreach ($mostrar_idiomas as $link) {
                         $wrap_product .= "
                         <a href='{$link['url']}{$Condicion_link}{$ref}' 
                            target='_blank' 

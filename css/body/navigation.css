@@ -215,9 +215,15 @@
 }
 .get a.eng::before { background-image: url('./../../images/flags/eng.svg'); }
 .get a.esp::before { background-image: url('./../../images/flags/esp.svg'); }
-.get a.int::before { background-image: url('./../../images/flags/int.svg'); }
 .get a.col::before { background-image: url('./../../images/flags/col.svg'); }
+.get a.spa::before { background-image: url('./../../images/flags/spa.svg'); }
+.get a.ale::before { background-image: url('./../../images/flags/ale.svg'); }
+.get a.bal::before { background-image: url('./../../images/flags/bal.svg'); }
+.get a.nor::before { background-image: url('./../../images/flags/nor.svg'); }
+.get a.arg::before { background-image: url('./../../images/flags/arg.svg'); }
+.get a.ven::before { background-image: url('./../../images/flags/ven.svg'); }
 .get a.eur::before { background-image: url('./../../images/flags/eur.svg'); }
+.get a.int::before { background-image: url('./../../images/flags/int.svg'); }
 
 /* --- GET MOBILE --- */
 @media screen and (max-width: 1080px) {
@@ -356,7 +362,6 @@
   padding: 10px 30px 10px 15px;
 }
 
-
 .lan a {
   width: 70px;
   padding: 5px 5px 5px 30px !important;
@@ -369,6 +374,11 @@
 /* ============================================== */
 /* FLAGS */
 /* ============================================== */
+
+.lan.flags a {
+  width: 100%;
+}
+
 .lan a::before,
 .btn-lan::before {
   content: "";
@@ -400,7 +410,12 @@
 .lan a.ita::before, .btn-lan.ita::before { background-image: url('./../../images/flags/ita.svg'); }
 .lan a.rus::before, .btn-lan.rus::before { background-image: url('./../../images/flags/rus.svg'); }
 .lan a.ale::before, .btn-lan.ale::before { background-image: url('./../../images/flags/ale.svg'); }
+
+.lan a.spa::before { background-image: url('./../../images/flags/spa.svg'); }
+.lan a.nor::before { background-image: url('./../../images/flags/nor.svg'); }
+.lan a.arg::before { background-image: url('./../../images/flags/arg.svg'); }
 .lan a.col::before { background-image: url('./../../images/flags/col.svg'); }
+.lan a.ven::before { background-image: url('./../../images/flags/ven.svg'); }
 .lan a.eur::before { background-image: url('./../../images/flags/eur.svg'); }
 .lan a.int::before { background-image: url('./../../images/flags/int.svg'); }
 

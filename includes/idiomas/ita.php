@@ -3,7 +3,21 @@
 $Description = "EVO Global è un ecosistema progettato per trasformare il modo in cui le persone apprendono, crescono e si connettono. Attraverso un'educazione avanzata, trading in tempo reale e una community esclusiva, offriamo accesso a strumenti, conoscenze ed esperienze prima riservate a pochi. Il nostro modello integra formazione pratica, opportunità di business ed esperienze premium come viaggi, eventi globali e vantaggi di alto livello, creando un ambiente in cui ogni passo spinge la tua evoluzione personale, professionale e finanziaria. Con EVO, la conoscenza si trasforma in azione e l'azione in risultati misurabili, in una rete globale che apre porte, connette idee e trasforma la visione in realtà.";
 
 $Keywords = "evoluzione, educazione, crescita, comunità, esclusività, leadership, trading, affari, conoscenza, trasformazione, benessere, membership, successo, innovazione, apprendimento, opportunità, libertà, visione, esperienze, connessione";
+//-------------------------//
+// Idiomas
+//-------------------------//
 
+$Buy = "Acquista in";
+$Idioma_us = "Stati Uniti";
+$Idioma_mx = "Messico";
+$Idioma_co = "Colombia";
+$Idioma_sp = "Spagna";
+$Idioma_al = "Germania";
+$Idioma_no = "Norvegia";
+$Idioma_ar = "Argentina";
+$Idioma_ve = "Venezuela";
+$Idioma_eu = "Europa";
+$Idioma_in = "Internazionale";
 
     //-------------------------//
     // Menu

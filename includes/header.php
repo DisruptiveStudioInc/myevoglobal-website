@@ -180,7 +180,7 @@
 
                             <li class="sub-evo rel">
                                 <div class="btn-lan btn-shop btn c-ter br-30"><?php echo $Menu_05; ?></div>
-                                <div class="lan">
+                                <div class="lan flags">
                                     <?php
                                     foreach ($Sub_shop as $idioma_opcion) {
                                         $href  = $idioma_opcion[0];

@@ -4,6 +4,22 @@ $Description = "EVO Global est un écosystème conçu pour transformer la façon
 
 $Keywords = "évolution, éducation, croissance, communauté, exclusivité, leadership, trading, affaires, connaissance, transformation, bien-être, adhésion, succès, innovation, apprentissage, opportunités, liberté, vision, expériences, connexion";
 
+//-------------------------//
+// Idiomas
+//-------------------------//
+
+$Buy = "Acheter en";
+$Idioma_us = "États-Unis";
+$Idioma_mx = "Mexique";
+$Idioma_co = "Colombie";
+$Idioma_sp = "Espagne";
+$Idioma_al = "Allemagne";
+$Idioma_no = "Norvège";
+$Idioma_ar = "Argentine";
+$Idioma_ve = "Venezuela";
+$Idioma_eu = "Europe";
+$Idioma_in = "International";
+
     //-------------------------//
     // Menu
     //-------------------------//
