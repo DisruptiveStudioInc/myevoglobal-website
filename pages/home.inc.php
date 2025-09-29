@@ -20,9 +20,9 @@
 	    </div>
 
 	    <div class="video-iframe-wrapper">
-	        <iframe 
-			    src="https://player.vimeo.com/video/<?php echo $Video_vimeo; ?>?background=1&autoplay=1&muted=1&loop=1" 
-			    frameborder="0" 
+	        <iframe
+			    src="https://player.vimeo.com/video/<?php echo $Video_vimeo; ?>?background=1&autoplay=1&muted=1&loop=1"
+			    frameborder="0"
 			    allow="autoplay; fullscreen; picture-in-picture"
 			    title="Darevita video agosto 2025_1">
 		  </iframe>
@@ -219,7 +219,7 @@ foreach ($Modal as $item){
 		<img src="./images/body/products/<?php echo $link_02; ?>.webp" class="product" alt="<?php echo $link_02; ?>"/>
 	</div>
 
-	<div class="box_product img-three"> 
+	<div class="box_product img-three">
 		<span>
 			<button type="button" class="v-white c-acc icon br-50 icon-more" onclick="openModal('Modal3')"></button>
 			<a href="?p=product&id=<?php echo $link_03; ?>" class="btn c-sec br-50"><?php echo $Btn_view; ?></a>
@@ -263,27 +263,29 @@ foreach ($Modal as $item){
 	    array('4','Cecy Flores',''),
 	    array('5','Charbel Hernández',''),
 	    array('6','Eduardo Rodríguez',''),
-	    array('7','Essam Mohamed',''),
-	    array('8','Facu Romera',''),
-	    array('9','Fede Cottone',''),
-	    array('10','Fernando Barocio',''),
-	    array('11','Fran Paz',''),
-	    array('12','Jazmín García',''),
-	    array('13','Jesús Barajas',''),
-	    array('14','Kevin Díaz','')
+	    array('8','Essam Mohamed',''),
+	    array('9','Facu Romera',''),
+	    array('10','Fede Cottone',''),
+	    array('11','Fernando Barocio',''),
+	    array('12','Fran Paz',''),
+	    array('13','Jazmín García',''),
+	    array('14','Jesús Barajas',''),
+	    array('15','Kevin Díaz',''),
+      array('16','Kevin Zambrano',''),
 	);
 	?>
 
-	<ul class="people">
+	<ul class="people" style="--total-items:<?= count($Gente) ?>;">
 	    <?php
-	    foreach ($Gente as $item){
-	        echo "
-	        <li class='item item{$item[0]}'>
-	            <img src='./images/body/evolvers/{$item[0]}.webp' alt='{$item[1]}'>
-	            <h5>{$item[1]}</h5>
-	            <p>{$item[2]}</p>
-	        </li>
-	        ";
+	    foreach ($Gente as $k =>$item){
+        $item_index = $k + 1;
+        echo "
+        <li class='item' style='--item-index:{$item_index}'>
+            <img src='./images/body/evolvers/{$item[0]}.webp' alt='{$item[1]}'>
+            <h5>{$item[1]}</h5>
+            <p>{$item[2]}</p>
+        </li>
+        ";
 	    }
 	    ?>
 	</ul>
@@ -291,34 +293,35 @@ foreach ($Modal as $item){
 	<?php
 	// Segundo bloque de 15 nombres
 	$Gente_izquierda = array(
-	    array('15','Kevin Zambrano',''),
-	    array('16','Laura Cioccia',''),
-	    array('17','Lucy Ugalde',''),
-	    array('18','Luimer González',''),
-	    array('19','Luis Velásquez',''),
-	    array('20','Lytzi Rodríguez',''),
-	    array('21','María José Serrano',''),
-	    array('22','Mario González',''),
-	    array('23','Michell Hdz',''),
-	    array('24','Miguel González',''),
-	    array('25','Miroslava Mancilla',''),
-	    array('26','Sebastián Moreno',''),
-	    array('27','Tania Moya',''),
-	    array('28','Yasser Mohamed','')
+	    array('17','Laura Cioccia',''),
+	    array('18','Lucy Ugalde',''),
+	    array('19','Luimer González',''),
+	    array('20','Luis Velásquez',''),
+	    array('21','Lytzi Rodríguez',''),
+	    array('22','María José Serrano',''),
+	    array('23','Mario González',''),
+	    array('24','Michell Hdz',''),
+	    array('25','Miguel González',''),
+	    array('26','Miroslava Mancilla',''),
+	    array('27','Sebastián Moreno',''),
+	    array('28','Sebastián Sossa',''),
+	    array('29','Tania Moya',''),
+	    array('30','Yasser Mohamed','')
 	);
 	?>
 
 
-	<ul class="people alreves">
+	<ul class="people alreves" style="--total-items:<?= count($Gente_izquierda) ?>;">
 		<?php
-		foreach ($Gente_izquierda as $item){
+		foreach ($Gente_izquierda as $k =>$item){
+      $item_index = $k + 1;
 			echo "
-			<li class='item item{$item[0]}'>
+			<li class='item' style='--item-index:{$item_index}'>
 				<img src='./images/body/evolvers/{$item[0]}.webp' alt='{$item[1]}'>
-				
+
 					<h5>{$item[1]}</h5>
 					<p>{$item[2]}</p>
-			
+
 			</li>
 			";
 		}
@@ -415,7 +418,7 @@ foreach ($Modal as $item){
 	    <button class="arrow up"></button>
 	    <button class="arrow down"></button>
 	</div>
-	
+
 	<div class="mw-1280 jc-center h-100 med-h-0 g-40 ai-center small-ai-start small-fd-col">
 		<div class="img_spirit small-d-none">
 			<span class="img_product">
