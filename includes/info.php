@@ -302,7 +302,7 @@ $Sub_login = array(
     array($link_login_mx,'esp','MEX'),
     array($link_login_co,'col','COL'),
     array($link_login_al,'ale','GER'),
-    array($link_login_eu,'eur','EUR'),
+    array($link_login_eu,'eur','BAL'),
     array($link_login_in,'int','INT')
 );
 
