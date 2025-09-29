@@ -1,7 +1,7 @@
 <!-- ============================================== -->
 <!-- ONE -->
 <!-- ============================================== -->
-<?php 
+<?php
 $Subtitulo_map = [
     /*$link_01     => $Products_title_01,*/
     $link_02     => $Products_title_02,
@@ -179,27 +179,21 @@ $Condicion_link =
 
                 <div class="btns g-10 small-jc-center">
                     <?php
-                    // Filtrar el idioma alemán solo para evo-gold y evo-silver
-                    $mostrar_idiomas = $links_product;
-
-                    if ($id === "gold" || $id === "silver") {
-                        // Quitar el idioma alemán
-                        $mostrar_idiomas = array_filter($links_product, function($link) {
-                            return $link['class'] !== 'ale';
-                        });
-                    }
-
                     // Construir los botones
                     $wrap_product = "<div class='wrap-get subpage'>
                       <div class='btn-get'>{$Btn_buy}</div>
                       <div class='get'>";
 
-                    foreach ($mostrar_idiomas as $link) {
-                        $wrap_product .= "
-                        <a href='{$link['url']}{$Condicion_link}{$ref}' 
-                           target='_blank' 
-                           class='{$link['class']}' 
-                           aria-label='{$link['label']}'>{$link['text']}</a>";
+                    foreach ($links_product as $link) {
+                      //Verificar si el $id actual está en el array 'show_in'
+                      if (!in_array($id, $link['show_in'])) {
+                        continue; // Saltar este link si no debe mostrarse para el producto actual
+                      }
+                      $wrap_product .= "
+                      <a href='{$link['url']}{$Condicion_link}{$ref}'
+                        target='_blank'
+                        class='{$link['class']}'
+                        aria-label='{$link['label']}'>{$link['text']}</a>";
                     }
 
                     $wrap_product .= "
@@ -249,8 +243,8 @@ $Condicion_link =
     <div class='modal-content rel' style="padding: 10px;">
     <button type="button" class="v-white c-pri icon icon-close" onclick="closeModal('Modal_<?php echo $id; ?>')"></button>
 
-    <video class="full-img" 
-        src="./video/video.webm" 
+    <video class="full-img"
+        src="./video/video.webm"
         autoplay loop muted playsinline
         poster="./images/body/letters/1.webp">
     </video>

@@ -91,64 +91,74 @@ $link_Shop_in  = "$link_web_in/$ref";
 // ---------------------------
 $links_product = [
     [
-        'url'   => $link_web_us . "/product/",
-        'class' => 'eng',
-        'label' => $Buy . $Idioma_us,
-        'text'  => $Idioma_us
+      'url'   => $link_web_us . "/product/",
+      'class' => 'eng',
+      'label' => $Buy . $Idioma_us,
+      'text'  => $Idioma_us,
+      'show_in' => ['gold', 'silver', 'black']
     ],
     [
-        'url'   => $link_web_mx . "/product/",
-        'class' => 'esp',
-        'label' => $Buy . $Idioma_mx,
-        'text'  => $Idioma_mx
+      'url'   => $link_web_mx . "/product/",
+      'class' => 'esp',
+      'label' => $Buy . $Idioma_mx,
+      'text'  => $Idioma_mx,
+      'show_in' => ['gold', 'silver', 'black']
     ],
     [
-        'url'   => $link_web_co . "/product/",
-        'class' => 'col',
-        'label' => $Buy . $Idioma_co,
-        'text'  => $Idioma_co
-    ],
-    /*[
-        'url'   => $link_web_sp . "/product/",
-        'class' => 'spa',
-        'label' => $Buy . $Idioma_sp,
-        'text'  => $Idioma_sp
-    ],*/
-    [
-        'url'   => $link_web_al . "/product/",
-        'class' => 'ale',
-        'label' => $Buy . $Idioma_al,
-        'text'  => $Idioma_al
+      'url'   => $link_web_co . "/product/",
+      'class' => 'col',
+      'label' => $Buy . $Idioma_co,
+      'text'  => $Idioma_co,
+      'show_in' => ['gold', 'silver', 'black']
     ],
     /*[
-        'url'   => $link_web_no . "/product/",
-        'class' => 'nor',
-        'label' => $Buy . $Idioma_no,
-        'text'  => $Idioma_no
-    ],
-    [
-        'url'   => $link_web_ar . "/product/",
-        'class' => 'arg',
-        'label' => $Buy . $Idioma_ar,
-        'text'  => $Idioma_ar
-    ],
-    [
-        'url'   => $link_web_ve . "/product/",
-        'class' => 'col',
-        'label' => $Buy . $Idioma_ve,
-        'text'  => $Idioma_ve
+      'url'   => $link_web_sp . "/product/",
+      'class' => 'spa',
+      'label' => $Buy . $Idioma_sp,
+      'text'  => $Idioma_sp,
+      'show_in' => ['gold']
     ],*/
     [
-        'url'   => $link_web_eu . "/product/",
-        'class' => 'eur',
-        'label' => $Buy . $Idioma_eu,
-        'text'  => $Idioma_eu
+      'url'   => $link_web_al . "/product/",
+      'class' => 'ale',
+      'label' => $Buy . $Idioma_al,
+      'text'  => $Idioma_al,
+      'show_in' => ['black']
+    ],
+    /*[
+      'url'   => $link_web_no . "/product/",
+      'class' => 'nor',
+      'label' => $Buy . $Idioma_no,
+      'text'  => $Idioma_no,
+      'show_in' => ['black']
+    ],*/
+    /*[
+      'url'   => $link_web_ar . "/product/",
+      'class' => 'arg',
+      'label' => $Buy . $Idioma_ar,
+      'text'  => $Idioma_ar,
+      'show_in' => ['gold', 'silver', 'black']
+    ],*/
+    /*[
+      'url'   => $link_web_ve . "/product/",
+      'class' => 'col',
+      'label' => $Buy . $Idioma_ve,
+      'text'  => $Idioma_ve,
+      'show_in' => ['gold', 'silver', 'black']
+    ],*/
+    [
+      'url'   => $link_web_eu . "/product/",
+      'class' => 'eur',
+      'label' => $Buy . $Idioma_eu,
+      'text'  => $Idioma_eu,
+      'show_in' => ['black']
     ],
     [
-        'url'   => $link_web_in . "/product/",
-        'class' => 'int',
-        'label' => $Buy . $Idioma_in,
-        'text'  => $Idioma_in
+      'url'   => $link_web_in . "/product/",
+      'class' => 'int',
+      'label' => $Buy . $Idioma_in,
+      'text'  => $Idioma_in,
+      'show_in' => ['gold', 'silver', 'black']
     ]
 ];
 
@@ -235,7 +245,7 @@ $Menu = array(
     array('','',$Menu_04)
     /*array('','','Evo Travel'),
     array('','','Evo Link'),*/
- 
+
 );
 
     //-------------------------//
@@ -260,7 +270,7 @@ $Sub_shop = array(
     /*array($link_Shop_no,'nor','NOR'),
     array($link_Shop_ar,'arg','ARG'),
     array($link_Shop_ve,'ven','VEN'),*/
-    array($link_Shop_eu,'eur','EUR'),
+    array($link_Shop_eu,'eur','BAL'),
     array($link_Shop_in,'int','INT')
 );
 
@@ -305,7 +315,7 @@ $Sub_register = array(
     array($link_register_mx,'esp','MEX'),
     array($link_register_co,'col','COL'),
     array($link_register_al,'ale','GER'),
-    array($link_register_eu,'eur','EUR'),
+    array($link_register_eu,'eur','BAL'),
     array($link_register_in,'int','INT')
 );
 

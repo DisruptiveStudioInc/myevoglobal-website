@@ -85,9 +85,9 @@
 
         foreach ($links as $link) {
             $wrap_get .= "
-            <a href='{$link['url']}{$ref}' 
-               target='_blank' 
-               class='{$link['class']}' 
+            <a href='{$link['url']}{$ref}'
+               target='_blank'
+               class='{$link['class']}'
                aria-label='{$link['label']}'>{$link['text']}</a>";
         }
 
@@ -119,7 +119,7 @@
                     <div class="logo">
                         <a href="./"><img src="./images/logo/logo.svg" alt="logo evo global"></a>
                     </div>
-            
+
                     <div class="menu">
                         <ul>
                             <?php
@@ -148,7 +148,7 @@
                                 if ($counter == 4) {
                                     echo "<li class='rel'>";
                                     echo "<a href='#' class='btn-sub'>{$item[2]}</a>";
-                                    
+
                                     echo "<ul class='sub'>";
                                     foreach ($Sub as $item_sub) {
                                         $hasSubSub = isset($item_sub[1]) && is_array($item_sub[1]);
@@ -207,14 +207,14 @@
                             <li class="sub-evo rel d-none med-d-block">
                                 <div class="btn-lan btn-login btn c-ter br-30"><?php echo $Menu_reg; ?></div>
                                 <div class="lan">
-                                    <?php
-                                        foreach ($Sub_register as $idioma_opcion) {
-                                            $href  = $idioma_opcion[0];
-                                            $class = $idioma_opcion[1];
-                                            $text  = $idioma_opcion[2];
-                                            echo "<a class='$class' href='$href' target='_blank' >$text</a>";
-                                        }
-                                    ?>
+                                  <?php
+                                    foreach ($Sub_register as $idioma_opcion) {
+                                      $href  = $idioma_opcion[0];
+                                      $class = $idioma_opcion[1];
+                                      $text  = $idioma_opcion[2];
+                                      echo "<a class='$class' href='$href' target='_blank' >$text</a>";
+                                    }
+                                  ?>
                                 </div>
                             </li>
                         </ul>
