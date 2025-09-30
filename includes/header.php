@@ -204,6 +204,7 @@
                                     ?>
                                 </div>
                             </li>
+                            <?php if(isset($user_replica)) : ?>
                             <li class="sub-evo rel d-none med-d-block">
                                 <div class="btn-lan btn-login btn c-ter br-30"><?php echo $Menu_reg; ?></div>
                                 <div class="lan">
@@ -217,6 +218,7 @@
                                   ?>
                                 </div>
                             </li>
+                            <?php endif; ?>
                         </ul>
                     </div>
 
@@ -247,6 +249,7 @@
                                     ?>
                                 </div>
                             </div>
+                            <?php if(isset($user_replica)) : ?>
                             <div class="rel">
                                 <div class="btn-lan btn-login btn c-ter br-30"><?php echo $Menu_reg; ?></div>
                                 <div class="lan">
@@ -260,6 +263,7 @@
                                     ?>
                                 </div>
                             </div>
+                            <?php endif; ?>
                         </div>
                         <div class="hamburguer">
                             <span></span>
