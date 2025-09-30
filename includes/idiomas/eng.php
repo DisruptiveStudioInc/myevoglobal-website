@@ -119,19 +119,19 @@ $Products_price_01 = "Text here";
 $Products_title_02 = "Gold";
 $Products_02 = "Exclusive Growth";
 $Products_sub_02 = "Exclusive Growth – Premium Membership";
-$Products_text_02 = "Experience the sophistication of belonging to a global community that combines education, travel, privileges, and business opportunities, with benefits valued at over $10,400 USD per year.";
-$Products_price_02 = "All for only $449 USD.";
+$Products_text_02 = "Experience the sophistication of belonging to a global community that combines education, travel, privileges, and business opportunities.";
+$Products_price_02 = "All for only $450 USD.";
 
 $Products_title_03 = "Silver";
 $Products_03 = "Exclusivity";
 $Products_sub_03 = "The Beginning of Exclusivity – Silver Membership";
-$Products_text_03 = "Take your first step toward evolution with access to exclusive benefits in education, travel, privileges, and business opportunities, with an annual value of more than $13,650 USD.";
+$Products_text_03 = "Take your first step toward evolution with access to exclusive benefits in education, travel, privileges, and business opportunities.";
 $Products_price_03 = "All for only $950 USD.";
 
 $Products_title_04 = "Black";
 $Products_04 = "Full Access";
 $Products_sub_04 = "Full Access Lifestyle – Black Membership";
-$Products_text_04 = "The highest level of exclusivity. Black is for those who seek to live unique experiences, access unrepeatable privileges, and belong to an elite circle. With benefits valued at more than $32,150 USD per year.";
+$Products_text_04 = "The highest level of exclusivity. Black is for those who seek unique experiences, access unrepeatable privileges, and belong to an elite circle.";
 $Products_price_04 = "All for only $1,997 USD.";
 
     //-------------------------//

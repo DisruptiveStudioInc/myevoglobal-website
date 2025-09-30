@@ -91,19 +91,19 @@ $Products_price_01 = "여기에 텍스트";
 $Products_title_02 = "골드";
 $Products_02 = "독점 성장";
 $Products_sub_02 = "Exclusive Growth – 프리미엄 멤버십";
-$Products_text_02 = "교육, 여행, 특권 및 비즈니스 기회를 결합한 글로벌 커뮤니티의 세련됨을 누리세요. 연간 $10,400 USD 이상의 혜택 포함.";
-$Products_price_02 = "단 $449 USD에 모두 이용 가능.";
+$Products_text_02 = "교육, 여행, 특권 및 비즈니스 기회를 결합한 글로벌 커뮤니티에 속하는 세련됨을 경험하세요.";
+$Products_price_02 = "단 $450 USD에 모두 이용 가능.";
 
 $Products_title_03 = "실버";
 $Products_03 = "독점성";
 $Products_sub_03 = "독점성의 시작 – 실버 멤버십";
-$Products_text_03 = "교육, 여행, 특권 및 비즈니스 기회에서 독점 혜택을 누리며 진화의 첫 걸음을 내딛으세요. 연간 $13,650 USD 이상의 가치 포함.";
+$Products_text_03 = "교육, 여행, 특권 및 비즈니스 기회에서 독점적인 혜택에 접근하며 진화를 향한 첫걸음을 내딛으세요.";
 $Products_price_03 = "단 $950 USD에 모두 이용 가능.";
 
 $Products_title_04 = "블랙";
 $Products_04 = "전체 접근";
 $Products_sub_04 = "Full Access Lifestyle – 블랙 멤버십";
-$Products_text_04 = "최고 수준의 독점성. 블랙은 독특한 경험을 원하고, 독보적 특권에 접근하며, 엘리트 서클에 속하고 싶은 사람들을 위한 멤버십입니다. 연간 $32,150 USD 이상의 혜택 포함.";
+$Products_text_04 = "최고 수준의 독점성. Black은 독특한 경험을 추구하고, 반복 불가능한 특권을 누리며, 엘리트 서클에 속하고자 하는 사람들을 위한 것입니다.";
 $Products_price_04 = "단 $1,997 USD에 모두 이용 가능.";
 
 $Envolvers_title = "실제 수익, 개인 성장 및 재정적 자유를 달성하는 EVOLVERS를 만나보세요.";

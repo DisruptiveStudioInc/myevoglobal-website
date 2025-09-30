@@ -119,19 +119,19 @@ $Products_price_01 = "Text hier";
 $Products_title_02 = "Gold";
 $Products_02 = "Exklusives Wachstum";
 $Products_sub_02 = "Exklusives Wachstum – Premium-Mitgliedschaft";
-$Products_text_02 = "Erlebe die Raffinesse, einer globalen Community anzugehören, die Bildung, Reisen, Privilegien und Geschäftsmöglichkeiten verbindet – mit Vorteilen im Wert von über 10.400 USD pro Jahr.";
-$Products_price_02 = "Alles für nur 449 USD.";
+$Products_text_02 = "Erlebe die Raffinesse, Teil einer globalen Gemeinschaft zu sein, die Bildung, Reisen, Privilegien und Geschäftsmöglichkeiten vereint.";
+$Products_price_02 = "Alles für nur 450 USD.";
 
 $Products_title_03 = "Silver";
 $Products_03 = "Exklusivität";
 $Products_sub_03 = "Der Beginn der Exklusivität – Silber-Mitgliedschaft";
-$Products_text_03 = "Mach deinen ersten Schritt zur Evolution mit Zugang zu exklusiven Vorteilen in Bildung, Reisen, Privilegien und Geschäftsmöglichkeiten – mit einem Jahreswert von mehr als 13.650 USD.";
+$Products_text_03 = "Mach deinen ersten Schritt in Richtung Evolution mit Zugang zu exklusiven Vorteilen in Bildung, Reisen, Privilegien und Geschäftsmöglichkeiten.";
 $Products_price_03 = "Alles für nur 950 USD.";
 
 $Products_title_04 = "Black";
 $Products_04 = "Voller Zugang";
 $Products_sub_04 = "Full Access Lifestyle – Black-Mitgliedschaft";
-$Products_text_04 = "Das höchste Maß an Exklusivität. Black ist für diejenigen, die einzigartige Erfahrungen erleben, unvergleichliche Privilegien nutzen und einem Elitekreis angehören möchten – mit Vorteilen im Wert von mehr als 32.150 USD pro Jahr.";
+$Products_text_04 = "Das höchste Maß an Exklusivität. Black ist für diejenigen, die einzigartige Erfahrungen suchen, unvergleichliche Privilegien genießen und zu einem Elitekreis gehören möchten.";
 $Products_price_04 = "Alles für nur 1.997 USD.";
 
 //-------------------------//

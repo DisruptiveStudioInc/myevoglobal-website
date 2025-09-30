@@ -119,19 +119,19 @@ $Products_price_01 = "Texto aqui";
 $Products_title_02 = "Gold";
 $Products_02 = "Crescimento Exclusivo";
 $Products_sub_02 = "Crescimento Exclusivo – Membresia Premium";
-$Products_text_02 = "Viva a sofisticação de pertencer a uma comunidade global que combina educação, viagens, privilégios e oportunidades de negócios, com benefícios avaliados em mais de $10.400 USD por ano.";
-$Products_price_02 = "Tudo por apenas $449 USD.";
+$Products_text_02 = "Viva a sofisticação de pertencer a uma comunidade global que combina educação, viagens, privilégios e oportunidades de negócios.";
+$Products_price_02 = "Tudo por apenas $450 USD.";
 
 $Products_title_03 = "Silver";
 $Products_03 = "Exclusividade";
 $Products_sub_03 = "O Início da Exclusividade – Membresia Silver";
-$Products_text_03 = "Dê seu primeiro passo para a evolução com acesso a benefícios exclusivos em educação, viagens, privilégios e oportunidades de negócios, com valor anual de mais de $13.650 USD.";
+$Products_text_03 = "Dê o seu primeiro passo rumo à evolução com acesso a benefícios exclusivos em educação, viagens, privilégios e oportunidades de negócios.";
 $Products_price_03 = "Tudo por apenas $950 USD.";
 
 $Products_title_04 = "Black";
 $Products_04 = "Acesso total";
 $Products_sub_04 = "Full Access Lifestyle – Membresia Black";
-$Products_text_04 = "O mais alto nível de exclusividade. Black é para aqueles que buscam viver experiências únicas, acessar privilégios incomparáveis e pertencer a um círculo de elite. Com benefícios avaliados em mais de $32.150 USD por ano.";
+$Products_text_04 = "O mais alto nível de exclusividade. Black é para aqueles que buscam viver experiências únicas, acessar privilégios irrepetíveis e pertencer a um círculo de elite.";
 $Products_price_04 = "Tudo por apenas $1.997 USD.";
 
     //-------------------------//

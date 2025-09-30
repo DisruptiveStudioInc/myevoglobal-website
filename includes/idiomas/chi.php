@@ -139,19 +139,19 @@ $Products_price_01 = "此处文本";
 $Products_title_02 = "金色";
 $Products_02 = "专属成长";
 $Products_sub_02 = "Exclusive Growth – 高级会员";
-$Products_text_02 = "体验属于全球社区的精致生活，结合教育、旅行、特权和商业机会，年度价值超过 10,400 美元。";
-$Products_price_02 = "仅需 $449 美元。";
+$Products_text_02 = "体验属于全球社区的精致感，这个社区融合了教育、旅行、特权和商业机会。";
+$Products_price_02 = "仅需 $450 美元。";
 
 $Products_title_03 = "银色";
 $Products_03 = "独特性";
 $Products_sub_03 = "The Beginning of Exclusivity – 银会员";
-$Products_text_03 = "迈出进化的第一步，享受教育、旅行、特权和商业机会的独家福利，年度价值超过 13,650 美元。";
+$Products_text_03 = "迈出进化的第一步，获得在教育、旅行、特权和商业机会方面的独家福利。";
 $Products_price_03 = "仅需 $950 美元。";
 
 $Products_title_04 = "黑色";
 $Products_04 = "完全访问";
 $Products_sub_04 = "Full Access Lifestyle – 黑会员";
-$Products_text_04 = "最高级别的独特性。黑会员专为追求独特体验、专属特权并属于精英圈的人设计，年度福利价值超过 32,150 美元。";
+$Products_text_04 = "最高级别的专属体验。Black 为那些追求独特体验、享受无与伦比的特权并希望加入精英圈子的人而设。";
 $Products_price_04 = "仅需 $1,997 美元。";
 
 

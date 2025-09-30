@@ -133,19 +133,19 @@ $Products_price_01 = "Testo qui";
 $Products_title_02 = "Gold";
 $Products_02 = "Crescita esclusiva";
 $Products_sub_02 = "Exclusive Growth – Membership Premium";
-$Products_text_02 = "Vivi la sofisticazione di appartenere a una community globale che combina educazione, viaggi, privilegi e opportunità di business, con benefici quantificati in oltre $10.400 USD all'anno.";
-$Products_price_02 = "Tutto per soli $449 USD.";
+$Products_text_02 = "Vivi la raffinatezza di appartenere a una comunità globale che combina istruzione, viaggi, privilegi e opportunità di business.";
+$Products_price_02 = "Tutto per soli $450 USD.";
 
 $Products_title_03 = "Silver";
 $Products_03 = "Esclusività";
 $Products_sub_03 = "The Beginning of Exclusivity – Membership Silver";
-$Products_text_03 = "Fai il primo passo verso l'evoluzione con accesso a benefici esclusivi in educazione, viaggi, privilegi e opportunità di business, con un valore annuo di oltre $13.650 USD.";
+$Products_text_03 = "Fai il tuo primo passo verso l’evoluzione con accesso a vantaggi esclusivi in istruzione, viaggi, privilegi e opportunità di business.";
 $Products_price_03 = "Tutto per soli $950 USD.";
 
 $Products_title_04 = "Black";
 $Products_04 = "Accesso completo";
 $Products_sub_04 = "Full Access Lifestyle – Membership Black";
-$Products_text_04 = "Il massimo livello di esclusività. Black è per chi cerca di vivere esperienze uniche, accedere a privilegi irripetibili e appartenere a un circolo d'élite. Con benefici valutati in oltre $32.150 USD all'anno.";
+$Products_text_04 = "Il massimo livello di esclusività. Black è per coloro che cercano esperienze uniche, privilegi irripetibili e l’appartenenza a un circolo d’élite.";
 $Products_price_04 = "Tutto per soli $1.997 USD.";
 
 

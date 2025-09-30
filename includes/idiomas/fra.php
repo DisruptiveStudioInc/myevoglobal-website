@@ -119,19 +119,19 @@ $Products_price_01 = "Texte ici";
 $Products_title_02 = "Gold";
 $Products_02 = "Croissance exclusive";
 $Products_sub_02 = "Croissance exclusive – Adhésion Premium";
-$Products_text_02 = "Vivez la sophistication de faire partie d'une communauté mondiale qui combine éducation, voyages, privilèges et opportunités commerciales, avec des avantages évalués à plus de 10 400 USD par an.";
-$Products_price_02 = "Tout pour seulement 449 USD.";
+$Products_text_02 = "Vivez le raffinement d’appartenir à une communauté mondiale qui combine éducation, voyages, privilèges et opportunités d’affaires.";
+$Products_price_02 = "Tout pour seulement 450 USD.";
 
 $Products_title_03 = "Silver";
 $Products_03 = "Exclusivité";
 $Products_sub_03 = "Le début de l’exclusivité – Adhésion Silver";
-$Products_text_03 = "Faites votre premier pas vers l’évolution avec un accès à des avantages exclusifs en éducation, voyages, privilèges et opportunités commerciales, avec une valeur annuelle de plus de 13 650 USD.";
+$Products_text_03 = "Faites votre premier pas vers l’évolution avec un accès à des avantages exclusifs dans l’éducation, les voyages, les privilèges et les opportunités d’affaires.";
 $Products_price_03 = "Tout pour seulement 950 USD.";
 
 $Products_title_04 = "Black";
 $Products_04 = "Accès complet";
 $Products_sub_04 = "Mode de vie Accès complet – Adhésion Black";
-$Products_text_04 = "Le niveau ultime d'exclusivité. Black est pour ceux qui souhaitent vivre des expériences uniques, accéder à des privilèges incomparables et appartenir à un cercle d’élite. Avec des avantages évalués à plus de 32 150 USD par an.";
+$Products_text_04 = "Le plus haut niveau d’exclusivité. Black est destiné à ceux qui recherchent des expériences uniques, des privilèges inégalés et l’appartenance à un cercle d’élite.";
 $Products_price_04 = "Tout pour seulement 1 997 USD.";
 
     //-------------------------//
