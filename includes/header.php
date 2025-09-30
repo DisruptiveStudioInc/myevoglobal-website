@@ -199,11 +199,12 @@
                                         $href  = $idioma_opcion[0];
                                         $class = $idioma_opcion[1];
                                         $text  = $idioma_opcion[2];
-                                        echo "<a class='$class' href='$href' target='_blank' >$text</a>";
+                                        echo "<a class='$class' href='$href?ref=' target='_blank' >$text</a>";
                                     }
                                     ?>
                                 </div>
                             </li>
+                            <?php if isset($user_replica) : ?>
                             <li class="sub-evo rel d-none med-d-block">
                                 <div class="btn-lan btn-login btn c-ter br-30"><?php echo $Menu_reg; ?></div>
                                 <div class="lan">
@@ -212,11 +213,12 @@
                                       $href  = $idioma_opcion[0];
                                       $class = $idioma_opcion[1];
                                       $text  = $idioma_opcion[2];
-                                      echo "<a class='$class' href='$href' target='_blank' >$text</a>";
+                                      echo "<a class='$class' href='$href?ref=$user_replica' target='_blank' >$text</a>";
                                     }
                                   ?>
                                 </div>
                             </li>
+                            <?php endif; ?>
                         </ul>
                     </div>
 
@@ -247,6 +249,7 @@
                                     ?>
                                 </div>
                             </div>
+                            <?php if isset($user_replica) : ?>
                             <div class="rel">
                                 <div class="btn-lan btn-login btn c-ter br-30"><?php echo $Menu_reg; ?></div>
                                 <div class="lan">
@@ -255,11 +258,12 @@
                                             $href  = $idioma_opcion[0];
                                             $class = $idioma_opcion[1];
                                             $text  = $idioma_opcion[2];
-                                            echo "<a class='$class' href='$href' target='_blank' >$text</a>";
+                                            echo "<a class='$class' href='$href?ref=$user_replica' target='_blank' >$text</a>";
                                         }
                                     ?>
                                 </div>
                             </div>
+                            <?php endif; ?>
                         </div>
                         <div class="hamburguer">
                             <span></span>
