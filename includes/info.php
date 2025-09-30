@@ -137,7 +137,7 @@ $links_product = [
       'class' => 'arg',
       'label' => $Buy . $Idioma_ar,
       'text'  => $Idioma_ar,
-      'show_in' => ['gold', 'silver', 'black']
+      'show_in' => ['gold', 'black']
     ],*/
     /*[
       'url'   => $link_web_ve . "/product/",
