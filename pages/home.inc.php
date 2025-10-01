@@ -270,8 +270,6 @@ foreach ($Modal as $item){
 	    array('12','Fran Paz',''),
 	    array('13','Jazmín García',''),
 	    array('14','Jesús Barajas',''),
-	    array('15','Kevin Díaz',''),
-      array('16','Kevin Zambrano',''),
 	);
 	?>
 
@@ -293,18 +291,20 @@ foreach ($Modal as $item){
 	<?php
 	// Segundo bloque de 15 nombres
 	$Gente_izquierda = array(
+      array('15','Kevin Díaz',''),
+      array('16','Kevin Zambrano',''),
 	    array('17','Laura Cioccia',''),
 	    array('18','Lucy Ugalde',''),
 	    array('19','Luimer González',''),
 	    array('20','Luis Velásquez',''),
 	    array('21','Lytzi Rodríguez',''),
-	    array('22','María José Serrano',''),
+	    // array('22','María José Serrano',''),
 	    array('23','Mario González',''),
 	    array('24','Michell Hdz',''),
 	    array('25','Miguel González',''),
 	    array('26','Miroslava Mancilla',''),
-	    array('27','Sebastián Moreno',''),
-	    array('28','Sebastián Sossa',''),
+	    // array('27','Sebastián Moreno',''),
+	    // array('28','Sebastián Sossa',''),
 	    array('29','Tania Moya',''),
 	    array('30','Yasser Mohamed','')
 	);
