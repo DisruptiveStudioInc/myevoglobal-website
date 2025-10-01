@@ -139,13 +139,13 @@ $links_product = [
       'text'  => $Idioma_ar,
       'show_in' => ['gold']
     ],
-    /*[
+    [
       'url'   => $link_web_ve . "/product/",
       'class' => 'col',
       'label' => $Buy . $Idioma_ve,
       'text'  => $Idioma_ve,
       'show_in' => ['gold', 'silver', 'black']
-    ],*/
+    ],
     [
       'url'   => $link_web_eu . "/product/",
       'class' => 'eur',
@@ -208,12 +208,12 @@ $links = [
         'label' => $Buy . $Idioma_ar,
         'text'  => $Idioma_ar
     ],
-    /*[
+    [
         'url'   => $link_web_ve . "/product-category/evolver-plans/",
         'class' => 'ven',
         'label' => $Buy . $Idioma_ve,
         'text'  => $Idioma_ve
-    ],*/
+    ],
     [
         'url'   => $link_web_eu . "/product-category/evolver-plans/",
         'class' => 'eur',
@@ -269,7 +269,7 @@ $Sub_shop = array(
     array($link_Shop_al,'ale','GER'),
     //array($link_Shop_no,'nor','NOR'),
     array($link_Shop_ar,'arg','ARG'),
-    //array($link_Shop_ve,'ven','VEN'),
+    array($link_Shop_ve,'ven','VEN'),
     array($link_Shop_eu,'eur','BAL'),
     array($link_Shop_in,'int','INT')
 );
