@@ -144,7 +144,7 @@ $links_product = [
       'class' => 'col',
       'label' => $Buy . $Idioma_ve,
       'text'  => $Idioma_ve,
-      'show_in' => ['gold', 'silver', 'black']
+      'show_in' => ['gold']
     ],
     [
       'url'   => $link_web_eu . "/product/",
