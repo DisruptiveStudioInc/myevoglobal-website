@@ -65,14 +65,22 @@ $link_web_in   = "https://int.myevoglobal.com";
 $link_login_us = "https://usa.myevoglobal.com/my-account/";
 $link_login_mx = "https://mex.myevoglobal.com/my-account/";
 $link_login_co = "https://col.myevoglobal.com/my-account/";
+$link_login_sp = "https://esp.myevoglobal.com/my-account/";
 $link_login_al = "https://ger.myevoglobal.com/my-account/";
+$link_login_no = "https://nor.myevoglobal.com/my-account/";
+$link_login_ar = "https://arg.myevoglobal.com/my-account/";
+$link_login_ve = "https://ven.myevoglobal.com/my-account/";
 $link_login_eu = "https://eur.myevoglobal.com/my-account/";
 $link_login_in = "https://int.myevoglobal.com/my-account/";
 
 $link_register_us = "https://usa.myevoglobal.com/register/";
 $link_register_mx = "https://mex.myevoglobal.com/register/";
 $link_register_co = "https://col.myevoglobal.com/register/";
+$link_register_sp = "https://esp.myevoglobal.com/register/";
 $link_register_al = "https://ger.myevoglobal.com/register/";
+$link_register_no = "https://nor.myevoglobal.com/register/";
+$link_register_ar = "https://arg.myevoglobal.com/register/";
+$link_register_ve = "https://ven.myevoglobal.com/register/";
 $link_register_eu = "https://eur.myevoglobal.com/register/";
 $link_register_in = "https://int.myevoglobal.com/register/";
 
@@ -142,7 +150,7 @@ $links_product = [
     ],
     [
       'url'   => $link_web_ve . "/product/",
-      'class' => 'col',
+      'class' => 'ven',
       'label' => $Buy . $Idioma_ve,
       'text'  => $Idioma_ve,
       'show_in' => ['gold']
@@ -302,7 +310,11 @@ $Sub_login = array(
     array($link_login_us,'eng','USA'),
     array($link_login_mx,'esp','MEX'),
     array($link_login_co,'col','COL'),
+    array($link_login_sp,'spa','ESP'),
     array($link_login_al,'ale','GER'),
+    // array($link_login_no,'nor','NOR'),
+    array($link_login_ar,'arg','ARG'),
+    array($link_login_ve,'ven','VEN'),
     array($link_login_eu,'eur','BAL'),
     array($link_login_in,'int','INT')
 );
@@ -315,7 +327,11 @@ $Sub_register = array(
     array($link_register_us,'eng','USA'),
     array($link_register_mx,'esp','MEX'),
     array($link_register_co,'col','COL'),
+    array($link_register_sp,'spa','ESP'),
     array($link_register_al,'ale','GER'),
+    // array($link_register_no,'nor','NOR'),
+    array($link_register_ar,'arg','ARG'),
+    array($link_register_ve,'ven','VEN'),
     array($link_register_eu,'eur','BAL'),
     array($link_register_in,'int','INT')
 );
