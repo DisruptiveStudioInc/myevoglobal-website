@@ -17,7 +17,7 @@ $Idioma_al = "Alemania";
 $Idioma_no = "Noruega";
 $Idioma_ar = "Argentina";
 $Idioma_ve = "Venezuela";
-$Idioma_eu = "Balcanes";
+$Idioma_eu = "Balkan";
 $Idioma_in = "Internacional";
 
     //-------------------------//

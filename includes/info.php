@@ -44,6 +44,7 @@ $link_04 = "black";
 // ---------------------------
 
 $ref = isset($user_replica) ? "?ref=$user_replica" : '';
+$refInner = isset($user_replica) ? "&ref=$user_replica" : '';
 $Register = "https://usa.myevoglobal.com/register/$ref";
 
 // ---------------------------
