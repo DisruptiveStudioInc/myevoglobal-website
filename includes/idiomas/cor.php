@@ -18,6 +18,8 @@ $Idioma_no = "노르웨이";
 $Idioma_ar = "아르헨티나";
 $Idioma_ve = "베네수엘라";
 $Idioma_eu = "Balkan";
+$Idioma_sv = "엘살바도르";
+$Idioma_hn = "온두라스";
 $Idioma_in = "국제";
 
 //-------------------------//

@@ -223,6 +223,8 @@
 .get a.arg::before { background-image: url('./../../images/flags/arg.svg'); }
 .get a.ven::before { background-image: url('./../../images/flags/ven.svg'); }
 .get a.eur::before { background-image: url('./../../images/flags/eur.svg'); }
+.get a.sal::before { background-image: url('./../../images/flags/sal.svg'); }
+.get a.hon::before { background-image: url('./../../images/flags/hon.svg'); }
 .get a.int::before { background-image: url('./../../images/flags/int.svg'); }
 
 /* --- GET MOBILE --- */
@@ -417,6 +419,8 @@
 .lan a.col::before { background-image: url('./../../images/flags/col.svg'); }
 .lan a.ven::before { background-image: url('./../../images/flags/ven.svg'); }
 .lan a.eur::before { background-image: url('./../../images/flags/eur.svg'); }
+.lan a.sal::before { background-image: url('./../../images/flags/sal.svg'); }
+.lan a.hon::before { background-image: url('./../../images/flags/hon.svg'); }
 .lan a.int::before { background-image: url('./../../images/flags/int.svg'); }
 
 .btn-shop.btn-lan,

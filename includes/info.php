@@ -60,6 +60,8 @@ $link_web_no   = "https://nor.myevoglobal.com";
 $link_web_ar   = "https://arg.myevoglobal.com";
 $link_web_ve   = "https://ven.myevoglobal.com";
 $link_web_eu   = "https://eur.myevoglobal.com";
+$link_web_sv   = "https://sv.myevoglobal.com";
+$link_web_hn   = "https://hn.myevoglobal.com";
 $link_web_in   = "https://int.myevoglobal.com";
 
 $link_login_us = "https://usa.myevoglobal.com/my-account/";
@@ -71,6 +73,8 @@ $link_login_no = "https://nor.myevoglobal.com/my-account/";
 $link_login_ar = "https://arg.myevoglobal.com/my-account/";
 $link_login_ve = "https://ven.myevoglobal.com/my-account/";
 $link_login_eu = "https://eur.myevoglobal.com/my-account/";
+$link_login_sv = "https://sv.myevoglobal.com/my-account/";
+$link_login_hn = "https://hn.myevoglobal.com/my-account/";
 $link_login_in = "https://int.myevoglobal.com/my-account/";
 
 $link_register_us = "https://usa.myevoglobal.com/register/";
@@ -82,6 +86,8 @@ $link_register_no = "https://nor.myevoglobal.com/register/";
 $link_register_ar = "https://arg.myevoglobal.com/register/";
 $link_register_ve = "https://ven.myevoglobal.com/register/";
 $link_register_eu = "https://eur.myevoglobal.com/register/";
+$link_register_sv = "https://sv.myevoglobal.com/register/";
+$link_register_hn = "https://hn.myevoglobal.com/register/";
 $link_register_in = "https://int.myevoglobal.com/register/";
 
 $link_Shop_us  = "$link_web_us/$ref";
@@ -93,6 +99,8 @@ $link_Shop_no  = "$link_web_no/$ref";
 $link_Shop_ar  = "$link_web_ar/$ref";
 $link_Shop_ve  = "$link_web_ve/$ref";
 $link_Shop_eu  = "$link_web_eu/$ref";
+$link_Shop_sv  = "$link_web_sv/$ref";
+$link_Shop_hn  = "$link_web_hn/$ref";
 $link_Shop_in  = "$link_web_in/$ref";
 
 // ---------------------------
@@ -163,6 +171,20 @@ $links_product = [
       'show_in' => ['black']
     ],
     [
+      'url'   => $link_web_sv . "/product/",
+      'class' => 'sal',
+      'label' => $Buy . $Idioma_sv,
+      'text'  => $Idioma_sv,
+      'show_in' => ['gold', 'silver', 'black']
+    ],
+    [
+      'url'   => $link_web_hn . "/product/",
+      'class' => 'hon',
+      'label' => $Buy . $Idioma_hn,
+      'text'  => $Idioma_hn,
+      'show_in' => ['gold', 'silver', 'black']
+    ],
+    [
       'url'   => $link_web_in . "/product/",
       'class' => 'int',
       'label' => $Buy . $Idioma_in,
@@ -230,6 +252,18 @@ $links = [
         'text'  => $Idioma_eu
     ],
     [
+        'url'   => $link_web_sv . "/product-category/evolver-plans/",
+        'class' => 'sal',
+        'label' => $Buy . $Idioma_sv,
+        'text'  => $Idioma_sv
+    ],
+    [
+        'url'   => $link_web_hn . "/product-category/evolver-plans/",
+        'class' => 'hon',
+        'label' => $Buy . $Idioma_hn,
+        'text'  => $Idioma_hn
+    ],
+    [
         'url'   => $link_web_in . "/product-category/evolver-plans/",
         'class' => 'int',
         'label' => $Buy . $Idioma_in,
@@ -280,6 +314,8 @@ $Sub_shop = array(
     array($link_Shop_ar,'arg','ARG'),
     array($link_Shop_ve,'ven','VEN'),
     array($link_Shop_eu,'eur','BAL'),
+    array($link_Shop_sv,'sal','SLV'),
+    array($link_Shop_hn,'hon','HND'),
     array($link_Shop_in,'int','INT')
 );
 
@@ -316,6 +352,8 @@ $Sub_login = array(
     array($link_login_ar,'arg','ARG'),
     array($link_login_ve,'ven','VEN'),
     array($link_login_eu,'eur','BAL'),
+    array($link_login_sv,'sal','SLV'),
+    array($link_login_hn,'hon','HND'),
     array($link_login_in,'int','INT')
 );
 
@@ -333,6 +371,8 @@ $Sub_register = array(
     array($link_register_ar,'arg','ARG'),
     array($link_register_ve,'ven','VEN'),
     array($link_register_eu,'eur','BAL'),
+    array($link_register_sv,'sal','SLV'),
+    array($link_register_hn,'hon','HND'),
     array($link_register_in,'int','INT')
 );
 
