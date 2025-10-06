@@ -134,13 +134,13 @@ $links_product = [
       'text'  => $Idioma_al,
       'show_in' => ['black']
     ],
-    /*[
+    [
       'url'   => $link_web_no . "/product/",
       'class' => 'nor',
       'label' => $Buy . $Idioma_no,
       'text'  => $Idioma_no,
       'show_in' => ['black']
-    ],*/
+    ],
     [
       'url'   => $link_web_ar . "/product/",
       'class' => 'arg',
@@ -205,12 +205,12 @@ $links = [
         'label' => $Buy . $Idioma_al,
         'text'  => $Idioma_al
     ],
-    /*[
+    [
         'url'   => $link_web_no . "/product-category/evolver-plans/",
         'class' => 'nor',
         'label' => $Buy . $Idioma_no,
         'text'  => $Idioma_no
-    ],*/
+    ],
     [
         'url'   => $link_web_ar . "/product-category/evolver-plans/",
         'class' => 'arg',
@@ -276,7 +276,7 @@ $Sub_shop = array(
     array($link_Shop_co,'col','COL'),
     array($link_Shop_sp,'spa','ESP'),
     array($link_Shop_al,'ale','GER'),
-    //array($link_Shop_no,'nor','NOR'),
+    array($link_Shop_no,'nor','NOR'),
     array($link_Shop_ar,'arg','ARG'),
     array($link_Shop_ve,'ven','VEN'),
     array($link_Shop_eu,'eur','BAL'),
@@ -312,7 +312,7 @@ $Sub_login = array(
     array($link_login_co,'col','COL'),
     array($link_login_sp,'spa','ESP'),
     array($link_login_al,'ale','GER'),
-    // array($link_login_no,'nor','NOR'),
+    array($link_login_no,'nor','NOR'),
     array($link_login_ar,'arg','ARG'),
     array($link_login_ve,'ven','VEN'),
     array($link_login_eu,'eur','BAL'),
@@ -329,7 +329,7 @@ $Sub_register = array(
     array($link_register_co,'col','COL'),
     array($link_register_sp,'spa','ESP'),
     array($link_register_al,'ale','GER'),
-    // array($link_register_no,'nor','NOR'),
+    array($link_register_no,'nor','NOR'),
     array($link_register_ar,'arg','ARG'),
     array($link_register_ve,'ven','VEN'),
     array($link_register_eu,'eur','BAL'),
