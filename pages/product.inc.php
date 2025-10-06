@@ -175,7 +175,6 @@ $Condicion_link =
             <div class="info w-50 med-w-100 all-tc-0 small-t-c">
                 <h1 class="h1-special"><?php echo $Subtitulo; ?></h1>
                 <p class="small-d-none"><?php echo $Text; ?></p>
-                <p class="h3"><?php echo $Price; ?></p>
 
                 <div class="btns g-10 small-jc-center">
                     <?php
