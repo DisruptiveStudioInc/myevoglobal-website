@@ -8,7 +8,7 @@
             <div class="mw-1440">
 
 
-             
+
                 <div class="med-fd-col g-30 jc-between">
                     <div class="w-50 t-c fd-col small-w-100">
                         <img src="./images/logo/logo.svg" class="mw-200 med-m-center" alt="logo evo">
@@ -42,7 +42,7 @@
                 <p><?php echo $Footer_Rights; ?></p>
                 </div>
             </div>
-        </footer>		
+        </footer>
 
 		<!-- ============================================== -->
 	    <!-- SCRIPTS -->
@@ -50,6 +50,9 @@
 
 	    <script src="./js/lozad.min.js"></script>
 	    <script src="./js/script.js"></script>
+      <script>
+        console.log('Country: <?php if(isset($_SERVER['HTTP_CF_IPCOUNTRY'])){echo $_SERVER['HTTP_CF_IPCOUNTRY'];}?>')
+      </script>
 
 	</body>
 </html>
