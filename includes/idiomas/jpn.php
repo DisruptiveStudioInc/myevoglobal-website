@@ -121,11 +121,12 @@ $Slogan_text = "20,000以上のレッスン完了。5,000以上のアクティ�
     //-------------------------//
 
 
-$Products_title_01 = "パープル";
+$Products_title_01 = "VIP Purple";
 $Products_01 = "フルアクセス";
-$Products_sub_01 = "ここにテキスト";
-$Products_text_01 = "ここにテキスト";
-$Products_price_01 = "ここにテキスト";
+$Products_sub_01 = "旅の始まり – Purple メンバーシップ";
+$Products_modal_01 = "教育・コミュニティ・体験の入門特典にアクセスし、EVOの世界とつながる進化の道を歩み始めましょう。";
+$Products_text_01 = "あなたの成長を促し、新しいチャンスとつながり、初日から可能性を引き出すコミュニティの中で進化の始まりを体験してください。";
+$Products_price_01 = "すべてわずか $ USD。";
 
 $Products_title_02 = "ゴールド";
 $Products_02 = "エクスクルーシブ成長";
@@ -195,6 +196,14 @@ $Spirit_text_03 = "最先端の教育とグローバルネットワークを融�
 
 $Traits_title = "Evo global：夢を成果に、進化を自由に変える";
 
+$Ingredients_01 = "進化 VIP Purple";
+$Ingredients_01_01 = "教育";
+$Ingredients_01_02 = "成長";
+$Ingredients_01_03 = "旅行";
+$Ingredients_01_04 = "機会";
+$Ingredients_01_05 = "コミュニティ";
+$Ingredients_01_06 = "ウェルビーイング";
+
 $Ingredients_02 = "ゴールド進化";
 $Ingredients_02_01 = "教育";
 $Ingredients_02_02 = "成長";
@@ -226,6 +235,16 @@ $Ingredients_04_06 = "ウェルビーイング";
 
 
 $Benefits = "特典";
+
+$Benefits_sub_01 = "あなたの進化を後押しする独自の特典";
+$Benefits_01_tit_01 = "メンバーシップ日数";
+$Benefits_01_01 = "PURPLEメンバーになり、<span class='fw-700'>30</span>日間の特典、報酬、そして独自の特権をお楽しみください。";
+$Benefits_01_tit_02 = "ダイヤモンド報酬";
+$Benefits_01_02 = "<span class='fw-700'>1</span>つのダイヤモンド報酬を獲得しましょう。あなたの成長は輝く価値があります。EVOユニバース内の特別な体験や報酬と交換できます。";
+$Benefits_01_tit_03 = "ファストスタートボーナス";
+$Benefits_01_03 = "新しいメンバーの成長を支援したスポンサーに対し、<span class='fw-700'>$25</span>の報酬を授与します。";
+$Benefits_01_tit_04 = "ビジネスボリューム BV";
+$Benefits_01_04 = "<span class='fw-700'>175</span> — このボリュームはあなたの進歩を加速させ、EVO報酬プランの新たな目標に近づけます。";
 
 $Benefits_sub_02 = "あなたの進化を促進する排他性";
 $Benefits_02_tit_01 = "EVOジェット";
@@ -260,6 +279,24 @@ $Benefits_04_04 = "プレミアム教育と実践的トレーディングで12�
     //-------------------------//
     // Started
     //-------------------------//
+
+
+$Satarted_title_01 = "VIP Purple メンバーシップを有効化";
+$Satarted_sub_01 = "EVOエコシステムへの最初の一歩。";
+$Satarted_title_01_01 = "独自性がEVOlutionへと変わるメンバーシップ";
+$Satarted_list_01_01 = "30日間有効なアクティブメンバーシップ";
+$Satarted_list_01_02 = "175 BV（ビジネスボリューム）— 初月のみ";
+$Satarted_list_01_03 = "スポンサーに直接支払われる$25ファストスタートボーナス";
+$Satarted_list_01_04 = "1つのダイヤモンド報酬";
+
+$Satarted_title_link_01_01 = "成長を加速させよう";
+$Satarted_title_link_01_02 = "VIP PURPLEメンバーシップを有効化して、EVOコミュニティ内で収入・イノベーション・特別な体験の独自エコシステムを築きましょう。";
+$Satarted_title_link_01_03 = "限界のないEVOlution";
+$Satarted_title_link_01_04 = "あなたのメンバーシップは単なるアクセスではありません。それはリーダーシップの始まりです。収入を生み出し、影響を与え、未来を変えるコミュニティと共に成長しましょう。";
+
+$Satarted_subpage_01 = "あなたの進化は VIP PURPLE から始まります";
+
+//-------------------------//
 
 $Satarted_title_02 = "ゴールドメンバーシップを有効化";
 $Satarted_sub_02 = "排他性、教育、プレミアム体験を1つのエコシステムで。";

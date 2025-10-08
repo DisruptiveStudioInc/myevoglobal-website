@@ -155,7 +155,7 @@ $Modal = array(
 	array(
 		$Products_title_01,
 		$Products_sub_01,
-		$Products_text_01
+		$Products_modal_01
 	),
 	array(
 		$Products_title_02,

@@ -132,11 +132,12 @@ $Slogan_text = "完成超过 20,000 节课程。活跃用户超过 5,000 人。<
 
 
 
-$Products_title_01 = "紫色";
-$Products_01 = "完全访问";
-$Products_sub_01 = "此处文本";
-$Products_text_01 = "此处文本";
-$Products_price_01 = "此处文本";
+$Products_title_01 = "VIP Purple";
+$Products_01 = "完整访问权限";
+$Products_sub_01 = "旅程的开始 – Purple会员";
+$Products_modal_01 = "开启你的进化之路，享受在教育、社区和体验方面的入门级福利，让你与EVO世界相连。";
+$Products_text_01 = "体验你的进化之始，在一个推动你成长、连接新机遇并从第一天就激发你潜能的社区中前行。";
+$Products_price_01 = "全部仅需 $ USD。";
 
 $Products_title_02 = "金色";
 $Products_02 = "专属成长";
@@ -216,6 +217,13 @@ $Traits_title = "Evo 全球：将梦想转化为成就，将进化转化为自�
     // Ingredients
     //-------------------------//
 
+$Ingredients_01 = "进化 VIP Purple";
+$Ingredients_01_01 = "教育";
+$Ingredients_01_02 = "成长";
+$Ingredients_01_03 = "旅行";
+$Ingredients_01_04 = "机会";
+$Ingredients_01_05 = "社区";
+$Ingredients_01_06 = "福祉";
 
 $Ingredients_02 = "金色进化";
 $Ingredients_02_01 = "教育";
@@ -248,6 +256,16 @@ $Ingredients_04_06 = "福祉";
 
 
 $Benefits = "福利";
+
+$Benefits_sub_01 = "推动你进化的专属体验";
+$Benefits_01_tit_01 = "会员天数";
+$Benefits_01_01 = "成为PURPLE会员，享受<span class='fw-700'>30</span>天的福利、奖励和专属特权。";
+$Benefits_01_tit_02 = "钻石奖励";
+$Benefits_01_02 = "获得<span class='fw-700'>1</span>个钻石奖励，因为你的成长值得闪耀。可在EVO宇宙中兑换专属体验和奖励。";
+$Benefits_01_tit_03 = "快速启动奖金";
+$Benefits_01_03 = "赞助人可获得<span class='fw-700'>$25</span>的奖励，以支持新会员的成长。";
+$Benefits_01_tit_04 = "业务量 BV";
+$Benefits_01_04 = "<span class='fw-700'>175</span>，该业务量推动你的进步，并让你更接近EVO奖励计划中的新目标。";
 
 $Benefits_sub_02 = "推动你进化的独特特权";
 $Benefits_02_tit_01 = "EVO 私人飞机";
@@ -284,6 +302,22 @@ $Benefits_04_04 = "12 个月高级教育和交易体验。";
     // Started
     //-------------------------//
 
+$Satarted_title_01 = "激活你的 VIP Purple 会员";
+$Satarted_sub_01 = "踏入EVO生态系统的第一步。";
+$Satarted_title_01_01 = "让专属体验成为EVO进化的会员计划";
+$Satarted_list_01_01 = "会员有效期为30天";
+$Satarted_list_01_02 = "175 BV（业务量），仅限首月";
+$Satarted_list_01_03 = "$25快速启动奖金，直接发给赞助人";
+$Satarted_list_01_04 = "奖励1个钻石奖励";
+
+$Satarted_title_link_01_01 = "加速你的成长";
+$Satarted_title_link_01_02 = "激活你的VIP PURPLE会员，开始在EVO社区中建立属于你自己的收入、创新和专属体验生态系统。";
+$Satarted_title_link_01_03 = "无限进化";
+$Satarted_title_link_01_04 = "你的会员资格不仅仅是访问权限：它是你领导力的起点，让你创造收入、激发影响力，并与改变未来的社区共同成长。";
+
+$Satarted_subpage_01 = "你的进化从 VIP PURPLE 开始";
+
+//-------------------------//
 
 $Satarted_title_02 = "激活你的金会员";
 $Satarted_sub_02 = "在一个生态系统中享受独特性、教育和高级体验。";

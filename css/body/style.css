@@ -1997,7 +1997,7 @@ ul.textos li span img {
 
 .alreves .item {
   left: auto;
-  right: max(calc(var(--ancho) * var(---total-items)), 100%);
+  right: max(calc(var(--ancho) * var(--total-items)), 100%);
   animation-name: scrollRight;
 }
 

@@ -84,11 +84,12 @@ $Vision_text_03 = "결과를 강화하는 혁신과 연결하세요.";
 $Slogan_title = "다중 플랫폼 멤버십으로 연결, 수천 명이 이미 현실을 변화시키고 있습니다";
 $Slogan_text = "20,000+ 완료된 수업. 5,000+ 활성 사용자.<br>변화의 일부가 될 준비가 되셨나요?";
 
-$Products_title_01 = "퍼플";
-$Products_01 = "전체 접근";
-$Products_sub_01 = "여기에 텍스트";
-$Products_text_01 = "여기에 텍스트";
-$Products_price_01 = "여기에 텍스트";
+$Products_title_01 = "VIP Purple";
+$Products_01 = "전체 액세스";
+$Products_sub_01 = "여정의 시작 – Purple 회원권";
+$Products_modal_01 = "교육, 커뮤니티, 그리고 EVO 세계와 연결되는 다양한 체험의 입문 혜택으로 당신의 진화 여정을 시작하세요.";
+$Products_text_01 = "성장을 촉진하고 새로운 기회를 연결하며 첫날부터 잠재력을 활성화하는 커뮤니티 안에서 당신의 진화를 시작하세요.";
+$Products_price_01 = "모두 단 $ USD에 이용할 수 있습니다.";
 
 $Products_title_02 = "골드";
 $Products_02 = "독점 성장";
@@ -137,6 +138,14 @@ $Spirit_text_03 = "최첨단 교육과 글로벌 네트워크를 결합하여 �
 
 $Traits_title = "Evo 글로벌: 꿈을 성취로, 진화를 자유로 바꾸다";
 
+$Ingredients_01 = "진화 VIP Purple";
+$Ingredients_01_01 = "교육";
+$Ingredients_01_02 = "성장";
+$Ingredients_01_03 = "여행";
+$Ingredients_01_04 = "기회";
+$Ingredients_01_05 = "커뮤니티";
+$Ingredients_01_06 = "웰빙";
+
 $Ingredients_02 = "골드 진화";
 $Ingredients_02_01 = "교육";
 $Ingredients_02_02 = "성장";
@@ -162,6 +171,16 @@ $Ingredients_04_05 = "엘리트";
 $Ingredients_04_06 = "웰빙";
 
 $Benefits = "혜택";
+
+$Benefits_sub_01 = "당신의 진화를 이끄는 독점 혜택";
+$Benefits_01_tit_01 = "회원 기간";
+$Benefits_01_01 = "PURPLE 회원이 되어 <span class='fw-700'>30</span>일 동안의 혜택, 보상 및 독점성을 누리세요.";
+$Benefits_01_tit_02 = "다이아몬드 리워드";
+$Benefits_01_02 = "<span class='fw-700'>1</span>개의 다이아몬드 리워드를 받아보세요. 당신의 성장은 빛날 자격이 있습니다. EVO 유니버스 내의 독점 경험과 보상으로 교환할 수 있습니다.";
+$Benefits_01_tit_03 = "빠른 시작 보너스";
+$Benefits_01_03 = "새로운 회원의 성장을 지원하는 스폰서에게 <span class='fw-700'>$25</span> 보너스를 지급합니다.";
+$Benefits_01_tit_04 = "비즈니스 볼륨 BV";
+$Benefits_01_04 = "<span class='fw-700'>175</span>, 이 볼륨은 당신의 진전을 촉진하고 EVO 보상 계획 내의 새로운 목표에 한 걸음 더 다가가게 합니다.";
 
 $Benefits_sub_02 = "진화를 촉진하는 독점성";
 $Benefits_02_tit_01 = "EVO 제트";
@@ -192,6 +211,21 @@ $Benefits_04_tit_03 = "EVO 크루즈: 리더 여행";
 $Benefits_04_03 = "영감을 주는 리더와 연결하고 성장할 수 있는 독특한 경험.";
 $Benefits_04_tit_04 = "교육 & 트레이딩 (12개월)";
 $Benefits_04_04 = "프리미엄 교육과 트레이딩으로 12개월 진화.";
+
+$Satarted_title_01 = "VIP Purple 회원권 활성화";
+$Satarted_sub_01 = "EVO 생태계로 들어가는 첫걸음입니다.";
+$Satarted_title_01_01 = "독점성이 EVOlution으로 변하는 회원권";
+$Satarted_list_01_01 = "30일간 유효한 활성 회원권";
+$Satarted_list_01_02 = "175 BV (비즈니스 볼륨) — 첫 달 한정";
+$Satarted_list_01_03 = "스폰서에게 직접 지급되는 $25 빠른 시작 보너스";
+$Satarted_list_01_04 = "1개의 다이아몬드 리워드 보상";
+
+$Satarted_title_link_01_01 = "성장을 가속하세요";
+$Satarted_title_link_01_02 = "VIP PURPLE 회원권을 활성화하고 EVO 커뮤니티 내에서 수익, 혁신 및 독점 경험의 자신만의 생태계를 구축하세요.";
+$Satarted_title_link_01_03 = "한계 없는 진화";
+$Satarted_title_link_01_04 = "회원권은 단순한 접근 권한이 아닙니다. 그것은 리더십의 시작이며, 수익을 창출하고, 영향력을 발휘하며, 미래를 변화시키는 커뮤니티와 함께 성장하는 여정입니다.";
+
+$Satarted_subpage_01 = "당신의 진화는 VIP PURPLE로 시작됩니다";
 
 $Satarted_title_02 = "골드 멤버십 활성화";
 $Satarted_sub_02 = "독점성, 교육 및 프리미엄 경험을 하나의 생태계에서.";
