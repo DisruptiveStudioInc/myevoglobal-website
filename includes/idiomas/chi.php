@@ -133,7 +133,7 @@ $Slogan_text = "完成超过 20,000 节课程。活跃用户超过 5,000 人。<
 
 
 $Products_title_01 = "VIP Purple";
-$Products_01 = "完整访问权限";
+$Products_01 = "启动EVO";
 $Products_sub_01 = "旅程的开始 – Purple会员";
 $Products_modal_01 = "开启你的进化之路，享受在教育、社区和体验方面的入门级福利，让你与EVO世界相连。";
 $Products_text_01 = "体验你的进化之始，在一个推动你成长、连接新机遇并从第一天就激发你潜能的社区中前行。";
@@ -257,7 +257,7 @@ $Ingredients_04_06 = "福祉";
 
 $Benefits = "福利";
 
-$Benefits_sub_01 = "推动你进化的专属体验";
+$Benefits_sub_01 = "今天开始你的EVO之旅";
 $Benefits_01_tit_01 = "会员天数";
 $Benefits_01_01 = "成为PURPLE会员，享受<span class='fw-700'>30</span>天的福利、奖励和专属特权。";
 $Benefits_01_tit_02 = "钻石奖励";

@@ -113,7 +113,7 @@ $Slogan_text = "+20,000 lessons completed. +5,000 active users.<br>Are you ready
     //-------------------------//
 
 $Products_title_01 = "VIP Purple";
-$Products_01 = "Full Access";
+$Products_01 = "Start EVO";
 $Products_sub_01 = "The Beginning of the Journey – Purple Membership";
 $Products_modal_01 = "Begin your path of evolution with access to introductory benefits in education, community, and experiences that connect you with the EVO world.";
 $Products_text_01 = "Experience the beginning of your evolution within a community that drives your growth, connects you with new opportunities, and activates your potential from day one.";
@@ -224,7 +224,7 @@ $Ingredients_04_06 = "Well-being";
 
 $Benefits = "Benefits";
 
-$Benefits_sub_01 = "Exclusivity that drives your evolution";
+$Benefits_sub_01 = "Start your EVO journey today";
 $Benefits_01_tit_01 = "Membership days";
 $Benefits_01_01 = "Become a PURPLE member and enjoy <span class='fw-700'>30</span> days of benefits, rewards, and exclusivity.";
 $Benefits_01_tit_02 = "Diamond rewards";

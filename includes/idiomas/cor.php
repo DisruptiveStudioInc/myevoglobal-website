@@ -85,7 +85,7 @@ $Slogan_title = "다중 플랫폼 멤버십으로 연결, 수천 명이 이미 �
 $Slogan_text = "20,000+ 완료된 수업. 5,000+ 활성 사용자.<br>변화의 일부가 될 준비가 되셨나요?";
 
 $Products_title_01 = "VIP Purple";
-$Products_01 = "전체 액세스";
+$Products_01 = "EVO 시작";
 $Products_sub_01 = "여정의 시작 – Purple 회원권";
 $Products_modal_01 = "교육, 커뮤니티, 그리고 EVO 세계와 연결되는 다양한 체험의 입문 혜택으로 당신의 진화 여정을 시작하세요.";
 $Products_text_01 = "성장을 촉진하고 새로운 기회를 연결하며 첫날부터 잠재력을 활성화하는 커뮤니티 안에서 당신의 진화를 시작하세요.";
@@ -172,7 +172,7 @@ $Ingredients_04_06 = "웰빙";
 
 $Benefits = "혜택";
 
-$Benefits_sub_01 = "당신의 진화를 이끄는 독점 혜택";
+$Benefits_sub_01 = "오늘 당신의 EVO 여정을 시작하세요";
 $Benefits_01_tit_01 = "회원 기간";
 $Benefits_01_01 = "PURPLE 회원이 되어 <span class='fw-700'>30</span>일 동안의 혜택, 보상 및 독점성을 누리세요.";
 $Benefits_01_tit_02 = "다이아몬드 리워드";
