@@ -3,38 +3,38 @@
 <!-- ============================================== -->
 <?php
 $Subtitulo_map = [
-    /*$link_01     => $Products_title_01,*/
+    $link_01     => $Products_title_01,
     $link_02     => $Products_title_02,
     $link_03     => $Products_title_03,
     $link_04     => $Products_title_04
 ];
 
 $Text_map = [
-    /*$link_01     => $Products_text_01,*/
+    $link_01     => $Products_text_01,
     $link_02     => $Products_text_02,
     $link_03     => $Products_text_03,
     $link_04     => $Products_text_04
 ];
 
 $Text_price = [
-    /*$link_01     => $Products_price_01,*/
+    $link_01     => $Products_price_01,
     $link_02     => $Products_price_02,
     $link_03     => $Products_price_03,
     $link_04     => $Products_price_04
 ];
 
 $Ingredients_map = [
-    /*$link_01     => $Ingredients_01,*/
+    $link_01     => $Ingredients_01,
     $link_02     => $Ingredients_02,
     $link_03     => $Ingredients_03,
     $link_04     => $Ingredients_04
 ];
 
 $Ingredients_list_map = [
-    /*$link_01 => [
+    $link_01 => [
         $Ingredients_01_01, $Ingredients_01_02, $Ingredients_01_03,
         $Ingredients_01_04, $Ingredients_01_05, $Ingredients_01_06
-    ],*/
+    ],
     $link_02 => [
         $Ingredients_02_01, $Ingredients_02_02, $Ingredients_02_03,
         $Ingredients_02_04, $Ingredients_02_05, $Ingredients_02_06
@@ -50,9 +50,9 @@ $Ingredients_list_map = [
 ];
 
 $Benefits_list_map = [
-    /*$link_01 => [
+    $link_01 => [
         $Benefits_01_tit_01, $Benefits_01_01, $Benefits_01_02, $Benefits_01_03, $Benefits_01_04
-    ],*/
+    ],
     $link_02 => [
         $Benefits_02_tit_01, $Benefits_02_01, $Benefits_02_02, $Benefits_02_03, $Benefits_02_04
     ],
@@ -65,54 +65,54 @@ $Benefits_list_map = [
 ];
 
 $Benefits_sub_map = [
-    /*$link_01    => $Benefits_sub_01,*/
+    $link_01    => $Benefits_sub_01,
     $link_02    => $Benefits_sub_02,
     $link_03    => $Benefits_sub_03,
     $link_04    => $Benefits_sub_04
 ];
 
 $Benefits_titles_map = [
-    /*$link_01 => [$Benefits_01_tit_01, $Benefits_01_tit_02, $Benefits_01_tit_03, $Benefits_01_tit_04],*/
+    $link_01 => [$Benefits_01_tit_01, $Benefits_01_tit_02, $Benefits_01_tit_03, $Benefits_01_tit_04],
     $link_02 => [$Benefits_02_tit_01, $Benefits_02_tit_02, $Benefits_02_tit_03, $Benefits_02_tit_04],
     $link_03 => [$Benefits_03_tit_01, $Benefits_03_tit_02, $Benefits_03_tit_03, $Benefits_03_tit_04],
     $link_04 => [$Benefits_04_tit_01, $Benefits_04_tit_02, $Benefits_04_tit_03, $Benefits_04_tit_04]
 ];
 
 $Started_title_map = [
-    /*$link_01 => $Satarted_title_01,*/
+    $link_01 => $Satarted_title_01,
     $link_02 => $Satarted_title_02,
     $link_03 => $Satarted_title_03,
     $link_04 => $Satarted_title_04
 ];
 
 $Started_sub_map = [
-    /*$link_01 => $Satarted_sub_01,*/
+    $link_01 => $Satarted_sub_01,
     $link_02 => $Satarted_sub_02,
     $link_03 => $Satarted_sub_03,
     $link_04 => $Satarted_sub_04
 ];
 
 $Started_sub_tit = [
-    /*$link_01 => $Satarted_title_01_01,*/
+    $link_01 => $Satarted_title_01_01,
     $link_02 => $Satarted_title_02_01,
     $link_03 => $Satarted_title_03_01,
     $link_04 => $Satarted_title_04_01
 ];
 
 $Started_list_map = [
-    /*$link_01 => [$Satarted_list_01_01, $Satarted_list_01_02, $Satarted_list_01_03, $Satarted_list_01_04, $Satarted_list_01_05, $Satarted_list_01_06],*/
+    $link_01 => [$Satarted_list_01_01, $Satarted_list_01_02, $Satarted_list_01_03, $Satarted_list_01_04],
     $link_02 => [$Satarted_list_02_01, $Satarted_list_02_02, $Satarted_list_02_03, $Satarted_list_02_04, $Satarted_list_02_05, $Satarted_list_02_06],
     $link_03 => [$Satarted_list_03_01, $Satarted_list_03_02, $Satarted_list_03_03, $Satarted_list_03_04, $Satarted_list_03_05, $Satarted_list_03_06],
     $link_04 => [$Satarted_list_04_01, $Satarted_list_04_02, $Satarted_list_04_03, $Satarted_list_04_04, $Satarted_list_04_05, $Satarted_list_04_06]
 ];
 
 $Started_link_map = [
-    /*$link_01 => [
+    $link_01 => [
         $Satarted_title_link_01_01,
         $Satarted_title_link_01_02,
         $Satarted_title_link_01_03,
         $Satarted_title_link_01_04
-    ],*/
+    ],
     $link_02 => [
         $Satarted_title_link_02_01,
         $Satarted_title_link_02_02,
@@ -134,7 +134,7 @@ $Started_link_map = [
 ];
 
 $Started_subpage_map = [
-    /*$link_01 => $Satarted_subpage_01,*/
+    $link_01 => $Satarted_subpage_01,
     $link_02 => $Satarted_subpage_02,
     $link_03 => $Satarted_subpage_03,
     $link_04 => $Satarted_subpage_04
@@ -159,12 +159,13 @@ $Started_list     = $Started_list_map[$id]     ?? [];
 $Started_links    = $Started_link_map[$id]     ?? [];
 $Started_subpage  = $Started_subpage_map[$id]  ?? "";
 
-$Condicion     =($id == $link_01 || $id == $link_02)? 'tc-100':'';
+$Condicion     =($id == $link_02)? 'tc-100':'';
 
 $Condicion_link =
+    (($id == $link_01) ? "vip-purple" :
     (($id == $link_02) ? "evo-gold" :
     (($id == $link_03) ? "evo-silver" :
-    (($id == $link_04) ? "evo-black" : "")));
+    (($id == $link_04) ? "evo-black" : ""))));
 
 ?>
 
@@ -187,6 +188,9 @@ $Condicion_link =
                       //Verificar si el $id actual está en el array 'show_in'
                       if (!in_array($id, $link['show_in'])) {
                         continue; // Saltar este link si no debe mostrarse para el producto actual
+                      }
+                      if ($id === $link_01){
+                        $Condicion_link = $link['purple_link'];
                       }
                       $wrap_product .= "
                       <a href='{$link['url']}{$Condicion_link}{$ref}'

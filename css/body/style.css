@@ -13,6 +13,7 @@
   --color-ter-h: #9452ff;
   --color-acc-h: #9452ff;
 
+  --color-purple: #3d2ab8;
   --color-silver: #2e303b;
   --color-gold: #7f6e44;
   --color-black: #000000;
@@ -45,6 +46,9 @@
   background: var(--color-acc);
 }
 
+.c-purple {
+  background: var(--color-purple);
+}
 .c-silver {
   background: var(--color-silver);
 }
@@ -55,6 +59,13 @@
   background: var(--color-black);
 }
 
+.c-sub.purple {
+  background: radial-gradient(
+    circle,
+    rgb(115, 97, 230) 0%,
+    var(--color-purple) 100%
+  );
+}
 .c-sub.silver {
   background: radial-gradient(circle, white 0%, var(--color-silver) 100%);
 }
@@ -565,7 +576,7 @@ section {
   transition: all 250ms ease;
 }
 
-.wrap_products .box_product.img-one {
+/* .wrap_products .box_product.img-one {
   display: none;
 }
 .wrap_products .box_product.img-two {
@@ -576,13 +587,27 @@ section {
 }
 .wrap_products.fade-in .box_product.img-four {
   left: 72.5%;
-}
+} */
 
-/*.wrap_products .box_product.img-one { z-index: 3;}
-.wrap_products.fade-in .box_product.img-one   { top:30% ;left: 30%;}
-.wrap_products.fade-in .box_product.img-two   { top:30% ;left: 70%;}
-.wrap_products.fade-in .box_product.img-three { top:70% ;left: 30%;}
-.wrap_products.fade-in .box_product.img-four  { top:70% ;left: 70%;}*/
+.wrap_products .box_product.img-one {
+  z-index: 3;
+}
+.wrap_products.fade-in .box_product.img-one {
+  top: 30%;
+  left: 30%;
+}
+.wrap_products.fade-in .box_product.img-two {
+  top: 30%;
+  left: 70%;
+}
+.wrap_products.fade-in .box_product.img-three {
+  top: 70%;
+  left: 30%;
+}
+.wrap_products.fade-in .box_product.img-four {
+  top: 70%;
+  left: 70%;
+}
 
 img.product {
   width: 400px;
@@ -646,7 +671,7 @@ img.polvo {
   width: 50%;
 }
 
-.img_product_gold {
+/* .img_product_gold {
   opacity: 1;
 }
 .img_product_silver,
@@ -682,14 +707,13 @@ img.polvo {
 .box_product.img-four:hover ~ .img_product_silver {
   opacity: 0;
   transform: scale(1.1);
-}
+} */
 
-/*.img_product_purple {
+.img_product_purple {
   opacity: 1;
 }
 .img_product_gold,
-.img_product_silver
-.img_product_black{
+.img_product_silver .img_product_black {
   opacity: 0;
 }
 
@@ -704,7 +728,6 @@ img.polvo {
   transform: scale(1.1);
 }
 
-
 .box_product.img-two:hover ~ .img_product_gold {
   opacity: 1;
   transform: scale(1);
@@ -715,7 +738,6 @@ img.polvo {
   opacity: 0;
   transform: scale(1.1);
 }
-
 
 .box_product.img-three:hover ~ .img_product_silver {
   opacity: 1;
@@ -728,7 +750,6 @@ img.polvo {
   transform: scale(1.1);
 }
 
-
 .box_product.img-four:hover ~ .img_product_black {
   opacity: 1;
   transform: scale(1);
@@ -738,7 +759,7 @@ img.polvo {
 .box_product.img-four:hover ~ .img_product_purple {
   opacity: 0;
   transform: scale(1.1);
-}*/
+}
 
 .box_product img {
   transition: all 250ms ease;
@@ -754,7 +775,7 @@ img.polvo {
   background: var(--color-sec-h);
 }
 
-@media screen and (max-width: 1920px) {
+/* @media screen and (max-width: 1920px) {
   .wrap_products.fade-in .box_product.img-three {
     left: 20%;
   }
@@ -773,7 +794,7 @@ img.polvo {
   .wrap_products.fade-in .box_product.img-four {
     left: 80%;
   }
-}
+} */
 
 @media screen and (max-width: 1080px) {
   .content-scroll .box_product {
@@ -801,7 +822,7 @@ img.polvo {
   }
 
   .content-scroll .box_product.img-one {
-    background-image: url("./../../images/body/subpage/bg_purle.webp");
+    background-image: url("./../../images/body/subpage/bg_purple.webp");
   }
   .content-scroll .box_product.img-two {
     background-image: url("./../../images/body/subpage/bg_gold.webp");
@@ -904,6 +925,9 @@ img.polvo {
   background: var(--color-sec);
 }
 
+.text_spirit.purple div:hover {
+  background: var(--color-purple);
+}
 .text_spirit.gold div:hover {
   background: var(--color-gold);
 }
@@ -1699,6 +1723,9 @@ ul.textos li span img {
 /* Sprites */
 .v-custom.my_flags::before {
   background-image: url("../../images/body/sprite/flags.svg");
+}
+.v-custom.purple::before {
+  background-image: url("../../images/body/sprite/purple.svg");
 }
 .v-custom.gold::before {
   background-image: url("../../images/body/sprite/gold.svg");

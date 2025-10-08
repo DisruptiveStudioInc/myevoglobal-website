@@ -34,7 +34,7 @@ $Footer_Rights  = $Company_Name."© ".date("Y").". All rights reserved";
 // LINKS
 //-------------------------//
 
-/*$link_01 = "purple";*/
+$link_01 = "purple";
 $link_02 = "gold";
 $link_03 = "silver";
 $link_04 = "black";
@@ -112,84 +112,96 @@ $links_product = [
       'class' => 'eng',
       'label' => $Buy . $Idioma_us,
       'text'  => $Idioma_us,
-      'show_in' => ['gold', 'silver', 'black']
+      'show_in' => ['purple', 'gold', 'silver', 'black'],
+      'purple_link' => 'purple-2'
     ],
     [
       'url'   => $link_web_mx . "/product/",
       'class' => 'esp',
       'label' => $Buy . $Idioma_mx,
       'text'  => $Idioma_mx,
-      'show_in' => ['gold', 'silver', 'black']
+      'show_in' => ['purple', 'gold', 'silver', 'black'],
+      'purple_link' => 'purple'
     ],
     [
       'url'   => $link_web_co . "/product/",
       'class' => 'col',
       'label' => $Buy . $Idioma_co,
       'text'  => $Idioma_co,
-      'show_in' => ['gold', 'silver', 'black']
+      'show_in' => ['purple', 'gold', 'silver', 'black'],
+      'purple_link' => 'vip-purple'
     ],
     [
       'url'   => $link_web_sp . "/product/",
       'class' => 'spa',
       'label' => $Buy . $Idioma_sp,
       'text'  => $Idioma_sp,
-      'show_in' => ['gold']
+      'show_in' => ['purple', 'gold'],
+      'purple_link' => 'vip-purple'
     ],
     [
       'url'   => $link_web_al . "/product/",
       'class' => 'ale',
       'label' => $Buy . $Idioma_al,
       'text'  => $Idioma_al,
-      'show_in' => ['black']
+      'show_in' => ['purple', 'black'],
+      'purple_link' => 'vip-purple'
     ],
     [
       'url'   => $link_web_no . "/product/",
       'class' => 'nor',
       'label' => $Buy . $Idioma_no,
       'text'  => $Idioma_no,
-      'show_in' => ['black']
+      'show_in' => ['purple', 'black'],
+      'purple_link' => 'vip-purple'
     ],
     [
       'url'   => $link_web_ar . "/product/",
       'class' => 'arg',
       'label' => $Buy . $Idioma_ar,
       'text'  => $Idioma_ar,
-      'show_in' => ['gold']
+      'show_in' => ['purple', 'gold'],
+      'purple_link' => 'vip-purple'
     ],
     [
       'url'   => $link_web_ve . "/product/",
       'class' => 'ven',
       'label' => $Buy . $Idioma_ve,
       'text'  => $Idioma_ve,
-      'show_in' => ['gold']
+      'show_in' => ['purple', 'gold'],
+      'purple_link' => 'vip-purple'
     ],
     [
       'url'   => $link_web_eu . "/product/",
       'class' => 'eur',
       'label' => $Buy . $Idioma_eu,
       'text'  => $Idioma_eu,
-      'show_in' => ['black']
+      'show_in' => ['purple', 'black'],
+      'purple_link' => 'vip-purple'
     ],
     [
       'url'   => $link_web_sv . "/product/",
       'class' => 'sal',
       'label' => $Buy . $Idioma_sv,
       'text'  => $Idioma_sv,
-      'show_in' => ['gold', 'silver', 'black']
+      'show_in' => ['purple', 'gold', 'silver', 'black'],
+      'purple_link' => 'vip-purple'
     ],
     [
       'url'   => $link_web_hn . "/product/",
       'class' => 'hon',
       'label' => $Buy . $Idioma_hn,
       'text'  => $Idioma_hn,
-      'show_in' => ['gold', 'silver', 'black']
+      'show_in' => ['purple', 'gold', 'silver', 'black'],
+      'purple_link' => 'vip-purple'
     ],
     [
       'url'   => $link_web_in . "/product/",
       'class' => 'int',
       'label' => $Buy . $Idioma_in,
       'text'  => $Idioma_in,
-      'show_in' => ['gold', 'silver', 'black']
+      'show_in' => ['purple', 'gold', 'silver', 'black'],
+      'purple_link' => 'evo-purple'
     ]
 ];
 
@@ -297,7 +309,7 @@ $Menu = array(
 
 $Sub = array(
     array($Menu_03, array(
-        /*array($link_01, $Products_title_01, $Products_01),*/
+        array($link_01, $Products_title_01, $Products_01),
         array($link_02, $Products_title_02, $Products_02),
         array($link_03, $Products_title_03, $Products_03),
         array($link_04, $Products_title_04, $Products_04)

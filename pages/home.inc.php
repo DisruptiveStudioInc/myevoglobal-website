@@ -152,11 +152,11 @@
 
 <?php
 $Modal = array(
-	/*array(
+	array(
 		$Products_title_01,
 		$Products_sub_01,
 		$Products_text_01
-	),*/
+	),
 	array(
 		$Products_title_02,
 		$Products_sub_02,
@@ -174,20 +174,18 @@ $Modal = array(
 	)
 );
 
-$counter = 2;
-
-foreach ($Modal as $item){
+foreach ($Modal as $k => $item){
+  $modalNum = $k+1;
 	echo "
-	<div id='Modal{$counter}' class='modal'>
+	<div id='Modal{$modalNum}' class='modal'>
 	<div class='modal-content rel t-c'>
-	<span class='v-white c-pri icon icon-close' onclick=\"closeModal('Modal{$counter}')\"></span>
+	<span class='v-white c-pri icon icon-close' onclick=\"closeModal('Modal{$modalNum}')\"></span>
 	<h2 class='h2 tc-pri t-c med-t-l'>{$item[0]}</h2>
 	<p class='h5'>{$item[1]}</p>
 	<p>{$item[2]}</p>
 	</div>
 	</div>
 	";
-	$counter++;
 }
 ?>
 
@@ -203,13 +201,13 @@ foreach ($Modal as $item){
 	    <button class="arrow down"></button>
 	</div>
 
-	<!--<div class="box_product img-one">
+	<div class="box_product img-one">
 		<span>
 			<button type="button" class="v-white c-acc icon br-50 icon-more" onclick="openModal('Modal1')"></button>
 			<a href="?p=product&id=<?php echo $link_01; ?>" class="btn c-sec br-50"><?php echo $Btn_view; ?></a>
 		</span>
 		<img src="./images/body/products/<?php echo $link_01; ?>.webp" class="product" alt="<?php echo $link_01; ?>"/>
-	</div>-->
+	</div>
 
 	<div class="box_product img-two">
 		<span>
@@ -236,7 +234,7 @@ foreach ($Modal as $item){
 	</div>
 
 	<!--<img class="polvo med-d-none" src="./images/body/products/bg.webp">-->
-	<!--<img class="background med-d-none img_product_<?php echo $link_01; ?>" src="./images/body/subpage/bg_<?php echo $link_01; ?>.webp" alt="<?php echo $link_01; ?> background">-->
+	<img class="background med-d-none img_product_<?php echo $link_01; ?>" src="./images/body/subpage/bg_<?php echo $link_01; ?>.webp" alt="<?php echo $link_01; ?> background">
 	<img class="background med-d-none img_product_<?php echo $link_02; ?>" src="./images/body/subpage/bg_<?php echo $link_02; ?>.webp" alt="<?php echo $link_02; ?> background">
 	<img class="background med-d-none img_product_<?php echo $link_03; ?>" src="./images/body/subpage/bg_<?php echo $link_03; ?>.webp" alt="<?php echo $link_03; ?> background">
 	<img class="background med-d-none img_product_<?php echo $link_04; ?>" src="./images/body/subpage/bg_<?php echo $link_04; ?>.webp" alt="<?php echo $link_04; ?> background">

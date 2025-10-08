@@ -112,11 +112,11 @@ $Slogan_text = "+20,000 lecciones completadas. +5,000 usuarios activos.<br>¿Est
     // Products
     //-------------------------//
 
-$Products_title_01 = "Purple";
+$Products_title_01 = "VIP Purple";
 $Products_01 = "Full Access";
-$Products_sub_01 = "Texto aqui";
-$Products_text_01 = "Texto aqui";
-$Products_price_01 = "Texto aqui";
+$Products_sub_01 = "Full Access - Membresía VIP";
+$Products_text_01 = "Vive el inicio de tu evolución dentro de una comunidad que impulsa tu crecimiento, te conecta con nuevas oportunidades y activa tu potencial desde el primer día.";
+$Products_price_01 = "Todo por solo $ USD.";
 
 $Products_title_02 = "Gold";
 $Products_02 = "Exclusive Growth";
@@ -184,6 +184,13 @@ $Traits_title = "Evo global: Convirtiendo sueños en logros y evolución en libe
     //-------------------------//
     // Ingredients
     //-------------------------//
+$Ingredients_01 = "Evolución VIP Purple";
+$Ingredients_01_01 = "Educación";
+$Ingredients_01_02 = "Crecimiento";
+$Ingredients_01_03 = "Viajes";
+$Ingredients_01_04 = "Oportunidades";
+$Ingredients_01_05 = "Comunidad";
+$Ingredients_01_06 = "Bienestar";
 
 $Ingredients_02 = "Evolución Gold";
 $Ingredients_02_01 = "Educación";
@@ -214,6 +221,16 @@ $Ingredients_04_06 = "Bienestar";
     //-------------------------//
 
 $Benefits = "Beneficios";
+
+$Benefits_sub_01 = "Exclusividad que impulsa tu evolución";
+$Benefits_01_tit_01 = "Días de membresía";
+$Benefits_01_01 = "Conviértete en miembro PURPLE y disfruta <span class='fw-700'>30</span> días de beneficios, recompensas y exclusividad.";
+$Benefits_01_tit_02 = "Diamond rewards";
+$Benefits_01_02 = "Recibe <span class='fw-700'>1</span> Diamond reward porque tu crecimiento merece brillar. Canjéalos por experiencias y recompensas exclusivas dentro del universo EVO.";
+$Benefits_01_tit_03 = "Fast Start Bonus";
+$Benefits_01_03 = "Recompensa para el patrocinador de <span class='fw-700'>$25</span> por apoyar el crecimiento de nuevos miembros.";
+$Benefits_01_tit_04 = "Business Volume BV";
+$Benefits_01_04 = "<span class='fw-700'>175</span>, este volumen impulsa tu progreso y te acerca a nuevas metas dentro del plan de recompensas EVO.";
 
 $Benefits_sub_02 = "Exclusividad que impulsa tu evolución";
 $Benefits_02_tit_01 = "EVO Jets";
@@ -247,6 +264,23 @@ $Benefits_04_04 = "12 meses de evolución con educación premium y trading en ac
 
     //-------------------------//
     // Started
+    //-------------------------//
+
+$Satarted_title_01 = "Activa tu membresía VIP Purple";
+$Satarted_sub_01 = "El primer paso en tu camino dentro del ecosistema EVO.";
+$Satarted_title_01_01 = "La membresía donde la exclusividad se convierte en EVOlución";
+$Satarted_list_01_01 = "Membresía activa por 30 días";
+$Satarted_list_01_02 = "175 BV (volumen comercial) solo el primer mes";
+$Satarted_list_01_03 = "Bono de inicio rápido de $25 directo al patrocinador";
+$Satarted_list_01_04 = "Recompensa de 1 Diamond reward";
+
+$Satarted_title_link_01_01 = "Acelera tu crecimiento";
+$Satarted_title_link_01_02 = "Activa tu membresía VIP PURPLE y comienza a construir tu propio ecosistema de ingresos, innovación y experiencias exclusivas dentro de la comunidad EVO.";
+$Satarted_title_link_01_03 = "EVOluciona sin límites";
+$Satarted_title_link_01_04 = "Tu membresía es más que acceso: es el inicio de tu liderazgo, genera ingresos, inspira impacto y crece junto a una comunidad que transforma el futuro.";
+
+$Satarted_subpage_01 = "TU EVOLUCIÓN EMPIEZA CON VIP PURPLE";
+
     //-------------------------//
 
 $Satarted_title_02 = "Activa tu membresía Gold";
