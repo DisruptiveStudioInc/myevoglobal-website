@@ -258,44 +258,34 @@ $Ingredients_04_06 = "福祉";
 $Benefits = "福利";
 
 $Benefits_sub_01 = "今天开始你的EVO之旅";
-$Benefits_01_tit_01 = "会员天数";
-$Benefits_01_01 = "成为PURPLE会员，享受<span class='fw-700'>30</span>天的福利、奖励和专属特权。";
-$Benefits_01_tit_02 = "钻石奖励";
-$Benefits_01_02 = "获得<span class='fw-700'>1</span>个钻石奖励，因为你的成长值得闪耀。可在EVO宇宙中兑换专属体验和奖励。";
-$Benefits_01_tit_03 = "快速启动奖金";
-$Benefits_01_03 = "赞助人可获得<span class='fw-700'>$25</span>的奖励，以支持新会员的成长。";
-$Benefits_01_tit_04 = "业务量 BV";
-$Benefits_01_04 = "<span class='fw-700'>175</span>，该业务量推动你的进步，并让你更接近EVO奖励计划中的新目标。";
+$Benefits_02_tit_01 = "会员天数";
+$Benefits_02_01 = "成为 GOLD 会员，享受 <span class='fw-700'>90</span> 天的福利、奖励和专属体验。";
+$Benefits_02_tit_02 = "钻石奖励";
+$Benefits_02_02 = "获得 <span class='fw-700'>4</span> 颗钻石奖励，因为你的成长值得闪耀。可在 EVO 生态系统中兑换独特体验和专属奖励。";
+$Benefits_02_tit_03 = "自我积分 SV";
+$Benefits_02_03 = "<span class='fw-700'>150</span> 个初始积分让你更接近新的知识、福利与进化层次。";
+$Benefits_02_tit_04 = "业务量 BV";
+$Benefits_02_04 = "<span class='fw-700'>350</span>，这个业务量推动你的进步，让你更接近 EVO 奖励计划的新目标。";
 
-$Benefits_sub_02 = "推动你进化的独特特权";
-$Benefits_02_tit_01 = "EVO 私人飞机";
-$Benefits_02_01 = "以专属价格乘坐私人飞机，相当于商业头等舱。";
-$Benefits_02_tit_02 = "旅行礼品卡";
-$Benefits_02_02 = "在 75 个以上目的地的高级酒店入住，从坎昆的热带海滩到东京和迪拜的优雅体验。";
-$Benefits_02_tit_03 = "教育与交易";
-$Benefits_02_03 = "享受 3 个月教育平台及实时交易俱乐部访问。";
-$Benefits_02_tit_04 = "EVO 积分";
-$Benefits_02_04 = "获得 1,500 积分（每点价值 $1）用于独特体验：从阿尔卑斯滑雪到迪拜邮轮。";
+$Benefits_sub_03 = "体验超越的旅程";
+$Benefits_03_tit_01 = "会员天数";
+$Benefits_03_01 = "成为 SILVER 会员，享受 <span class='fw-700'>182</span> 天的福利、学习与奖励，让你的进化更进一步。";
+$Benefits_03_tit_02 = "钻石奖励";
+$Benefits_03_02 = "获得 <span class='fw-700'>7</span> 颗钻石，象征你的进化，用它们兑换独特体验和奖励，提升你在 EVO 的旅程。";
+$Benefits_03_tit_03 = "自我积分 SV";
+$Benefits_03_03 = "<span class='fw-700'>600</span> 个初始积分助你持续成长，激活福利、体验与持续学习。";
+$Benefits_03_tit_04 = "业务量 BV";
+$Benefits_03_04 = "<span class='fw-700'>750</span>，促进你的进化并让你在 EVO 中获得更多奖励。";
 
-$Benefits_sub_03 = "获得超越的体验";
-$Benefits_03_tit_01 = "EVO 私人飞机";
-$Benefits_03_01 = "享受专属航班的优惠价格，相当于商业航班头等舱价格。";
-$Benefits_03_tit_02 = "旅行礼品卡";
-$Benefits_03_02 = "探索世界多样性，75 个以上目的地的 2 次高级酒店入住。";
-$Benefits_03_tit_03 = "教育与交易";
-$Benefits_03_03 = "6 个月按需教育平台访问 + 实时交易俱乐部。";
-$Benefits_03_tit_04 = "EVO 积分";
-$Benefits_03_04 = "2,850 积分（每点价值 $1）用于独特体验：从阿尔卑斯滑雪到迪拜邮轮。";
-
-$Benefits_sub_04 = "无限独特特权";
-$Benefits_04_tit_01 = "EVO 私人飞机";
-$Benefits_04_01 = "体验乘坐 EVO Jets 私人飞机的精英体验，这是一种重新定义空中奢华的特权。";
-$Benefits_04_tit_02 = "10 钻石奖励";
-$Benefits_04_02 = "在 75 个以上全球目的地入住高级酒店，享受头等舱服务。";
-$Benefits_04_tit_03 = "EVO 邮轮：领袖之旅";
-$Benefits_04_03 = "一次独特体验，与激励人心的领袖共同成长和连接。";
-$Benefits_04_tit_04 = "教育与交易（12 个月）";
-$Benefits_04_04 = "12 个月高级教育和交易体验。";
+$Benefits_sub_04 = "无限专属";
+$Benefits_04_tit_01 = "会员天数";
+$Benefits_04_01 = "成为 BLACK 会员，享受 <span class='fw-700'>365</span> 天的福利、体验与专属奖励，为有目标的领导者而设计。";
+$Benefits_04_tit_02 = "钻石奖励";
+$Benefits_04_02 = "获得 <span class='fw-700'>10</span> 颗钻石奖励，表彰你的进步，使用它们获取独特体验和奖励，提升你在 EVO 的旅程。";
+$Benefits_04_tit_03 = "自我积分 SV";
+$Benefits_04_03 = "获得 <span class='fw-700'>1350</span> 个初始积分，体现你的成长，获取专属福利与体验，强化你作为 BLACK 会员的道路。";
+$Benefits_04_tit_04 = "业务量 BV";
+$Benefits_04_04 = "<span class='fw-700'>1500</span>，体现你的进步与领导力，推动你的进化并开启 EVO 专属奖励。";
 
 
     //-------------------------//
@@ -319,70 +309,54 @@ $Satarted_subpage_01 = "你的进化从 VIP PURPLE 开始";
 
 //-------------------------//
 
-$Satarted_title_02 = "激活你的金会员";
-$Satarted_sub_02 = "在一个生态系统中享受独特性、教育和高级体验。";
-$Satarted_title_02_01 = "提升你的独特生活方式";
-$Satarted_list_02_01 = "注册费用 $449";
-$Satarted_list_02_02 = "会员有效期 90 天";
-$Satarted_list_02_03 = "首月 350 BV（业务量）";
-$Satarted_list_02_04 = "首月 150 SP（自有积分）";
-$Satarted_list_02_05 = "快速起步奖金 $50 给推荐人";
-$Satarted_list_02_06 = "4 钻石奖励";
+$Satarted_title_02 = "激活你的黄金会员";
+$Satarted_sub_02 = "在一个生态系统中享受独特性、教育和高端体验。";
+$Satarted_title_02_01 = "推动你EVOlution的会员资格";
+$Satarted_list_02_01 = "会员有效期为90天";
+$Satarted_list_02_02 = "首月仅需350 BV（业务量）";
+$Satarted_list_02_03 = "首月仅需150 SP（个人积分）";
+$Satarted_list_02_04 = "推荐人可获得$50快速启动奖金";
+$Satarted_list_02_05 = "4颗钻石奖励";
 
 $Satarted_title_link_02_01 = "加速你的成长";
-$Satarted_title_link_02_02 = "访问高级教育与实时交易、实时警报及 Tony Robbins 的数字课程，助你加速个人和职业成长。";
-$Satarted_title_link_02_03 = "规划你的进化";
-$Satarted_title_link_02_04 = "将你的会员转化为机会引擎：<br>
-电信特许经营带来持续收入<br>
-全球社区访问独家体验<br>
-年度价值超过 $10,400 USD，仅需 $449 USD";
+$Satarted_title_link_02_02 = "激活你的GOLD会员，在EVO社区中发展属于你自己的收入、创新和高端体验生态系统。";
+$Satarted_title_link_02_03 = "无限进化";
+$Satarted_title_link_02_04 = "将你的会员资格转变为创造影响、产生收入并与共同进化的社区一起实现你应得的扩展的平台。";
 
-$Satarted_subpage_02 = "你的进化从金会员开始";
+$Satarted_subpage_02 = "用GOLD加速你的进化";
 
-    //-------------------------//
-
-$Satarted_title_03 = "激活你的银会员";
-$Satarted_sub_03 = "高级独特性、先进教育和独家福利。";
-$Satarted_title_03_01 = "提升你的独特生活方式";
-$Satarted_list_03_01 = "注册费用 $950";
-$Satarted_list_03_02 = "182 天会员有效期";
-$Satarted_list_03_03 = "首月 750 BV（业务量）";
-$Satarted_list_03_04 = "首月 600 SV（自有积分）";
-$Satarted_list_03_05 = "快速起步奖金 $100 给推荐人";
-$Satarted_list_03_06 = "5 钻石奖励";
+$Satarted_title_03 = "激活你的白银会员";
+$Satarted_sub_03 = "卓越的独特性、高级教育和独一无二的福利，尽在一个生态系统中。";
+$Satarted_title_03_01 = "提升你EVOlution的会员资格";
+$Satarted_list_03_01 = "会员有效期182天";
+$Satarted_list_03_02 = "首月750 BV（业务量）";
+$Satarted_list_03_03 = "首月600 SV（自有积分）";
+$Satarted_list_03_04 = "推荐人可获得$100快速启动奖金";
+$Satarted_list_03_05 = "7颗钻石奖励";
 
 $Satarted_title_link_03_01 = "加速你的成长";
-$Satarted_title_link_03_02 = "访问 6 个月高级教育和实时交易，使用 EVO Signals 接收实时警报，并通过 Tony Robbins 的数字课程补充发展。";
-$Satarted_title_link_03_03 = "规划你的进化";
-$Satarted_title_link_03_04 = "将你的会员转化为成长引擎：<br>
-电信特许经营带来持续收入<br>
-全球社区访问高级体验<br>
-年度价值超过 $13,650 USD，仅需 $950 USD。";
+$Satarted_title_link_03_02 = "通过SILVER会员，你将拓展机会、增加奖励，并强化你在EVO Global中的成长之路。";
+$Satarted_title_link_03_03 = "无限进化";
+$Satarted_title_link_03_04 = "让你的会员资格成为成长、影响力和财务自由的源泉，与一个全球共同前进的社区一起发展。";
 
-$Satarted_subpage_03 = "更多福利，更高独特性，银会员。";
+$Satarted_subpage_03 = "更多福利，更多独特性，SILVER。";
 
-    //-------------------------//
-
-
-$Satarted_title_04 = "激活你的黑会员";
-$Satarted_sub_04 = "独特性与知识化为体验。";
-$Satarted_title_04_01 = "提升你的独特生活方式";
-$Satarted_list_04_01 = "注册费用 $1997";
-$Satarted_list_04_02 = "365 天会员有效期";
-$Satarted_list_04_03 = "首月 1500 BV（业务量）";
-$Satarted_list_04_04 = "首月 1350 SV（自有积分），包括 2025 邮轮";
-$Satarted_list_04_05 = "快速起步奖金 $150 给推荐人";
-$Satarted_list_04_06 = "10 钻石奖励";
+$Satarted_title_04 = "激活你的黑钻会员";
+$Satarted_sub_04 = "在这里，独特性与知识化为体验。";
+$Satarted_title_04_01 = "将你的EVOlution推向最高层次的会员资格";
+$Satarted_list_04_01 = "会员有效期365天";
+$Satarted_list_04_02 = "首月1500 BV（业务量）";
+$Satarted_list_04_03 = "首月1350 SV（自有积分）";
+$Satarted_list_04_04 = "包含2025年邮轮之旅";
+$Satarted_list_04_05 = "推荐人可获得$150快速启动奖金";
+$Satarted_list_04_06 = "10颗钻石奖励";
 
 $Satarted_title_link_04_01 = "加速你的成长";
-$Satarted_title_link_04_02 = "访问 12 个月高级教育与实时交易，结合 EVO Signals 实时警报，实现更智能的决策。";
-$Satarted_title_link_04_03 = "规划你的进化";
-$Satarted_title_link_04_04 = "黑会员享受精英福利：<br>
-电信特许经营带来持续收入<br>
-优先访问全球社区<br>
-年度价值超过 $32,150 USD，仅需 $1,997 USD";
+$Satarted_title_link_04_02 = "通过BLACK会员，你将拓展机会并强化成长，享受专为EVO Global领袖打造的奖励与福利。";
+$Satarted_title_link_04_03 = "无限进化";
+$Satarted_title_link_04_04 = "与共同进步的社区一起实现成长、领导力和财务自由。";
 
-$Satarted_subpage_04 = "你的进化在黑会员中达到顶峰。";
+$Satarted_subpage_04 = "你的进化在BLACK中达到巅峰。";
 
 
 

@@ -173,44 +173,34 @@ $Ingredients_04_06 = "웰빙";
 $Benefits = "혜택";
 
 $Benefits_sub_01 = "오늘 당신의 EVO 여정을 시작하세요";
-$Benefits_01_tit_01 = "회원 기간";
-$Benefits_01_01 = "PURPLE 회원이 되어 <span class='fw-700'>30</span>일 동안의 혜택, 보상 및 독점성을 누리세요.";
-$Benefits_01_tit_02 = "다이아몬드 리워드";
-$Benefits_01_02 = "<span class='fw-700'>1</span>개의 다이아몬드 리워드를 받아보세요. 당신의 성장은 빛날 자격이 있습니다. EVO 유니버스 내의 독점 경험과 보상으로 교환할 수 있습니다.";
-$Benefits_01_tit_03 = "빠른 시작 보너스";
-$Benefits_01_03 = "새로운 회원의 성장을 지원하는 스폰서에게 <span class='fw-700'>$25</span> 보너스를 지급합니다.";
-$Benefits_01_tit_04 = "비즈니스 볼륨 BV";
-$Benefits_01_04 = "<span class='fw-700'>175</span>, 이 볼륨은 당신의 진전을 촉진하고 EVO 보상 계획 내의 새로운 목표에 한 걸음 더 다가가게 합니다.";
+$Benefits_02_tit_01 = "멤버십 일수";
+$Benefits_02_01 = "GOLD 회원이 되어 <span class='fw-700'>90</span>일 동안의 혜택, 보상 및 독점적인 특권을 누리세요.";
+$Benefits_02_tit_02 = "다이아몬드 리워드";
+$Benefits_02_02 = "당신의 성장을 빛내기 위해 <span class='fw-700'>4</span>개의 다이아몬드 리워드를 받으세요. EVO 생태계 내에서 독점적인 경험과 보상으로 교환할 수 있습니다.";
+$Benefits_02_tit_03 = "Self Points SV";
+$Benefits_02_03 = "<span class='fw-700'>150</span> 초기 포인트로 새로운 지식, 혜택, 그리고 진화의 단계를 향해 나아가세요.";
+$Benefits_02_tit_04 = "Business Volume BV";
+$Benefits_02_04 = "<span class='fw-700'>350</span>, 이 볼륨은 당신의 발전을 촉진하고 EVO 리워드 플랜 내에서 새로운 목표에 다가가도록 합니다.";
 
-$Benefits_sub_02 = "진화를 촉진하는 독점성";
-$Benefits_02_tit_01 = "EVO 제트";
-$Benefits_02_01 = "전용 제트기로 비행, 상업용 퍼스트 클래스와 비교 가능한 독점 요금.";
-$Benefits_02_tit_02 = "여행 기프트 카드";
-$Benefits_02_02 = "칸쿤의 활기찬 해변부터 도쿄와 두바이의 우아함까지 75개 이상의 목적지에서 프리미엄 호텔 숙박.";
-$Benefits_02_tit_03 = "교육 & 트레이딩";
-$Benefits_02_03 = "3개월 교육 플랫폼과 라이브 트레이딩 클럽 이용.";
-$Benefits_02_tit_04 = "EVO 포인트";
-$Benefits_02_04 = "독특한 경험을 위한 1,500포인트(각 $1 가치): 알프스 스키부터 두바이 크루즈까지.";
+$Benefits_sub_03 = "경계를 초월한 경험에 접근하세요";
+$Benefits_03_tit_01 = "멤버십 일수";
+$Benefits_03_01 = "SILVER 회원이 되어 <span class='fw-700'>182</span>일 동안의 혜택, 배움, 그리고 당신의 진화를 한 단계 높이는 보상에 접근하세요.";
+$Benefits_03_tit_02 = "다이아몬드 리워드";
+$Benefits_03_02 = "당신의 성장을 반영하는 <span class='fw-700'>7</span>개의 다이아몬드를 받으세요. 이를 사용해 독특한 경험과 EVO에서 당신의 여정을 높여주는 보상에 접근하세요.";
+$Benefits_03_tit_03 = "Self Points SV";
+$Benefits_03_03 = "<span class='fw-700'>600</span> 초기 포인트로 계속 성장하고, SILVER 여정에서 혜택, 경험 및 지속적인 학습을 활성화하세요.";
+$Benefits_03_tit_04 = "Business Volume BV";
+$Benefits_03_04 = "<span class='fw-700'>750</span>, 이는 당신의 진화를 촉진하고 EVO에서 더 큰 보상과 연결됩니다.";
 
-$Benefits_sub_03 = "초월적 경험 접근";
-$Benefits_03_tit_01 = "EVO 제트";
-$Benefits_03_01 = "상업용 퍼스트 클래스 요금과 비교할 수 있는 독점 항공 요금.";
-$Benefits_03_tit_02 = "여행 기프트 카드";
-$Benefits_03_02 = "75개 이상의 목적지에서 2번의 프리미엄 호텔 숙박으로 세계를 탐험하세요.";
-$Benefits_03_tit_03 = "교육 & 트레이딩";
-$Benefits_03_03 = "온디맨드 교육 플랫폼 6개월 + 라이브 트레이딩 클럽.";
-$Benefits_03_tit_04 = "EVO 포인트";
-$Benefits_03_04 = "독특한 경험을 위한 2,850포인트(각 $1 가치): 알프스 스키부터 두바이 크루즈까지.";
-
-$Benefits_sub_04 = "무한 독점성";
-$Benefits_04_tit_01 = "EVO 제트";
-$Benefits_04_01 = "EVO 제트로 전용 제트기를 경험하며 항공 럭셔리를 재정의하세요.";
-$Benefits_04_tit_02 = "10 다이아몬드 리워드";
-$Benefits_04_02 = "75개 이상의 글로벌 목적지 숙박, 퍼스트 클래스 호텔 경험.";
-$Benefits_04_tit_03 = "EVO 크루즈: 리더 여행";
-$Benefits_04_03 = "영감을 주는 리더와 연결하고 성장할 수 있는 독특한 경험.";
-$Benefits_04_tit_04 = "교육 & 트레이딩 (12개월)";
-$Benefits_04_04 = "프리미엄 교육과 트레이딩으로 12개월 진화.";
+$Benefits_sub_04 = "무한한 독점성";
+$Benefits_04_tit_01 = "멤버십 일수";
+$Benefits_04_01 = "BLACK 회원이 되어 <span class='fw-700'>365</span>일 동안의 혜택, 경험, 그리고 목적을 가지고 이끄는 사람들을 위한 보상을 누리세요.";
+$Benefits_04_tit_02 = "다이아몬드 리워드";
+$Benefits_04_02 = "당신의 발전을 인정받아 <span class='fw-700'>10</span>개의 다이아몬드 리워드를 받으세요. 이를 통해 EVO에서 독특한 경험과 당신의 여정을 높여주는 보상에 접근하세요.";
+$Benefits_04_tit_03 = "Self Points SV";
+$Benefits_04_03 = "<span class='fw-700'>1350</span> 초기 포인트를 받아 당신의 성장을 반영하고, BLACK 회원으로서의 길을 강화하는 독점적인 혜택과 경험을 누리세요.";
+$Benefits_04_tit_04 = "Business Volume BV";
+$Benefits_04_04 = "<span class='fw-700'>1500</span>, 이는 당신의 발전과 리더십을 반영하며, 당신의 진화를 추진하고 EVO 내에서 독점적인 보상의 길을 엽니다.";
 
 $Satarted_title_01 = "VIP Purple 회원권 활성화";
 $Satarted_sub_01 = "EVO 생태계로 들어가는 첫걸음입니다.";
@@ -227,65 +217,54 @@ $Satarted_title_link_01_04 = "회원권은 단순한 접근 권한이 아닙니�
 
 $Satarted_subpage_01 = "당신의 진화는 VIP PURPLE로 시작됩니다";
 
-$Satarted_title_02 = "골드 멤버십 활성화";
-$Satarted_sub_02 = "독점성, 교육 및 프리미엄 경험을 하나의 생태계에서.";
-$Satarted_title_02_01 = "독점적 라이프스타일 향상";
-$Satarted_list_02_01 = "가입 비용 $449";
-$Satarted_list_02_02 = "90일간 멤버십 활성";
-$Satarted_list_02_03 = "첫 달 350 BV (비즈니스 볼륨)";
-$Satarted_list_02_04 = "첫 달 150 SP (개인 포인트)";
-$Satarted_list_02_05 = "스폰서에게 빠른 스타트 보너스 $50";
-$Satarted_list_02_06 = "4 다이아몬드 리워드";
+$Satarted_title_02 = "골드 멤버십 활성화하기";
+$Satarted_sub_02 = "하나의 생태계 안에서 독점성, 교육, 그리고 프리미엄 경험을 누리세요.";
+$Satarted_title_02_01 = "당신의 EVOlution을 가속화하는 멤버십";
+$Satarted_list_02_01 = "90일간 활성 멤버십 유지";
+$Satarted_list_02_02 = "첫 달에만 350 BV (비즈니스 볼륨)";
+$Satarted_list_02_03 = "첫 달에만 150 SP (개인 포인트)";
+$Satarted_list_02_04 = "스폰서에게 $50 빠른 시작 보너스";
+$Satarted_list_02_05 = "4 다이아몬드 보상";
 
-$Satarted_title_link_02_01 = "성장 가속화";
-$Satarted_title_link_02_02 = "고급 교육 및 라이브 트레이딩, 실시간 알림, Tony Robbins 디지털 코스로 개인적·전문적 성장을 가속화하세요.";
-$Satarted_title_link_02_03 = "진화 투영";
-$Satarted_title_link_02_04 = "멤버십을 기회 창출 엔진으로 전환:<br>
-재현 가능한 수익이 있는 통신 프랜차이즈<br>
-독점 경험에 접근할 수 있는 글로벌 커뮤니티<br>
-연간 $10,400 USD 이상 가치, 단 $449 USD";
+$Satarted_title_link_02_01 = "성장을 가속하세요";
+$Satarted_title_link_02_02 = "GOLD 멤버십을 활성화하고 EVO 커뮤니티 안에서 수입, 혁신, 그리고 프리미엄 경험의 생태계를 성장시키세요.";
+$Satarted_title_link_02_03 = "한계 없는 진화";
+$Satarted_title_link_02_04 = "당신의 멤버십을 영향력 창출, 수익 창출, 그리고 함께 진화하는 커뮤니티와 확장을 누릴 수 있는 플랫폼으로 바꾸세요.";
 
-$Satarted_subpage_02 = "골드와 함께 당신의 진화 시작";
+$Satarted_subpage_02 = "GOLD로 당신의 진화를 가속화하세요";
 
-$Satarted_title_03 = "실버 멤버십 활성화";
-$Satarted_sub_03 = "더 높은 독점성, 고급 교육 및 독특한 혜택을 하나의 생태계에서.";
-$Satarted_title_03_01 = "독점적 라이프스타일 향상";
-$Satarted_list_03_01 = "가입 비용 $950.0";
-$Satarted_list_03_02 = "182일간 멤버십 활성";
-$Satarted_list_03_03 = "첫 달 750 BV";
-$Satarted_list_03_04 = "첫 달 600 SV";
-$Satarted_list_03_05 = "스폰서에게 빠른 스타트 보너스 $100";
-$Satarted_list_03_06 = "5 다이아몬드 리워드";
+$Satarted_title_03 = "실버 멤버십 활성화하기";
+$Satarted_sub_03 = "우수한 독점성, 고급 교육, 그리고 독특한 혜택을 하나의 생태계에서 경험하세요.";
+$Satarted_title_03_01 = "당신의 EVOlution을 향상시키는 멤버십";
+$Satarted_list_03_01 = "182일간 활성 멤버십 유지";
+$Satarted_list_03_02 = "첫 달 750 BV (비즈니스 볼륨)";
+$Satarted_list_03_03 = "첫 달 600 SV (자체 볼륨)";
+$Satarted_list_03_04 = "스폰서에게 $100 빠른 시작 보너스";
+$Satarted_list_03_05 = "7 다이아몬드 보상";
 
-$Satarted_title_link_03_01 = "성장 가속화";
-$Satarted_title_link_03_02 = "6개월 고급 교육 및 라이브 트레이딩, EVO Signals 실시간 알림, Tony Robbins 디지털 코스로 개인적·전문적 성장을 강화하세요.";
-$Satarted_title_link_03_03 = "진화 투영";
-$Satarted_title_link_03_04 = "멤버십을 성장 엔진으로 전환:<br>
-재현 가능한 수익이 있는 통신 프랜차이즈<br>
-프리미엄 경험에 접근 가능한 글로벌 커뮤니티<br>
-연간 $13,650 USD 이상 가치, 단 $950 USD.";
+$Satarted_title_link_03_01 = "성장을 가속하세요";
+$Satarted_title_link_03_02 = "SILVER 멤버십으로 기회를 확장하고, 보상을 늘리며, EVO Global 내에서 당신의 여정을 강화하세요.";
+$Satarted_title_link_03_03 = "한계 없는 진화";
+$Satarted_title_link_03_04 = "멤버십을 성장, 영향력, 그리고 재정적 자유의 원천으로 만들어 함께 나아가는 글로벌 커뮤니티의 일원이 되세요.";
 
-$Satarted_subpage_03 = "더 많은 혜택, 더 많은 독점성, 실버.";
+$Satarted_subpage_03 = "더 많은 혜택, 더 큰 독점성, SILVER.";
 
-$Satarted_title_04 = "블랙 멤버십 활성화";
+$Satarted_title_04 = "블랙 멤버십 활성화하기";
 $Satarted_sub_04 = "독점성과 지식이 경험으로 변하는 곳.";
-$Satarted_title_04_01 = "독점적 라이프스타일 향상";
-$Satarted_list_04_01 = "가입 비용 $1997";
-$Satarted_list_04_02 = "365일 멤버십 활성";
-$Satarted_list_04_03 = "첫 달 1500 BV";
-$Satarted_list_04_04 = "첫 달 1350 SV, 2025 크루즈 포함";
-$Satarted_list_04_05 = "스폰서에게 빠른 스타트 보너스 $150";
-$Satarted_list_04_06 = "10 다이아몬드 리워드";
+$Satarted_title_04_01 = "당신의 EVOlution을 최고 수준으로 이끄는 멤버십";
+$Satarted_list_04_01 = "365일간 활성 멤버십 유지";
+$Satarted_list_04_02 = "첫 달 1500 BV (비즈니스 볼륨)";
+$Satarted_list_04_03 = "첫 달 1350 SV (자체 볼륨)";
+$Satarted_list_04_04 = "2025년 크루즈 포함";
+$Satarted_list_04_05 = "스폰서에게 $150 빠른 시작 보너스";
+$Satarted_list_04_06 = "10 다이아몬드 보상";
 
-$Satarted_title_link_04_01 = "성장 가속화";
-$Satarted_title_link_04_02 = "12개월 고급 교육 및 라이브 트레이딩, EVO Signals 실시간 알림으로 더 스마트한 결정을 내리세요.";
-$Satarted_title_link_04_03 = "진화 투영";
-$Satarted_title_link_04_04 = "블랙 멤버십으로 엘리트 혜택 접근:<br>
-재현 가능한 수익이 있는 통신 프랜차이즈<br>
-글로벌 커뮤니티 독점 접근<br>
-연간 $32,150 USD 이상 가치, 단 $1,997 USD";
+$Satarted_title_link_04_01 = "성장을 가속하세요";
+$Satarted_title_link_04_02 = "BLACK 멤버십으로 기회를 확장하고 성장을 강화하세요. EVO Global에서 진화를 주도하는 이들을 위해 설계된 보상과 혜택을 즐기세요.";
+$Satarted_title_link_04_03 = "한계 없는 진화";
+$Satarted_title_link_04_04 = "함께 성장하고 발전하는 커뮤니티와 함께 리더십과 재정적 자유를 누리세요.";
 
-$Satarted_subpage_04 = "블랙과 함께 당신의 진화 정상 도달.";
+$Satarted_subpage_04 = "BLACK과 함께 당신의 진화가 정점에 도달합니다.";
 
     //-------------------------//
     // Privacy

@@ -250,44 +250,34 @@ $Ingredients_04_06 = "Benessere";
 $Benefits = "Benefici";
 
 $Benefits_sub_01 = "Inizia oggi il tuo viaggio EVO";
-$Benefits_01_tit_01 = "Giorni di iscrizione";
-$Benefits_01_01 = "Diventa un membro PURPLE e goditi <span class='fw-700'>30</span> giorni di vantaggi, ricompense ed esclusività.";
-$Benefits_01_tit_02 = "Ricompense Diamond";
-$Benefits_01_02 = "Ricevi <span class='fw-700'>1</span> ricompensa Diamond, perché la tua crescita merita di brillare. Scambiale per esperienze e ricompense esclusive all’interno dell’universo EVO.";
-$Benefits_01_tit_03 = "Bonus di avvio rapido";
-$Benefits_01_03 = "Ricompensa per lo sponsor di <span class='fw-700'>$25</span> per aver sostenuto la crescita di nuovi membri.";
-$Benefits_01_tit_04 = "Volume d’affari BV";
-$Benefits_01_04 = "<span class='fw-700'>175</span>, questo volume favorisce il tuo progresso e ti avvicina a nuovi obiettivi all’interno del piano di ricompense EVO.";
-
-$Benefits_sub_02 = "Esclusività che stimola la tua evoluzione";
-$Benefits_02_tit_01 = "EVO Jets";
-$Benefits_02_01 = "Vola su jet privati con tariffe esclusive, comparabili alla prima classe commerciale.";
-$Benefits_02_tit_02 = "Travel Gift Card";
-$Benefits_02_02 = "Accedi a soggiorni in hotel premium in oltre 75 destinazioni, dalle vibranti spiagge di Cancún all'eleganza di Tokyo e Dubai.";
-$Benefits_02_tit_03 = "Educazione & Trading";
-$Benefits_02_03 = "Goditi 3 mesi di piattaforma educativa e accesso al club di trading in diretta.";
-$Benefits_02_tit_04 = "Punti EVO";
-$Benefits_02_04 = "Ricevi 1.500 punti (valore $1 ciascuno) per esperienze uniche: dallo sci sulle Alpi a una crociera a Dubai.";
+$Benefits_02_tit_01 = "Giorni di iscrizione";
+$Benefits_02_01 = "Diventa un membro GOLD e goditi <span class='fw-700'>90</span> giorni di vantaggi, ricompense ed esclusività.";
+$Benefits_02_tit_02 = "Ricompense Diamond";
+$Benefits_02_02 = "Ricevi <span class='fw-700'>4</span> Diamonds come premio perché la tua crescita merita di brillare. Scambiali per esperienze e ricompense esclusive all’interno dell’ecosistema EVO.";
+$Benefits_02_tit_03 = "Punti personali SV";
+$Benefits_02_03 = "<span class='fw-700'>150</span> punti iniziali ti avvicinano a nuovi livelli di conoscenza, vantaggi ed evoluzione.";
+$Benefits_02_tit_04 = "Volume d’affari BV";
+$Benefits_02_04 = "<span class='fw-700'>350</span>, questo volume stimola i tuoi progressi e ti avvicina a nuovi obiettivi nel piano di ricompense EVO.";
 
 $Benefits_sub_03 = "Accedi a esperienze che trascendono";
-$Benefits_03_tit_01 = "EVO Jets";
-$Benefits_03_01 = "Goditi tariffe eccezionali per voli esclusivi, comparabili ai prezzi di prima classe sui voli commerciali.";
-$Benefits_03_tit_02 = "Travel Gift Card";
-$Benefits_03_02 = "Scopri la diversità del mondo, 2 soggiorni in hotel premium in oltre 75 destinazioni.";
-$Benefits_03_tit_03 = "Educazione & Trading";
-$Benefits_03_03 = "6 mesi di accesso alla piattaforma educativa on demand + club di trading in diretta.";
-$Benefits_03_tit_04 = "Punti EVO";
-$Benefits_03_04 = "2.850 punti (valore $1 ciascuno) per esperienze uniche: dallo sci sulle Alpi a una crociera a Dubai.";
+$Benefits_03_tit_01 = "Giorni di iscrizione";
+$Benefits_03_01 = "Diventa un membro SILVER e accedi a <span class='fw-700'>182</span> giorni di vantaggi, apprendimento e ricompense che fanno progredire la tua evoluzione.";
+$Benefits_03_tit_02 = "Ricompense Diamond";
+$Benefits_03_02 = "Ricevi <span class='fw-700'>7</span> Diamonds che riflettono la tua evoluzione; usali per accedere a esperienze uniche e ricompense che elevano il tuo percorso EVO.";
+$Benefits_03_tit_03 = "Punti personali SV";
+$Benefits_03_03 = "<span class='fw-700'>600</span> punti iniziali per continuare a crescere, attiva vantaggi, esperienze e apprendimento continuo nel tuo percorso SILVER.";
+$Benefits_03_tit_04 = "Volume d’affari BV";
+$Benefits_03_04 = "<span class='fw-700'>750</span>, che favoriscono la tua evoluzione e ti collegano a maggiori ricompense in EVO.";
 
 $Benefits_sub_04 = "Esclusività senza limiti";
-$Benefits_04_tit_01 = "EVO Jets";
-$Benefits_04_01 = "Sperimenta l'élite del volo su jet privati con EVO Jets, un privilegio che ridefinisce il lusso aereo.";
-$Benefits_04_tit_02 = "10 Diamond Rewards";
-$Benefits_04_02 = "Soggiorni in oltre 75 destinazioni globali, esperienza alberghiera di prima classe.";
-$Benefits_04_tit_03 = "Crociere EVO: Viaggio dei Leader";
-$Benefits_04_03 = "Un'esperienza unica per crescere e connettersi con leader ispiratori.";
-$Benefits_04_tit_04 = "Educazione & Trading (12 mesi)";
-$Benefits_04_04 = "12 mesi di evoluzione con educazione premium e trading in azione.";
+$Benefits_04_tit_01 = "Giorni di iscrizione";
+$Benefits_04_01 = "Diventa un membro BLACK e goditi <span class='fw-700'>365</span> giorni di vantaggi, esperienze e ricompense pensate per chi guida con uno scopo.";
+$Benefits_04_tit_02 = "Ricompense Diamond";
+$Benefits_04_02 = "Ricevi <span class='fw-700'>10</span> Diamonds come riconoscimento dei tuoi progressi; usali per accedere a esperienze uniche e ricompense che elevano il tuo percorso EVO.";
+$Benefits_04_tit_03 = "Punti personali SV";
+$Benefits_04_03 = "Ricevi <span class='fw-700'>1350</span> punti iniziali che riflettono i tuoi progressi e accedi a vantaggi ed esperienze esclusive che rafforzano il tuo percorso come membro BLACK.";
+$Benefits_04_tit_04 = "Volume d’affari BV";
+$Benefits_04_04 = "<span class='fw-700'>1500</span>, che riflettono i tuoi progressi e la tua leadership, stimolano la tua evoluzione e ti aprono la strada a ricompense esclusive all’interno di EVO.";
 
 
     //-------------------------//
@@ -312,75 +302,58 @@ $Satarted_subpage_01 = "LA TUA EVOLUZIONE INIZIA CON VIP PURPLE";
 
 //-------------------------//
 
-$Satarted_title_02 = "Attiva la tua membership Gold";
-$Satarted_sub_02 = "Esclusività, educazione ed esperienze premium in un unico ecosistema.";
-$Satarted_title_02_01 = "Eleva il tuo stile di vita esclusivo";
-$Satarted_list_02_01 = "Iscrizione COSTO $449";
-$Satarted_list_02_02 = "Membership attiva per 90 giorni";
-$Satarted_list_02_03 = "350 BV (Volume di affari) solo il primo mese";
-$Satarted_list_02_04 = "150 SP (Punti propri) solo il primo mese";
-$Satarted_list_02_05 = "$50 di bonus per partenza veloce al sponsor";
-$Satarted_list_02_06 = "4 Diamonds reward";
+$Satarted_title_02 = "Attiva la tua iscrizione Gold";
+$Satarted_sub_02 = "Esclusività, formazione ed esperienze premium in un unico ecosistema.";
+$Satarted_title_02_01 = "L’iscrizione che spinge la tua EVOluzione";
+$Satarted_list_02_01 = "Iscrizione attiva per 90 giorni";
+$Satarted_list_02_02 = "350 BV (volume d’affari) solo il primo mese";
+$Satarted_list_02_03 = "150 SP (punti personali) solo il primo mese";
+$Satarted_list_02_04 = "$50 di bonus di avvio rapido per lo sponsor";
+$Satarted_list_02_05 = "Ricompensa di 4 Diamonds";
 
 $Satarted_title_link_02_01 = "Accelera la tua crescita";
-$Satarted_title_link_02_02 = "Accedi a educazione avanzata e trading in diretta, avvisi in tempo reale e il corso digitale di Tony Robbins, progettato per accelerare la tua crescita personale e professionale.";
-$Satarted_title_link_02_03 = "Proietta la tua evoluzione";
-$Satarted_title_link_02_04 = "Trasforma la tua membership in un motore di opportunità:<br>
-Franchising di telecomunicazioni con entrate ricorrenti<br>
-Community globale con accesso a esperienze esclusive<br>
-Valore annuo di oltre $10.400 USD per soli $449 USD";
+$Satarted_title_link_02_02 = "Attiva la tua iscrizione GOLD e sviluppa il tuo ecosistema di reddito, innovazione ed esperienze premium all’interno della comunità EVO.";
+$Satarted_title_link_02_03 = "EVOlvi senza limiti";
+$Satarted_title_link_02_04 = "Trasforma la tua iscrizione in una piattaforma per creare impatto, generare reddito e vivere l’espansione che meriti insieme a una comunità che evolve con te.";
 
-$Satarted_subpage_02 = "LA TUA EVOLUZIONE INIZIA CON GOLD";
+$Satarted_subpage_02 = "DAI SLANCIO ALLA TUA EVOLUZIONE CON GOLD";
 
+//-------------------------//
 
-    //-------------------------//
-
-
-$Satarted_title_03 = "Attiva la tua membership Silver";
-$Satarted_sub_03 = "Esclusività superiore, educazione avanzata e benefici unici in un unico ecosistema.";
-$Satarted_title_03_01 = "Eleva il tuo stile di vita esclusivo";
-$Satarted_list_03_01 = "Iscrizione, COSTO $950.0";
-$Satarted_list_03_02 = "182 giorni di membership attiva";
-$Satarted_list_03_03 = "750 BV (Volume di affari) nel primo mese";
-$Satarted_list_03_04 = "600 SV (Volume proprio) nel primo mese";
-$Satarted_list_03_05 = "$100 fast start bonus al sponsor";
-$Satarted_list_03_06 = "5 Diamonds reward";
+$Satarted_title_03 = "Attiva la tua iscrizione Silver";
+$Satarted_sub_03 = "Esclusività superiore, formazione avanzata e vantaggi unici in un solo ecosistema.";
+$Satarted_title_03_01 = "L’iscrizione che eleva la tua EVOluzione";
+$Satarted_list_03_01 = "182 giorni di iscrizione attiva";
+$Satarted_list_03_02 = "750 BV (volume d’affari) nel primo mese";
+$Satarted_list_03_03 = "600 SV (volume personale) nel primo mese";
+$Satarted_list_03_04 = "$100 di bonus di avvio rapido per lo sponsor";
+$Satarted_list_03_05 = "Ricompensa di 7 Diamonds";
 
 $Satarted_title_link_03_01 = "Accelera la tua crescita";
-$Satarted_title_link_03_02 = "Accedi a 6 mesi di educazione avanzata e trading in diretta, ricevi avvisi in tempo reale con EVO Signals e completa il tuo sviluppo con il corso digitale di Tony Robbins, progettato per rafforzare la tua crescita personale e professionale.";
-$Satarted_title_link_03_03 = "Proietta la tua evoluzione";
-$Satarted_title_link_03_04 = "Trasforma la tua membership in un motore di crescita:<br>
-Franchising di telecomunicazioni con entrate ricorrenti<br>
-Community globale con accesso a esperienze di alto livello<br>
-Valore annuo di oltre $13.650 USD per soli $950 USD.";
+$Satarted_title_link_03_02 = "Con l’iscrizione SILVER ampli le tue opportunità, aumenti le tue ricompense e rafforzi il tuo percorso all’interno di EVO Global.";
+$Satarted_title_link_03_03 = "EVOlvi senza limiti";
+$Satarted_title_link_03_04 = "Rendi la tua iscrizione una fonte di crescita, impatto e libertà finanziaria all’interno di una comunità globale che avanza con te.";
 
-$Satarted_subpage_03 = "PIÙ BENEFICI, PIÙ ESCLUSIVITÀ, SILVER.";
+$Satarted_subpage_03 = "PIÙ VANTAGGI, PIÙ ESCLUSIVITÀ, SILVER.";
 
+//-------------------------//
 
-    //-------------------------//
-
-
-
-$Satarted_title_04 = "Attiva la tua membership Black";
+$Satarted_title_04 = "Attiva la tua iscrizione Black";
 $Satarted_sub_04 = "Dove esclusività e conoscenza diventano esperienze.";
-$Satarted_title_04_01 = "Eleva il tuo stile di vita esclusivo";
-$Satarted_list_04_01 = "Iscrizione,COSTO $1997";
-$Satarted_list_04_02 = "365 giorni di membership attiva";
-$Satarted_list_04_03 = "1500 BV (Volume di affari) nel primo mese";
-$Satarted_list_04_04 = "1350 SV (Volume proprio) nel primo mese,
-include Crociera 2025";
-$Satarted_list_04_05 = "$150 fast start bonus al sponsor";
-$Satarted_list_04_06 = "10 Diamonds reward";
+$Satarted_title_04_01 = "L’iscrizione che porta la tua EVOluzione al livello massimo";
+$Satarted_list_04_01 = "365 giorni di iscrizione attiva";
+$Satarted_list_04_02 = "1500 BV (volume d’affari) nel primo mese";
+$Satarted_list_04_03 = "1350 SV (volume personale) nel primo mese";
+$Satarted_list_04_04 = "Include crociera 2025";
+$Satarted_list_04_05 = "$150 di bonus di avvio rapido per lo sponsor";
+$Satarted_list_04_06 = "Ricompensa di 10 Diamonds";
 
 $Satarted_title_link_04_01 = "Accelera la tua crescita";
-$Satarted_title_link_04_02 = "Accedi a 12 mesi di educazione avanzata e trading in diretta, completati con avvisi in tempo reale di EVO Signals per decisioni più intelligenti.";
-$Satarted_title_link_04_03 = "Proietta la tua evoluzione";
-$Satarted_title_link_04_04 = "Con la Black Membership accedi a benefici di élite:<br>
-Franchising di telecomunicazioni con entrate ricorrenti<br>
-Accesso privilegiato a una community globale<br>
-Valore annuo di oltre $32.150 USD per soli $1.997 USD";
+$Satarted_title_link_04_02 = "Con l’iscrizione BLACK ampli le tue opportunità e rafforzi la tua crescita. Goditi premi e vantaggi pensati per chi guida la propria evoluzione in EVO Global.";
+$Satarted_title_link_04_03 = "EVOlvi senza limiti";
+$Satarted_title_link_04_04 = "Crescita, leadership e libertà finanziaria insieme a una comunità che progredisce con te.";
 
-$Satarted_subpage_04 = "LA TUA EVOLUZIONE RAGGIUNGE LA CIMA CON BLACK.";
+$Satarted_subpage_04 = "LA TUA EVOLUZIONE RAGGIUNGE LA VETTA CON BLACK.";
 
 
     //-------------------------//

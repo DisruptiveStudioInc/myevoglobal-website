@@ -101,8 +101,8 @@ $Started_sub_tit = [
 
 $Started_list_map = [
     $link_01 => [$Satarted_list_01_01, $Satarted_list_01_02, $Satarted_list_01_03, $Satarted_list_01_04],
-    $link_02 => [$Satarted_list_02_01, $Satarted_list_02_02, $Satarted_list_02_03, $Satarted_list_02_04, $Satarted_list_02_05, $Satarted_list_02_06],
-    $link_03 => [$Satarted_list_03_01, $Satarted_list_03_02, $Satarted_list_03_03, $Satarted_list_03_04, $Satarted_list_03_05, $Satarted_list_03_06],
+    $link_02 => [$Satarted_list_02_01, $Satarted_list_02_02, $Satarted_list_02_03, $Satarted_list_02_04, $Satarted_list_02_05],
+    $link_03 => [$Satarted_list_03_01, $Satarted_list_03_02, $Satarted_list_03_03, $Satarted_list_03_04, $Satarted_list_03_05],
     $link_04 => [$Satarted_list_04_01, $Satarted_list_04_02, $Satarted_list_04_03, $Satarted_list_04_04, $Satarted_list_04_05, $Satarted_list_04_06]
 ];
 
