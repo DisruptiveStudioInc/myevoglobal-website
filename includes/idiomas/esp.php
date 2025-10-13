@@ -328,7 +328,7 @@ $Satarted_list_04_02 = "1500 BV (Business volume) en el primer mes";
 $Satarted_list_04_03 = "1350 SV (Self volume) puntos propios en el primer mes";
 $Satarted_list_04_04 = "Incluye Crucero 2025";
 $Satarted_list_04_05 = "$150 fast start bonus al patrocinador";
-$Satarted_list_04_06 = "recompensa de 10 Diamonds reward";
+$Satarted_list_04_06 = "Recompensa de 10 Diamonds reward";
 
 $Satarted_title_link_04_01 = "Acelera tu crecimiento";
 $Satarted_title_link_04_02 = "Con la membresía BLACK amplías tus oportunidades y fortaleces tu crecimiento, disfruta recompensas y beneficios diseñados para quienes lideran su evolución en EVO Global.";
