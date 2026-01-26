@@ -32,8 +32,6 @@
                             </ul>
                             <ul class="menu-list link">
                                 <h3><?php echo $Footer_title_03; ?></h3>
-                                <li><?php echo $Email; ?></li>
-                                <li><?php echo $Phone; ?></li>
                                 <li><?php echo $Address; ?></li>
                             </ul>
                         </div>
