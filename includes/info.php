@@ -396,7 +396,7 @@ $Sub_register = array(
 $Email = "support@evoglobal.online";
 $Schedule = "Mon-Fri: 9 am– 6 pm<br>Saturday: 9 am – 2pm<br>Sunday: Closed";
 $Phone = "(888) 456 7890";
-$Address = "Blvd. Kukulcan 1,<br>Puerto Juarez,<br>Zona Hotelera,<br>77500 Cancún, Q.R. México";
+$Address = "Evo Group International LLC<br>30 N Gould, Ste R Sheridan, WY 82801 EIN: 35-2837095";
 
 ?>
 
