@@ -394,8 +394,8 @@ $Sub_register = array(
     //-------------------------//
 
 $Email = "support@evoglobal.online";
-$Schedule = "Mon-Fri: 9 am– 6 pm<br>Saturday: 9 am – 2pm<br>Sunday: Closed";
-$Phone = "(888) 456 7890";
+$Schedule = "Mon-Fri: 9am - 6pm<br>Saturday: 9am - 2pm<br>Sunday: Closed";
+$Phone = "(904) 474 - 2735";
 $Address = "Evo Group International LLC<br>30 N Gould, Ste R Sheridan, WY 82801<br>EIN: 35-2837095";
 
 ?>

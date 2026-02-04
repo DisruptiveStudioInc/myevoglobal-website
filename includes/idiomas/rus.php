@@ -902,6 +902,7 @@ $Footer_title_03 = "О нас";
 $Footer_link_01 = "Условия для IBO";
 $Footer_link_02 = "Политики и процедуры";
 $Footer_link_03 = "Политика конфиденциальности";
+$Footer_link_04 = "Impressum";
 
 ?>
 

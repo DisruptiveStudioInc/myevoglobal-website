@@ -825,6 +825,7 @@ $Footer_title_03 = "About Us";
 $Footer_link_01 = "IBO Terms";
 $Footer_link_02 = "Policies and Procedures";
 $Footer_link_03 = "Privacy Policy";
+$Footer_link_04 = "Impressum";
 
 ?>
 

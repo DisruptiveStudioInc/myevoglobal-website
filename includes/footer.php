@@ -29,10 +29,13 @@
                                 <li><a href="?p=terms"><?php echo $Footer_link_01; ?></a></li>
                                 <li><a href="?p=politics"><?php echo $Footer_link_02; ?></a></li>
                                 <li><a href="?p=privacy_policy"><?php echo $Footer_link_03; ?></a></li>
+                                <li><a href="./documents/impressum.pdf" download><?php echo $Footer_link_04; ?></a></li>
                             </ul>
                             <ul class="menu-list link">
                                 <h3><?php echo $Footer_title_03; ?></h3>
                                 <li><?php echo $Address; ?></li>
+                                <li><?php echo $Email; ?></li>
+                                <li><?php echo $Phone; ?></li>
                             </ul>
                         </div>
                 </div>

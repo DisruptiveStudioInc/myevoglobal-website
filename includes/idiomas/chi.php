@@ -966,5 +966,6 @@ $Footer_title_03 = "关于我们";
 $Footer_link_01 = "IBO 条款";
 $Footer_link_02 = "政策与程序";
 $Footer_link_03 = "隐私政策";
+$Footer_link_04 = "Impressum";
 
 ?>

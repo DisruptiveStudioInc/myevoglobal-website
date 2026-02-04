@@ -830,6 +830,7 @@ $Footer_title_03 = "Über uns";
 $Footer_link_01 = "IBO-Bedingungen";
 $Footer_link_02 = "Richtlinien und Verfahrensweisen";
 $Footer_link_03 = "Datenschutzrichtlinie";
+$Footer_link_04 = "Impressum";
 
 ?>
 

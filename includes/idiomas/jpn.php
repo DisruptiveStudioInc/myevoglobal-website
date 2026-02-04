@@ -916,6 +916,7 @@ $Footer_title_03 = "会社情報";
 $Footer_link_01 = "IBO利用規約";
 $Footer_link_02 = "ポリシーと手順";
 $Footer_link_03 = "プライバシーポリシー";
+$Footer_link_04 = "Impressum";
 
 ?>
 

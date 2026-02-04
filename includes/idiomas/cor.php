@@ -788,5 +788,6 @@ $Footer_title_03='회사 소개';
 $Footer_link_01='IBO 약관';
 $Footer_link_02='정책 및 절차';
 $Footer_link_03='개인정보 보호정책';
+$Footer_link_04 = "Impressum";
 
 ?>
