@@ -237,7 +237,8 @@
 
                         <div class="ai-center med-d-none">
                             <div class="rel">
-                                <div class="btn-lan btn-login btn c-ter br-30"><?php echo $Menu_log; ?></div>
+                                <a href="<?= $bo_login ?>" target="_blank" rel="noopener noreferrer" class="btn c-ter br-30"><?php echo $Menu_log; ?></a>
+                                <?php if(false) : ?>
                                 <div class="lan">
                                     <?php
                                     foreach ($Sub_login as $idioma_opcion) {
@@ -248,6 +249,7 @@
                                     }
                                     ?>
                                 </div>
+                                <?php endif; ?>
                             </div>
                             <?php if(isset($user_replica)) : ?>
                             <div class="rel">

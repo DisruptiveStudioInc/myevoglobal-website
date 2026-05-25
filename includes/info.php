@@ -51,6 +51,8 @@ $Register = "https://usa.myevoglobal.com/register/$ref";
 // Links del menu (tienda)
 // ---------------------------
 
+$bo_login = "https://home.myevoglobal.com/login";
+
 $link_web_us   = "https://usa.myevoglobal.com";
 $link_web_mx   = "https://mex.myevoglobal.com";
 $link_web_co   = "https://col.myevoglobal.com";
