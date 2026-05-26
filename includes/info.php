@@ -365,7 +365,7 @@ $Sub_login = array(
     array($link_login_no,'nor','NOR'),
     array($link_login_ar,'arg','ARG'),
     array($link_login_ve,'ven','VEN'),
-    array($link_login_eu,'eur','BAL'),
+    array($link_login_eu,'eur','EUR'),
     array($link_login_sv,'sal','SLV'),
     array($link_login_hn,'hon','HND'),
     array($link_login_in,'int','INT')
@@ -384,7 +384,7 @@ $Sub_register = array(
     array($link_register_no,'nor','NOR'),
     array($link_register_ar,'arg','ARG'),
     array($link_register_ve,'ven','VEN'),
-    array($link_register_eu,'eur','BAL'),
+    array($link_register_eu,'eur','EUR'),
     array($link_register_sv,'sal','SLV'),
     array($link_register_hn,'hon','HND'),
     array($link_register_in,'int','INT')
