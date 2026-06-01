@@ -330,7 +330,7 @@ $Sub_shop = array(
     array($link_Shop_eu,'eur','EUR'),
     array($link_Shop_sv,'sal','SLV'),
     array($link_Shop_hn,'hon','HND'),
-    array($link_Shop_in,'int','INT')
+    array($link_Shop_in,'int','FRA')
 );
 
     //-------------------------//
@@ -368,7 +368,7 @@ $Sub_login = array(
     array($link_login_eu,'eur','EUR'),
     array($link_login_sv,'sal','SLV'),
     array($link_login_hn,'hon','HND'),
-    array($link_login_in,'int','INT')
+    array($link_login_in,'int','FRA')
 );
 
     //-------------------------//
@@ -387,7 +387,7 @@ $Sub_register = array(
     array($link_register_eu,'eur','EUR'),
     array($link_register_sv,'sal','SLV'),
     array($link_register_hn,'hon','HND'),
-    array($link_register_in,'int','INT')
+    array($link_register_in,'int','FRA')
 );
 
 
