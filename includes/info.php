@@ -330,7 +330,7 @@ $Sub_shop = array(
     array($link_Shop_eu,'eur','EUR'),
     array($link_Shop_sv,'sal','SLV'),
     array($link_Shop_hn,'hon','HND'),
-    array($link_Shop_in,'int','FRA')
+    array($link_Shop_in,'fra','FRA')
 );
 
     //-------------------------//
