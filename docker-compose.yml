@@ -1,6 +1,7 @@
 services:
   myevoglobal-website:
-    image: trafex/php-nginx
+    # PHP 8.5.12: fixes CVE-2026-109618 and CVE-2026-109619.
+    image: trafex/php-nginx@sha256:8d3e7f61084705d450cb2f80cdc980ca1603fdd0e904ab43749c6d87831b3cf3
     container_name: myevoglobal-website
     restart: unless-stopped
     volumes:

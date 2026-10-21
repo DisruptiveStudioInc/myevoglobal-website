@@ -14,9 +14,14 @@ steps:
   inputs:
     sshEndpoint: 'evo-ecommerce'
     runOptions: 'inline'
+    # Docker writes normal progress to stderr; set -e handles command failures.
+    failOnStdErr: false
     inline: |
+      set -eu
       cd /var/www/$(Build.Repository.Name)
       sudo git reset --hard
       sudo git pull
+      sudo docker compose pull myevoglobal-website
+      sudo docker compose up -d --force-recreate --no-deps --wait myevoglobal-website
+      sudo docker compose exec -T myevoglobal-website php -r 'exit(PHP_VERSION === "8.5.12" ? 0 : 1);'
     readyTimeout: '20000'
-  continueOnError: true
